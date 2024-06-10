@@ -1,0 +1,412 @@
+INFO 2024-06-09 01:22:36,044 autoreload 7524 3656 Watching for file changes with StatReloader
+INFO 2024-06-09 01:22:41,854 autoreload 13932 12240 Watching for file changes with StatReloader
+INFO 2024-06-09 01:22:44,554 basehttp 13932 11260 "GET / HTTP/1.1" 200 13
+WARNING 2024-06-09 01:22:44,671 log 13932 11260 Not Found: /favicon.ico
+WARNING 2024-06-09 01:22:44,671 basehttp 13932 11260 "GET /favicon.ico HTTP/1.1" 404 2546
+INFO 2024-06-09 01:22:50,433 basehttp 13932 11260 "GET /game HTTP/1.1" 301 0
+INFO 2024-06-09 01:22:50,441 basehttp 13932 12660 "GET /game/ HTTP/1.1" 200 56
+INFO 2024-06-09 01:22:55,405 basehttp 13932 12660 "GET /game/coin HTTP/1.1" 301 0
+INFO 2024-06-09 01:22:55,412 views 13932 12876 Index page accessed
+INFO 2024-06-09 01:22:55,412 basehttp 13932 12876 "GET /game/coin/ HTTP/1.1" 200 38
+INFO 2024-06-09 01:23:00,558 views 13932 12876 Index page accessed
+INFO 2024-06-09 01:23:00,559 basehttp 13932 12876 "GET /game/random_number/ HTTP/1.1" 200 32
+INFO 2024-06-09 01:23:05,030 basehttp 13932 12876 "GET /game/ HTTP/1.1" 200 56
+INFO 2024-06-09 01:28:11,997 autoreload 13932 12240 C:\GB\Django\practika\myproject\myproject\settings.py changed, reloading.
+INFO 2024-06-09 01:28:12,505 autoreload 2648 5420 Watching for file changes with StatReloader
+INFO 2024-06-09 01:28:17,686 autoreload 2256 10236 Watching for file changes with StatReloader
+INFO 2024-06-09 01:28:28,420 basehttp 2256 3484 "GET / HTTP/1.1" 200 13
+INFO 2024-06-09 01:28:39,329 basehttp 2256 3484 "GET /about HTTP/1.1" 301 0
+INFO 2024-06-09 01:28:39,337 basehttp 2256 9724 "GET /about/ HTTP/1.1" 200 8
+WARNING 2024-06-09 01:28:43,587 log 2256 9724 Not Found: /abousdfsdf
+WARNING 2024-06-09 01:28:43,594 basehttp 2256 9724 "GET /abousdfsdf HTTP/1.1" 404 2543
+INFO 2024-06-09 01:28:47,783 basehttp 2256 9724 "GET / HTTP/1.1" 200 13
+INFO 2024-06-09 01:29:40,181 autoreload 2256 10236 C:\GB\Django\practika\myproject\myproject\settings.py changed, reloading.
+INFO 2024-06-09 01:29:43,910 autoreload 8324 4380 Watching for file changes with StatReloader
+INFO 2024-06-09 01:29:47,577 basehttp 8324 14072 "GET / HTTP/1.1" 200 13
+INFO 2024-06-09 01:29:51,804 basehttp 8324 14072 "GET /about/ HTTP/1.1" 200 8
+WARNING 2024-06-09 01:29:55,513 log 8324 14072 Not Found: /abofghfgh
+WARNING 2024-06-09 01:29:55,513 basehttp 8324 14072 "GET /abofghfgh HTTP/1.1" 404 2540
+INFO 2024-06-09 01:29:58,518 basehttp 8324 14072 "GET / HTTP/1.1" 200 13
+INFO 2024-06-09 01:32:58,222 autoreload 8324 4380 C:\GB\Django\practika\myproject\myproject\settings.py changed, reloading.
+INFO 2024-06-09 01:32:58,730 autoreload 3484 16660 Watching for file changes with StatReloader
+INFO 2024-06-09 01:33:02,774 autoreload 1980 2728 Watching for file changes with StatReloader
+INFO 2024-06-09 01:33:09,825 basehttp 1980 11516 "GET / HTTP/1.1" 200 13
+INFO 2024-06-09 01:33:13,326 basehttp 1980 11516 "GET /about/ HTTP/1.1" 200 8
+WARNING 2024-06-09 01:33:16,391 log 1980 11516 Not Found: /aboujkljkl
+WARNING 2024-06-09 01:33:16,391 basehttp 1980 11516 "GET /aboujkljkl HTTP/1.1" 404 2543
+INFO 2024-06-09 01:33:19,120 basehttp 1980 11516 "GET / HTTP/1.1" 200 13
+INFO 2024-06-09 01:34:30,286 autoreload 1980 2728 C:\GB\Django\practika\myproject\myapp1\views.py changed, reloading.
+INFO 2024-06-09 01:34:30,755 autoreload 11388 16880 Watching for file changes with StatReloader
+INFO 2024-06-09 01:34:33,746 autoreload 8588 14740 Watching for file changes with StatReloader
+INFO 2024-06-09 01:34:37,253 basehttp 8588 15624 "GET / HTTP/1.1" 200 13
+INFO 2024-06-09 01:34:40,972 basehttp 8588 15624 "GET /about/ HTTP/1.1" 200 8
+WARNING 2024-06-09 01:34:44,108 log 8588 15624 Not Found: /abouthjkh'
+WARNING 2024-06-09 01:34:44,116 basehttp 8588 15624 "GET /abouthjkh' HTTP/1.1" 404 2558
+INFO 2024-06-09 01:34:48,668 basehttp 8588 15624 "GET / HTTP/1.1" 200 13
+INFO 2024-06-09 01:46:17,156 autoreload 8588 14740 C:\GB\Django\practika\myproject\myapp1\views.py changed, reloading.
+INFO 2024-06-09 01:46:17,857 autoreload 8760 3212 Watching for file changes with StatReloader
+INFO 2024-06-09 01:46:45,704 autoreload 8760 3212 C:\GB\Django\practika\myproject\myapp1\views.py changed, reloading.
+INFO 2024-06-09 01:46:46,430 autoreload 13132 13896 Watching for file changes with StatReloader
+INFO 2024-06-09 01:48:08,031 autoreload 13132 13896 C:\GB\Django\practika\myproject\myapp1\views.py changed, reloading.
+INFO 2024-06-09 01:48:08,763 autoreload 6944 12692 Watching for file changes with StatReloader
+INFO 2024-06-09 01:48:32,261 autoreload 6944 12692 C:\GB\Django\practika\myproject\myapp1\views.py changed, reloading.
+INFO 2024-06-09 01:48:32,931 autoreload 10884 3528 Watching for file changes with StatReloader
+INFO 2024-06-09 01:51:43,899 autoreload 5972 6300 Watching for file changes with StatReloader
+INFO 2024-06-09 01:57:58,821 autoreload 7784 11760 Watching for file changes with StatReloader
+ERROR 2024-06-09 01:58:06,875 log 7784 16168 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\myproject\myapp1\views.py", line 9, in index
+    response = render_to_string('myapp1/main.html')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\base.py", line 481, in parse
+    raise self.error(token, e)
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\base.py", line 479, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\base.py", line 698, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'super()'
+ERROR 2024-06-09 01:58:06,887 basehttp 7784 16168 "GET / HTTP/1.1" 500 167741
+INFO 2024-06-09 01:59:48,802 autoreload 1124 7240 Watching for file changes with StatReloader
+INFO 2024-06-09 01:59:51,279 basehttp 1124 16216 "GET / HTTP/1.1" 200 142
+INFO 2024-06-09 02:01:51,906 autoreload 1124 7240 C:\GB\Django\practika\myproject\myproject\settings.py changed, reloading.
+INFO 2024-06-09 02:01:55,405 autoreload 2176 12152 Watching for file changes with StatReloader
+INFO 2024-06-09 02:01:59,924 basehttp 2176 14300 "GET / HTTP/1.1" 200 142
+INFO 2024-06-09 02:02:00,414 basehttp 2176 14300 "GET / HTTP/1.1" 200 142
+INFO 2024-06-09 02:02:02,475 basehttp 2176 14300 "GET / HTTP/1.1" 200 142
+INFO 2024-06-09 02:02:02,963 basehttp 2176 14300 "GET / HTTP/1.1" 200 142
+INFO 2024-06-09 02:02:19,911 basehttp 2176 14300 "GET / HTTP/1.1" 200 142
+INFO 2024-06-09 02:02:20,781 autoreload 2176 12152 C:\GB\Django\practika\myproject\myapp1\views.py changed, reloading.
+INFO 2024-06-09 02:02:21,344 autoreload 14788 7516 Watching for file changes with StatReloader
+ERROR 2024-06-09 02:02:24,874 log 14788 10504 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\myproject\myapp1\views.py", line 9, in index
+    response = render_to_string('myapp1/main.html')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\base.py", line 481, in parse
+    raise self.error(token, e)
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\base.py", line 479, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\base.py", line 698, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'super()'
+ERROR 2024-06-09 02:02:24,897 basehttp 14788 10504 "GET / HTTP/1.1" 500 166358
+INFO 2024-06-09 02:06:33,533 autoreload 10004 15608 Watching for file changes with StatReloader
+INFO 2024-06-09 02:06:47,615 autoreload 13040 14240 Watching for file changes with StatReloader
+ERROR 2024-06-09 02:06:50,254 log 13040 13880 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\myproject\myapp1\views.py", line 9, in index
+    response = render_to_string('myapp1/main1.html')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\base.py", line 481, in parse
+    raise self.error(token, e)
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\base.py", line 479, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\base.py", line 698, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '('index')' from 'url_for('index')'
+ERROR 2024-06-09 02:06:50,264 basehttp 13040 13880 "GET / HTTP/1.1" 500 137145
+ERROR 2024-06-09 02:06:51,128 log 13040 13880 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\myproject\myapp1\views.py", line 9, in index
+    response = render_to_string('myapp1/main1.html')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\base.py", line 481, in parse
+    raise self.error(token, e)
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\base.py", line 479, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika\.venv\Lib\site-packages\django\template\base.py", line 698, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '('index')' from 'url_for('index')'
+ERROR 2024-06-09 02:06:51,138 basehttp 13040 13880 "GET / HTTP/1.1" 500 137145
+INFO 2024-06-09 02:09:26,894 autoreload 8592 9168 Watching for file changes with StatReloader
+INFO 2024-06-09 02:09:29,299 basehttp 8592 16024 "GET / HTTP/1.1" 200 1002
+WARNING 2024-06-09 02:09:30,916 log 8592 16024 Not Found: /main1.html
+WARNING 2024-06-09 02:09:30,916 basehttp 8592 16024 "GET /main1.html HTTP/1.1" 404 2543
+WARNING 2024-06-09 02:09:33,024 log 8592 16024 Not Found: /main1.html
+WARNING 2024-06-09 02:09:33,024 basehttp 8592 16024 "GET /main1.html HTTP/1.1" 404 2543
+WARNING 2024-06-09 02:09:35,648 log 8592 16024 Not Found: /main1.html
+WARNING 2024-06-09 02:09:35,648 basehttp 8592 16024 "GET /main1.html HTTP/1.1" 404 2543
+WARNING 2024-06-09 02:09:41,478 log 8592 16024 Not Found: /main1.html
+WARNING 2024-06-09 02:09:41,478 basehttp 8592 16024 "GET /main1.html HTTP/1.1" 404 2543
+INFO 2024-06-09 02:10:33,161 autoreload 15556 10228 Watching for file changes with StatReloader
+INFO 2024-06-09 02:10:37,138 basehttp 15556 2196 "GET / HTTP/1.1" 200 994
+WARNING 2024-06-09 02:10:38,136 log 15556 2196 Not Found: /main1.html
+WARNING 2024-06-09 02:10:38,136 basehttp 15556 2196 "GET /main1.html HTTP/1.1" 404 2543
+INFO 2024-06-09 02:11:09,972 autoreload 14024 16072 Watching for file changes with StatReloader
+WARNING 2024-06-09 02:11:12,296 log 14024 11824 Not Found: /abouthjkh'
+WARNING 2024-06-09 02:11:12,299 basehttp 14024 11824 "GET /abouthjkh' HTTP/1.1" 404 2558
+INFO 2024-06-09 02:11:15,295 basehttp 14024 11824 "GET / HTTP/1.1" 200 982
+INFO 2024-06-09 02:11:16,579 basehttp 14024 11824 "GET / HTTP/1.1" 200 982
+INFO 2024-06-09 02:11:17,290 basehttp 14024 11824 "GET / HTTP/1.1" 200 982
+INFO 2024-06-09 02:11:17,667 basehttp 14024 11824 "GET / HTTP/1.1" 200 982
+INFO 2024-06-09 02:11:18,015 basehttp 14024 11824 "GET / HTTP/1.1" 200 982
+INFO 2024-06-09 02:11:18,249 basehttp 14024 11824 "GET / HTTP/1.1" 200 982
+INFO 2024-06-09 02:11:18,692 basehttp 14024 11824 "GET / HTTP/1.1" 200 982
+INFO 2024-06-09 02:11:18,999 basehttp 14024 11824 "GET / HTTP/1.1" 200 982
+INFO 2024-06-09 02:11:19,656 basehttp 14024 11824 "GET / HTTP/1.1" 200 982
+INFO 2024-06-09 02:11:19,924 basehttp 14024 11824 "GET / HTTP/1.1" 200 982
+INFO 2024-06-09 02:11:21,079 basehttp 14024 11824 "GET / HTTP/1.1" 200 982
+INFO 2024-06-09 02:11:21,422 basehttp 14024 11824 "GET / HTTP/1.1" 200 982
+INFO 2024-06-09 02:15:12,357 autoreload 14228 15248 Watching for file changes with StatReloader
+INFO 2024-06-09 02:15:15,245 basehttp 14228 11860 "GET / HTTP/1.1" 200 941
+INFO 2024-06-09 02:15:16,956 basehttp 14228 11860 "GET / HTTP/1.1" 200 941
+INFO 2024-06-09 02:15:17,581 basehttp 14228 11860 "GET / HTTP/1.1" 200 941
+INFO 2024-06-09 02:15:18,210 basehttp 14228 11860 "GET / HTTP/1.1" 200 941
+INFO 2024-06-09 02:15:18,677 basehttp 14228 11860 "GET / HTTP/1.1" 200 941
+INFO 2024-06-09 02:15:19,164 basehttp 14228 11860 "GET / HTTP/1.1" 200 941
+INFO 2024-06-09 02:15:51,003 autoreload 1956 8740 Watching for file changes with StatReloader
+INFO 2024-06-09 02:15:53,117 basehttp 1956 11316 "GET / HTTP/1.1" 200 947
+INFO 2024-06-09 02:15:53,926 basehttp 1956 11316 "GET /about/ HTTP/1.1" 200 8
+INFO 2024-06-09 02:16:36,049 autoreload 1956 8740 C:\GB\Django\practika\myproject\myapp1\views.py changed, reloading.
+INFO 2024-06-09 02:16:38,647 autoreload 11832 1332 Watching for file changes with StatReloader
+INFO 2024-06-09 02:16:40,573 basehttp 11832 3984 "GET / HTTP/1.1" 200 947
+INFO 2024-06-09 02:16:41,296 basehttp 11832 3984 "GET /about/ HTTP/1.1" 200 893
+INFO 2024-06-09 02:16:42,339 basehttp 11832 3984 "GET /about/ HTTP/1.1" 200 893
+WARNING 2024-06-09 02:16:43,041 log 11832 3984 Not Found: /about/about/
+WARNING 2024-06-09 02:16:43,041 basehttp 11832 3984 "GET /about/about/ HTTP/1.1" 404 2549
+WARNING 2024-06-09 02:16:45,010 log 11832 3984 Not Found: /about/about/
+WARNING 2024-06-09 02:16:45,012 basehttp 11832 3984 "GET /about/about/ HTTP/1.1" 404 2549
+WARNING 2024-06-09 02:16:47,633 log 11832 3984 Not Found: /about/about/
+WARNING 2024-06-09 02:16:47,633 basehttp 11832 3984 "GET /about/about/ HTTP/1.1" 404 2549
+WARNING 2024-06-09 02:16:50,464 log 11832 3984 Not Found: /about/about/
+WARNING 2024-06-09 02:16:50,464 basehttp 11832 3984 "GET /about/about/ HTTP/1.1" 404 2549
+INFO 2024-06-09 02:17:08,043 autoreload 9200 15272 Watching for file changes with StatReloader
+INFO 2024-06-09 02:17:09,776 basehttp 9200 4404 "GET /about/ HTTP/1.1" 200 887
+INFO 2024-06-09 02:17:10,478 basehttp 9200 4404 "GET /about/ HTTP/1.1" 200 887
+INFO 2024-06-09 02:17:11,164 basehttp 9200 4404 "GET /about/ HTTP/1.1" 200 887
+INFO 2024-06-09 02:17:11,660 basehttp 9200 4404 "GET /about/ HTTP/1.1" 200 887
+INFO 2024-06-09 02:17:11,862 basehttp 9200 4404 "GET /about/ HTTP/1.1" 200 887
+INFO 2024-06-09 02:17:12,307 basehttp 9200 4404 "GET /about/ HTTP/1.1" 200 887
+INFO 2024-06-09 02:17:12,501 basehttp 9200 4404 "GET /about/ HTTP/1.1" 200 887
+INFO 2024-06-09 02:17:12,642 basehttp 9200 4404 "GET /about/ HTTP/1.1" 200 887
+INFO 2024-06-09 02:17:15,033 basehttp 9200 4404 "GET / HTTP/1.1" 200 947
+INFO 2024-06-09 02:17:16,837 basehttp 9200 4404 "GET /about/ HTTP/1.1" 200 887
+INFO 2024-06-09 02:17:17,478 basehttp 9200 4404 "GET /about/ HTTP/1.1" 200 887
+INFO 2024-06-09 02:17:19,389 basehttp 9200 4404 "GET /about/ HTTP/1.1" 200 887
+INFO 2024-06-09 02:17:19,569 basehttp 9200 4404 "GET /about/ HTTP/1.1" 200 887
+INFO 2024-06-09 02:17:20,028 basehttp 9200 4404 "GET /about/ HTTP/1.1" 200 887
+INFO 2024-06-09 02:17:20,495 basehttp 9200 4404 "GET /about/ HTTP/1.1" 200 887
+INFO 2024-06-09 02:17:20,649 basehttp 9200 4404 "GET /about/ HTTP/1.1" 200 887
+INFO 2024-06-09 02:17:21,813 basehttp 9200 4404 "GET /about/ HTTP/1.1" 200 887
+INFO 2024-06-09 02:17:22,739 basehttp 9200 4404 "GET /about/ HTTP/1.1" 200 887
+INFO 2024-06-09 02:17:23,623 basehttp 9200 4404 "GET /about/ HTTP/1.1" 200 887
+INFO 2024-06-09 02:17:42,446 autoreload 3100 13404 Watching for file changes with StatReloader
+INFO 2024-06-09 02:17:45,226 basehttp 3100 13992 "GET /about/ HTTP/1.1" 200 889
+INFO 2024-06-09 02:17:45,907 basehttp 3100 13992 "GET /about/ HTTP/1.1" 200 889
+INFO 2024-06-09 02:17:46,301 basehttp 3100 13992 "GET /about/ HTTP/1.1" 200 889
+INFO 2024-06-09 02:17:46,740 basehttp 3100 13992 "GET /about/ HTTP/1.1" 200 889
+INFO 2024-06-09 02:17:46,896 basehttp 3100 13992 "GET /about/ HTTP/1.1" 200 889
+INFO 2024-06-09 02:17:47,276 basehttp 3100 13992 "GET /about/ HTTP/1.1" 200 889
+INFO 2024-06-09 02:17:47,455 basehttp 3100 13992 "GET /about/ HTTP/1.1" 200 889
+INFO 2024-06-09 02:17:47,783 basehttp 3100 13992 "GET /about/ HTTP/1.1" 200 889
+INFO 2024-06-09 02:17:47,961 basehttp 3100 13992 "GET /about/ HTTP/1.1" 200 889
+INFO 2024-06-09 02:17:48,124 basehttp 3100 13992 "GET /about/ HTTP/1.1" 200 889
+INFO 2024-06-09 02:17:48,307 basehttp 3100 13992 "GET /about/ HTTP/1.1" 200 889
+INFO 2024-06-09 02:17:48,517 basehttp 3100 13992 "GET /about/ HTTP/1.1" 200 889
+INFO 2024-06-09 02:17:59,455 autoreload 5420 11600 Watching for file changes with StatReloader
+INFO 2024-06-09 02:18:02,169 basehttp 5420 9508 "GET /about/ HTTP/1.1" 200 889
+INFO 2024-06-09 02:18:02,854 basehttp 5420 9508 "GET / HTTP/1.1" 200 947
+INFO 2024-06-09 02:18:03,565 basehttp 5420 9508 "GET / HTTP/1.1" 200 947
+INFO 2024-06-09 02:18:03,921 basehttp 5420 9508 "GET /about/ HTTP/1.1" 200 889
+INFO 2024-06-09 02:18:04,389 basehttp 5420 9508 "GET / HTTP/1.1" 200 947
+INFO 2024-06-09 02:18:04,833 basehttp 5420 9508 "GET / HTTP/1.1" 200 947
+INFO 2024-06-09 02:18:05,165 basehttp 5420 9508 "GET /about/ HTTP/1.1" 200 889
+INFO 2024-06-09 02:18:05,519 basehttp 5420 9508 "GET / HTTP/1.1" 200 947
+INFO 2024-06-10 15:57:31,879 autoreload 15120 2280 Watching for file changes with StatReloader
+INFO 2024-06-10 16:07:17,063 autoreload 11444 15024 Watching for file changes with StatReloader
+INFO 2024-06-10 16:22:50,839 autoreload 11212 6320 Watching for file changes with StatReloader
+INFO 2024-06-10 16:31:55,518 autoreload 1340 3760 Watching for file changes with StatReloader
+INFO 2024-06-10 16:32:48,414 autoreload 1340 3760 C:\Users\User\Documents\Django\practika\myproject\myproject\settings.py changed, reloading.
+INFO 2024-06-10 16:35:53,171 autoreload 14516 3308 Watching for file changes with StatReloader
+INFO 2024-06-10 16:42:47,086 autoreload 14516 3308 C:\Users\User\Documents\Django\practika\myproject\myapp_lek1\apps.py changed, reloading.
+INFO 2024-06-10 16:42:48,180 autoreload 4016 16112 Watching for file changes with StatReloader
+INFO 2024-06-10 16:42:54,021 autoreload 16800 2972 Watching for file changes with StatReloader
+INFO 2024-06-10 16:45:52,817 autoreload 16800 2972 C:\Users\User\Documents\Django\practika\myproject\myapp_sem1\views.py changed, reloading.
+INFO 2024-06-10 16:45:53,993 autoreload 10440 1640 Watching for file changes with StatReloader
+INFO 2024-06-10 16:48:39,551 autoreload 1464 12644 Watching for file changes with StatReloader
+INFO 2024-06-10 16:50:03,486 autoreload 1464 12644 C:\Users\User\Documents\Django\practika\myproject\myapp_lek2\views.py changed, reloading.
+INFO 2024-06-10 16:50:06,968 autoreload 8148 15796 Watching for file changes with StatReloader
+WARNING 2024-06-10 16:50:10,798 log 8148 7208 Not Found: /
+WARNING 2024-06-10 16:50:10,814 basehttp 8148 7208 "GET / HTTP/1.1" 404 2481
+WARNING 2024-06-10 16:50:11,397 log 8148 7208 Not Found: /favicon.ico
+WARNING 2024-06-10 16:50:11,397 basehttp 8148 7208 "GET /favicon.ico HTTP/1.1" 404 2532
