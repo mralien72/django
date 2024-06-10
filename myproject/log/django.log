@@ -410,3 +410,5 @@ WARNING 2024-06-10 16:50:10,798 log 8148 7208 Not Found: /
 WARNING 2024-06-10 16:50:10,814 basehttp 8148 7208 "GET / HTTP/1.1" 404 2481
 WARNING 2024-06-10 16:50:11,397 log 8148 7208 Not Found: /favicon.ico
 WARNING 2024-06-10 16:50:11,397 basehttp 8148 7208 "GET /favicon.ico HTTP/1.1" 404 2532
+INFO 2024-06-10 17:11:03,111 autoreload 13928 2780 Watching for file changes with StatReloader
+INFO 2024-06-10 17:16:05,084 autoreload 15552 14808 Watching for file changes with StatReloader
