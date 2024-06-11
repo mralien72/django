@@ -412,3 +412,91 @@ WARNING 2024-06-10 16:50:11,397 log 8148 7208 Not Found: /favicon.ico
 WARNING 2024-06-10 16:50:11,397 basehttp 8148 7208 "GET /favicon.ico HTTP/1.1" 404 2532
 INFO 2024-06-10 17:11:03,111 autoreload 13928 2780 Watching for file changes with StatReloader
 INFO 2024-06-10 17:16:05,084 autoreload 15552 14808 Watching for file changes with StatReloader
+INFO 2024-06-11 15:52:04,491 autoreload 16280 1852 Watching for file changes with StatReloader
+WARNING 2024-06-11 15:52:17,931 log 16280 7500 Not Found: /
+WARNING 2024-06-11 15:52:17,978 basehttp 16280 7500 "GET / HTTP/1.1" 404 2481
+WARNING 2024-06-11 15:52:18,009 log 16280 7500 Not Found: /
+WARNING 2024-06-11 15:52:18,009 basehttp 16280 7500 "GET / HTTP/1.1" 404 2481
+WARNING 2024-06-11 15:52:18,475 log 16280 7500 Not Found: /favicon.ico
+WARNING 2024-06-11 15:52:18,475 basehttp 16280 7500 "GET /favicon.ico HTTP/1.1" 404 2532
+INFO 2024-06-11 15:52:30,974 basehttp 16280 14644 "GET /hw1 HTTP/1.1" 301 0
+INFO 2024-06-11 15:52:30,998 basehttp 16280 15128 "GET /hw1/ HTTP/1.1" 200 3003
+INFO 2024-06-11 15:52:33,613 basehttp 16280 16080 "GET /hw1/about/ HTTP/1.1" 200 3303
+INFO 2024-06-11 15:52:34,618 basehttp 16280 16080 "GET /hw1/ HTTP/1.1" 200 3003
+INFO 2024-06-11 15:52:35,184 basehttp 16280 16080 "GET /hw1/about/ HTTP/1.1" 200 3303
+INFO 2024-06-11 15:59:19,514 autoreload 3304 8536 Watching for file changes with StatReloader
+INFO 2024-06-11 15:59:27,105 basehttp 3304 6172 "GET /hw1/about/ HTTP/1.1" 200 3318
+INFO 2024-06-11 15:59:27,981 basehttp 3304 6172 "GET /hw1/about/ HTTP/1.1" 200 3318
+ERROR 2024-06-11 15:59:31,899 log 3304 5888 Internal Server Error: /hw1/
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\myproject\myapp_hw1\views.py", line 9, in index
+    response = render_to_string('myapp_hw1/main1.html')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp_hw1/main1.html
+ERROR 2024-06-11 15:59:31,901 basehttp 3304 5888 "GET /hw1/ HTTP/1.1" 500 73922
+INFO 2024-06-11 16:00:08,727 autoreload 3304 8536 C:\Users\User\Documents\Django\practika\myproject\myapp_hw1\views.py changed, reloading.
+INFO 2024-06-11 16:00:09,953 autoreload 8812 11380 Watching for file changes with StatReloader
+INFO 2024-06-11 16:00:11,680 basehttp 8812 16080 "GET /hw1/ HTTP/1.1" 200 2990
+INFO 2024-06-11 16:00:13,282 basehttp 8812 16080 "GET /lek2/lek2 HTTP/1.1" 200 11
+INFO 2024-06-11 16:00:14,703 basehttp 8812 16080 "GET /lek2/lek2 HTTP/1.1" 200 11
+INFO 2024-06-11 16:12:30,698 autoreload 8812 11380 C:\Users\User\Documents\Django\practika\myproject\myapp_hw1\views.py changed, reloading.
+INFO 2024-06-11 16:12:32,008 autoreload 17260 12364 Watching for file changes with StatReloader
+ERROR 2024-06-11 16:12:36,223 log 17260 9420 Internal Server Error: /hw1/
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\myproject\myapp_hw1\views.py", line 8, in index
+    return render(request, 'myapp_hw1/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp_hw1/index.html
+ERROR 2024-06-11 16:12:36,226 basehttp 17260 9420 "GET /hw1/ HTTP/1.1" 500 78649
+ERROR 2024-06-11 16:12:39,084 log 17260 9420 Internal Server Error: /hw1/
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\myproject\myapp_hw1\views.py", line 8, in index
+    return render(request, 'myapp_hw1/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp_hw1/index.html
+ERROR 2024-06-11 16:12:39,084 basehttp 17260 9420 "GET /hw1/ HTTP/1.1" 500 78649
+INFO 2024-06-11 16:17:37,665 autoreload 17260 12364 C:\Users\User\Documents\Django\practika\myproject\myapp_hw1\views.py changed, reloading.
+INFO 2024-06-11 16:17:38,729 autoreload 11760 6440 Watching for file changes with StatReloader
+INFO 2024-06-11 16:17:43,508 autoreload 4664 4916 Watching for file changes with StatReloader
+WARNING 2024-06-11 16:17:44,859 log 4664 14600 Not Found: /
+WARNING 2024-06-11 16:17:44,860 basehttp 4664 14600 "GET / HTTP/1.1" 404 2481
+INFO 2024-06-11 16:17:48,579 basehttp 4664 14600 "GET /hw1/ HTTP/1.1" 200 2990

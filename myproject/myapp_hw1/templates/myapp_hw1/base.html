@@ -14,8 +14,8 @@
 <body>
     <div class="container-fluid">
         <ul class="nav nav-pills align-items-end nav nav-tabs">
-            <li class="nav-item"><a href="{{ url_for('index') }}" class="nav-link">Основная</a></li>
-            <li class="nav-item"><a href="{{ url_for('index') }}" class="nav-link">Данные</a></li>
+            <li class="nav-item"><a href="{% url 'index' %}" class="nav-link">Основная</a></li>
+            <li class="nav-item"><a href="{% url 'index' %}" class="nav-link">Данные</a></li>
         </ul>
         {% block content %}
             Страница не заполнена
