@@ -1835,3 +1835,49 @@ INFO 2024-06-13 14:02:14,083 basehttp 19008 18444 "GET /hw1/ HTTP/1.1" 200 2986
 INFO 2024-06-13 14:02:14,583 basehttp 19008 18444 "GET /hw1/about/ HTTP/1.1" 200 3314
 INFO 2024-06-13 14:02:15,103 basehttp 19008 18444 "GET /hw1/ HTTP/1.1" 200 2986
 INFO 2024-06-13 14:02:15,564 basehttp 19008 18444 "GET /hw1/about/ HTTP/1.1" 200 3314
+INFO 2024-06-13 21:30:37,096 autoreload 2572 16004 Watching for file changes with StatReloader
+INFO 2024-06-13 21:33:36,240 autoreload 15768 15756 Watching for file changes with StatReloader
+INFO 2024-06-13 21:34:26,563 autoreload 12664 20132 Watching for file changes with StatReloader
+INFO 2024-06-13 21:35:52,494 autoreload 21768 21052 Watching for file changes with StatReloader
+INFO 2024-06-13 21:36:20,598 autoreload 21768 21052 C:\GB\Django\practika_new2\myproject\myapp_hw2\views.py changed, reloading.
+INFO 2024-06-13 21:36:21,072 autoreload 21836 22316 Watching for file changes with StatReloader
+INFO 2024-06-13 21:36:59,666 autoreload 1580 19688 Watching for file changes with StatReloader
+INFO 2024-06-13 21:37:27,161 autoreload 3904 20012 Watching for file changes with StatReloader
+INFO 2024-06-13 21:37:52,059 autoreload 18156 11108 Watching for file changes with StatReloader
+INFO 2024-06-13 21:38:02,844 autoreload 16124 7468 Watching for file changes with StatReloader
+WARNING 2024-06-13 21:38:04,942 log 16124 7564 Not Found: /
+WARNING 2024-06-13 21:38:04,943 basehttp 16124 7564 "GET / HTTP/1.1" 404 2585
+WARNING 2024-06-13 21:38:05,108 log 16124 7564 Not Found: /favicon.ico
+WARNING 2024-06-13 21:38:05,109 basehttp 16124 7564 "GET /favicon.ico HTTP/1.1" 404 2636
+INFO 2024-06-13 21:38:12,300 basehttp 16124 7564 "GET /hw1 HTTP/1.1" 301 0
+INFO 2024-06-13 21:38:12,323 basehttp 16124 17696 "GET /hw1/ HTTP/1.1" 200 2986
+INFO 2024-06-13 21:38:14,040 basehttp 16124 17696 "GET /hw1/about/ HTTP/1.1" 200 3314
+INFO 2024-06-13 21:38:15,656 basehttp 16124 17696 "GET /hw1/ HTTP/1.1" 200 2986
+INFO 2024-06-13 21:38:18,690 basehttp 16124 17696 "GET /hw2/ HTTP/1.1" 200 2986
+INFO 2024-06-13 21:38:20,121 basehttp 16124 17696 "GET /hw1/about/ HTTP/1.1" 200 3314
+INFO 2024-06-13 21:38:20,876 basehttp 16124 17696 "GET /hw1/ HTTP/1.1" 200 2986
+INFO 2024-06-13 21:38:21,496 basehttp 16124 17696 "GET /hw1/about/ HTTP/1.1" 200 3314
+INFO 2024-06-13 21:38:21,911 basehttp 16124 17696 "GET /hw1/ HTTP/1.1" 200 2986
+INFO 2024-06-13 21:38:22,002 basehttp 16124 17696 "GET /hw1/ HTTP/1.1" 200 2986
+INFO 2024-06-13 21:38:22,551 basehttp 16124 17696 "GET /hw1/about/ HTTP/1.1" 200 3314
+INFO 2024-06-13 21:38:23,266 basehttp 16124 17696 "GET /hw1/ HTTP/1.1" 200 2986
+INFO 2024-06-13 21:38:23,358 basehttp 16124 17696 "GET /hw1/ HTTP/1.1" 200 2986
+INFO 2024-06-13 21:38:23,795 basehttp 16124 17696 "GET /hw1/about/ HTTP/1.1" 200 3314
+INFO 2024-06-13 21:38:23,886 basehttp 16124 17696 "GET /hw1/about/ HTTP/1.1" 200 3314
+INFO 2024-06-13 21:38:24,373 basehttp 16124 17696 "GET /hw1/ HTTP/1.1" 200 2986
+INFO 2024-06-13 21:40:05,330 autoreload 16124 7468 C:\GB\Django\practika_new2\myproject\myapp_hw2\models.py changed, reloading.
+INFO 2024-06-13 21:40:05,831 autoreload 21448 15344 Watching for file changes with StatReloader
+INFO 2024-06-13 21:40:44,468 autoreload 21448 15344 C:\GB\Django\practika_new2\myproject\myapp_hw2\models.py changed, reloading.
+INFO 2024-06-13 21:40:45,013 autoreload 740 21748 Watching for file changes with StatReloader
+INFO 2024-06-13 21:44:37,305 autoreload 740 21748 C:\GB\Django\practika_new2\myproject\myapp_hw2\models.py changed, reloading.
+INFO 2024-06-13 21:44:37,826 autoreload 18728 21664 Watching for file changes with StatReloader
+INFO 2024-06-13 22:26:03,740 autoreload 18728 21664 C:\GB\Django\practika_new2\myproject\myapp_hw2\models.py changed, reloading.
+INFO 2024-06-13 22:26:04,406 autoreload 13604 6900 Watching for file changes with StatReloader
+INFO 2024-06-13 22:27:28,530 autoreload 13604 6900 C:\GB\Django\practika_new2\myproject\myapp_hw2\models.py changed, reloading.
+INFO 2024-06-13 22:27:29,022 autoreload 19872 21920 Watching for file changes with StatReloader
+INFO 2024-06-13 22:29:40,422 autoreload 19872 21920 C:\GB\Django\practika_new2\myproject\myapp_hw2\models.py changed, reloading.
+INFO 2024-06-13 22:29:40,934 autoreload 21244 984 Watching for file changes with StatReloader
+INFO 2024-06-13 22:31:35,535 autoreload 21244 984 C:\GB\Django\practika_new2\myproject\myapp_hw2\models.py changed, reloading.
+INFO 2024-06-13 22:31:36,037 autoreload 10488 12000 Watching for file changes with StatReloader
+INFO 2024-06-13 22:32:10,169 autoreload 10488 12000 C:\GB\Django\practika_new2\myproject\myapp_hw2\models.py changed, reloading.
+INFO 2024-06-13 22:32:10,724 autoreload 3400 2340 Watching for file changes with StatReloader

@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'myapp_hw1',
+    'myapp_hw2',
     'myapp_sem1',
     'myapp_sem3',
     'myapp_sem4',
