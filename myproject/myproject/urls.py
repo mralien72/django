@@ -16,12 +16,15 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from myapp_lek3.views import index
 
 urlpatterns = [
+    path('', index),
     path('admin/', admin.site.urls),
     path('hw1/', include('myapp_hw1.urls')),
     path('hw2/', include('myapp_hw2.urls')),
     path('sem1/', include('myapp_sem1.urls')),
     path('lek1/', include('myapp_lek1.urls')),
     path('lek2/', include('myapp_lek2.urls')),
+    path('lek3/', include('myapp_lek3.urls')),
 ]
