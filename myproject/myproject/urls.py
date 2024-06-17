@@ -27,4 +27,5 @@ urlpatterns = [
     path('lek1/', include('myapp_lek1.urls')),
     path('lek2/', include('myapp_lek2.urls')),
     path('lek3/', include('myapp_lek3.urls')),
+    path('lek4/', include('myapp_lek4.urls')),
 ]

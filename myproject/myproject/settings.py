@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'myapp_lek2',
     'myapp_lek3',
     'myapp_lek4',
+    'myapp_lek5',
 ]
 
 MIDDLEWARE = [
@@ -114,7 +115,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ru-ru'
 
 TIME_ZONE = 'UTC'
 

@@ -2128,3 +2128,271 @@ INFO 2024-06-14 15:51:47,633 basehttp 8644 14512 "GET /lek3/ HTTP/1.1" 200 148
 INFO 2024-06-14 15:51:56,644 basehttp 8644 19528 "GET /lek3/author/3 HTTP/1.1" 301 0
 INFO 2024-06-14 15:51:56,659 basehttp 8644 8392 "GET /lek3/author/3/ HTTP/1.1" 200 2128
 INFO 2024-06-14 15:51:58,684 basehttp 8644 8392 "GET /lek3/post/21/ HTTP/1.1" 200 1410
+INFO 2024-06-17 14:55:44,067 autoreload 17348 3432 Watching for file changes with StatReloader
+INFO 2024-06-17 14:56:02,428 autoreload 17348 3432 C:\Users\User\Documents\Django\practika\myproject\myapp_lek4\urls.py changed, reloading.
+INFO 2024-06-17 14:56:03,511 autoreload 8576 15036 Watching for file changes with StatReloader
+INFO 2024-06-17 14:56:06,635 basehttp 8576 16188 "GET / HTTP/1.1" 200 995
+WARNING 2024-06-17 14:56:07,727 log 8576 16188 Not Found: /favicon.ico
+WARNING 2024-06-17 14:56:07,727 basehttp 8576 16188 "GET /favicon.ico HTTP/1.1" 404 2946
+INFO 2024-06-17 14:56:09,417 basehttp 8576 16188 "GET /hw1/about/ HTTP/1.1" 200 3314
+INFO 2024-06-17 14:56:10,426 basehttp 8576 16188 "GET /hw1/ HTTP/1.1" 200 2986
+INFO 2024-06-17 15:10:46,275 autoreload 11224 21244 Watching for file changes with StatReloader
+INFO 2024-06-17 15:10:53,022 basehttp 11224 5040 "GET /admin HTTP/1.1" 301 0
+INFO 2024-06-17 15:10:53,056 basehttp 11224 15204 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-06-17 15:10:53,371 basehttp 11224 15204 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+INFO 2024-06-17 15:10:53,630 basehttp 11224 15204 "GET /static/admin/css/base.css HTTP/1.1" 200 21544
+INFO 2024-06-17 15:10:53,634 basehttp 11224 17204 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2024-06-17 15:10:53,650 basehttp 11224 14132 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2024-06-17 15:10:53,660 basehttp 11224 20456 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-06-17 15:10:53,661 basehttp 11224 5888 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+INFO 2024-06-17 15:10:53,666 basehttp 11224 18364 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+INFO 2024-06-17 15:10:53,688 basehttp 11224 15204 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-06-17 15:12:13,657 autoreload 11224 21244 C:\Users\User\Documents\Django\practika\myproject\myproject\settings.py changed, reloading.
+INFO 2024-06-17 15:12:15,153 autoreload 4132 5452 Watching for file changes with StatReloader
+INFO 2024-06-17 15:12:29,936 basehttp 4132 12084 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-06-17 15:34:07,542 autoreload 11936 11304 Watching for file changes with StatReloader
+INFO 2024-06-17 15:34:16,482 basehttp 11936 9764 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-06-17 15:34:16,662 basehttp 11936 9764 "GET /admin/ HTTP/1.1" 200 5944
+INFO 2024-06-17 15:34:16,787 basehttp 11936 9764 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-06-17 15:34:16,813 basehttp 11936 11296 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-06-17 15:34:16,814 basehttp 11936 9764 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-06-17 15:34:40,426 basehttp 11936 8412 "GET / HTTP/1.1" 200 995
+INFO 2024-06-17 15:34:45,089 basehttp 11936 8412 "GET /admin/password_change/ HTTP/1.1" 200 7626
+INFO 2024-06-17 15:34:45,134 basehttp 11936 8412 "GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+INFO 2024-06-17 15:34:45,164 basehttp 11936 8412 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11800
+INFO 2024-06-17 15:34:49,327 basehttp 11936 18640 "GET /admin/ HTTP/1.1" 200 5944
+INFO 2024-06-17 15:36:11,227 basehttp 11936 21240 "GET /admin/auth/user/ HTTP/1.1" 200 11914
+INFO 2024-06-17 15:36:11,273 basehttp 11936 14728 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-06-17 15:36:11,285 basehttp 11936 21240 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+INFO 2024-06-17 15:36:11,306 basehttp 11936 21240 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2024-06-17 15:36:11,334 basehttp 11936 14728 "GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+INFO 2024-06-17 15:36:11,335 basehttp 11936 9480 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2024-06-17 15:36:11,358 basehttp 11936 10208 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 15:36:11,359 basehttp 11936 13680 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+INFO 2024-06-17 15:36:11,360 basehttp 11936 21240 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-06-17 15:36:11,374 basehttp 11936 14728 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2024-06-17 15:36:11,387 basehttp 11936 10208 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2024-06-17 15:36:11,427 basehttp 11936 7792 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2024-06-17 15:36:11,467 basehttp 11936 7792 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2024-06-17 15:36:11,531 basehttp 11936 9480 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2024-06-17 15:36:11,572 basehttp 11936 9480 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2024-06-17 15:36:11,575 basehttp 11936 10208 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2024-06-17 15:36:11,580 basehttp 11936 7792 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2024-06-17 15:46:20,005 basehttp 11936 7340 "GET /admin/auth/user/add/ HTTP/1.1" 200 11238
+INFO 2024-06-17 15:46:20,024 basehttp 11936 14868 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2024-06-17 15:46:20,028 basehttp 11936 7340 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 15:46:20,039 basehttp 11936 7340 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2024-06-17 15:46:31,672 basehttp 11936 19532 "POST /admin/auth/user/add/ HTTP/1.1" 200 11766
+INFO 2024-06-17 15:46:31,691 basehttp 11936 19532 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 15:46:46,840 basehttp 11936 18068 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2024-06-17 15:46:46,969 basehttp 11936 18068 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 25660
+INFO 2024-06-17 15:46:47,001 basehttp 11936 18068 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 15:46:47,026 basehttp 11936 11108 "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+INFO 2024-06-17 15:46:47,028 basehttp 11936 11192 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15492
+INFO 2024-06-17 15:46:47,029 basehttp 11936 20096 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2024-06-17 15:46:47,035 basehttp 11936 17024 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2024-06-17 15:46:47,109 basehttp 11936 11192 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2024-06-17 15:46:47,110 basehttp 11936 17024 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2024-06-17 15:46:47,112 basehttp 11936 18068 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2024-06-17 15:46:47,113 basehttp 11936 11108 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2024-06-17 15:46:47,114 basehttp 11936 20096 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2024-06-17 15:48:32,139 basehttp 11936 13372 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2024-06-17 15:48:32,164 basehttp 11936 13372 "GET /admin/auth/user/ HTTP/1.1" 200 12645
+INFO 2024-06-17 15:48:32,189 basehttp 11936 13372 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 15:48:34,685 basehttp 11936 13372 "GET /admin/auth/group/add/ HTTP/1.1" 200 14799
+INFO 2024-06-17 15:48:34,705 basehttp 11936 13372 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 15:49:21,414 basehttp 11936 13064 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2024-06-17 15:49:21,439 basehttp 11936 13064 "GET /admin/auth/group/ HTTP/1.1" 200 9506
+INFO 2024-06-17 15:49:21,464 basehttp 11936 13064 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 15:49:23,429 basehttp 11936 13064 "GET /admin/auth/user/ HTTP/1.1" 200 12727
+INFO 2024-06-17 15:49:23,446 basehttp 11936 13064 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 15:49:25,073 basehttp 11936 13064 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 25439
+INFO 2024-06-17 15:49:25,090 basehttp 11936 13064 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 15:49:31,920 basehttp 11936 17292 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2024-06-17 15:49:31,945 basehttp 11936 17292 "GET /admin/auth/user/ HTTP/1.1" 200 12947
+INFO 2024-06-17 15:49:31,965 basehttp 11936 17292 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 15:53:56,369 autoreload 11936 11304 C:\Users\User\Documents\Django\practika\myproject\myapp_lek5\models.py changed, reloading.
+INFO 2024-06-17 15:53:57,743 autoreload 17576 19024 Watching for file changes with StatReloader
+INFO 2024-06-17 16:05:40,198 autoreload 7220 16588 Watching for file changes with StatReloader
+INFO 2024-06-17 16:05:42,120 basehttp 7220 16404 "GET /admin/auth/user/ HTTP/1.1" 200 13616
+INFO 2024-06-17 16:05:42,158 basehttp 7220 16404 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:07:26,854 autoreload 7220 16588 C:\Users\User\Documents\Django\practika\myproject\myapp_lek3\admin.py changed, reloading.
+INFO 2024-06-17 16:07:28,344 autoreload 11824 20860 Watching for file changes with StatReloader
+INFO 2024-06-17 16:10:59,544 basehttp 11824 6072 "GET /admin/auth/user/ HTTP/1.1" 200 14485
+INFO 2024-06-17 16:10:59,580 basehttp 11824 6072 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:14:33,484 basehttp 11824 21156 "GET /admin/myapp_lek3/post/ HTTP/1.1" 200 27423
+INFO 2024-06-17 16:14:33,517 basehttp 11824 21156 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:14:34,685 basehttp 11824 21156 "GET /admin/myapp_lek3/post/48/change/ HTTP/1.1" 200 13577
+INFO 2024-06-17 16:14:34,719 basehttp 11824 21156 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:14:36,810 basehttp 11824 7484 "GET /admin/ HTTP/1.1" 200 9767
+INFO 2024-06-17 16:15:12,894 basehttp 11824 12304 "GET /admin/myapp_lek5/category/ HTTP/1.1" 200 9188
+INFO 2024-06-17 16:15:12,927 basehttp 11824 12304 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:15:15,309 basehttp 11824 12304 "GET /admin/myapp_lek5/category/add/ HTTP/1.1" 200 10029
+INFO 2024-06-17 16:15:15,334 basehttp 11824 12304 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:15:20,875 basehttp 11824 14064 "POST /admin/myapp_lek5/category/add/ HTTP/1.1" 302 0
+INFO 2024-06-17 16:15:20,897 basehttp 11824 14064 "GET /admin/myapp_lek5/category/add/ HTTP/1.1" 200 10327
+INFO 2024-06-17 16:15:20,921 basehttp 11824 14064 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:15:27,106 basehttp 11824 16660 "POST /admin/myapp_lek5/category/add/ HTTP/1.1" 302 0
+INFO 2024-06-17 16:15:27,126 basehttp 11824 16660 "GET /admin/myapp_lek5/category/add/ HTTP/1.1" 200 10327
+INFO 2024-06-17 16:15:27,152 basehttp 11824 16660 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:15:34,522 basehttp 11824 16660 "POST /admin/myapp_lek5/category/add/ HTTP/1.1" 302 0
+INFO 2024-06-17 16:15:34,541 basehttp 11824 16660 "GET /admin/myapp_lek5/category/add/ HTTP/1.1" 200 10327
+INFO 2024-06-17 16:15:34,561 basehttp 11824 16660 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:15:35,578 basehttp 11824 16660 "GET /admin/myapp_lek5/product/ HTTP/1.1" 200 9181
+INFO 2024-06-17 16:15:35,603 basehttp 11824 16660 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:15:37,287 basehttp 11824 19640 "GET /admin/myapp_lek5/product/add/ HTTP/1.1" 200 11969
+INFO 2024-06-17 16:15:37,305 basehttp 11824 19640 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:15:55,688 basehttp 11824 17604 "POST /admin/myapp_lek5/product/add/ HTTP/1.1" 302 0
+INFO 2024-06-17 16:15:55,716 basehttp 11824 17604 "GET /admin/myapp_lek5/product/add/ HTTP/1.1" 200 12255
+INFO 2024-06-17 16:15:55,737 basehttp 11824 17604 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:16:06,381 basehttp 11824 8148 "POST /admin/myapp_lek5/product/add/ HTTP/1.1" 302 0
+INFO 2024-06-17 16:16:06,405 basehttp 11824 8148 "GET /admin/myapp_lek5/product/add/ HTTP/1.1" 200 12256
+INFO 2024-06-17 16:16:06,426 basehttp 11824 8148 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:16:18,394 basehttp 11824 9188 "POST /admin/myapp_lek5/product/add/ HTTP/1.1" 302 0
+INFO 2024-06-17 16:16:18,419 basehttp 11824 9188 "GET /admin/myapp_lek5/product/add/ HTTP/1.1" 200 12259
+INFO 2024-06-17 16:16:18,439 basehttp 11824 9188 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:33:16,403 autoreload 11824 20860 C:\Users\User\Documents\Django\practika\myproject\myapp_lek5\models.py changed, reloading.
+INFO 2024-06-17 16:33:17,953 autoreload 18836 152 Watching for file changes with StatReloader
+INFO 2024-06-17 16:39:03,073 autoreload 6668 20380 Watching for file changes with StatReloader
+INFO 2024-06-17 16:39:07,938 basehttp 6668 19132 "GET /admin/myapp_lek5/product/add/ HTTP/1.1" 200 14492
+INFO 2024-06-17 16:39:07,999 basehttp 6668 19132 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:39:11,719 basehttp 6668 19132 "GET /admin/ HTTP/1.1" 200 11965
+INFO 2024-06-17 16:39:15,428 basehttp 6668 19132 "GET /admin/myapp_lek5/product/ HTTP/1.1" 200 11370
+INFO 2024-06-17 16:39:15,459 basehttp 6668 19132 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:39:18,038 basehttp 6668 19132 "GET /admin/myapp_lek5/product/3/change/ HTTP/1.1" 200 14737
+INFO 2024-06-17 16:39:18,071 basehttp 6668 19132 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:40:47,577 autoreload 6668 20380 C:\Users\User\Documents\Django\practika\myproject\myapp_lek5\admin.py changed, reloading.
+INFO 2024-06-17 16:40:48,950 autoreload 16136 7172 Watching for file changes with StatReloader
+INFO 2024-06-17 16:41:49,122 autoreload 16136 7172 C:\Users\User\Documents\Django\practika\myproject\myapp_lek5\admin.py changed, reloading.
+INFO 2024-06-17 16:41:50,311 autoreload 15320 10288 Watching for file changes with StatReloader
+INFO 2024-06-17 16:42:20,974 basehttp 15320 15960 "GET /admin/myapp_lek5/product/ HTTP/1.1" 200 11865
+INFO 2024-06-17 16:42:24,397 basehttp 15320 17716 "GET /admin/myapp_lek5/product/ HTTP/1.1" 200 11865
+INFO 2024-06-17 16:42:24,419 basehttp 15320 17716 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:42:29,207 basehttp 15320 17716 "GET /admin/myapp_lek5/product/?o=3 HTTP/1.1" 200 12273
+INFO 2024-06-17 16:42:29,225 basehttp 15320 17716 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:42:31,252 basehttp 15320 17716 "GET /admin/myapp_lek5/product/?o=1.3 HTTP/1.1" 200 12763
+INFO 2024-06-17 16:42:31,273 basehttp 15320 17716 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:42:59,271 basehttp 15320 4436 "GET /admin/myapp_lek5/product/?o=1 HTTP/1.1" 200 12273
+INFO 2024-06-17 16:42:59,297 basehttp 15320 4436 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:43:01,552 basehttp 15320 4436 "GET /admin/myapp_lek5/product/?o= HTTP/1.1" 200 11965
+INFO 2024-06-17 16:43:01,591 basehttp 15320 4436 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:43:49,239 autoreload 15320 10288 C:\Users\User\Documents\Django\practika\myproject\myapp_lek5\admin.py changed, reloading.
+INFO 2024-06-17 16:43:50,604 autoreload 4280 4200 Watching for file changes with StatReloader
+INFO 2024-06-17 16:44:03,085 autoreload 4280 4200 C:\Users\User\Documents\Django\practika\myproject\myapp_lek5\admin.py changed, reloading.
+INFO 2024-06-17 16:44:04,193 autoreload 5820 9976 Watching for file changes with StatReloader
+INFO 2024-06-17 16:44:19,056 autoreload 5820 9976 C:\Users\User\Documents\Django\practika\myproject\myapp_lek5\admin.py changed, reloading.
+INFO 2024-06-17 16:44:20,112 autoreload 21036 18968 Watching for file changes with StatReloader
+INFO 2024-06-17 16:44:22,817 basehttp 21036 16188 "GET /admin/myapp_lek5/product/?o= HTTP/1.1" 200 11470
+INFO 2024-06-17 16:44:22,855 basehttp 21036 16188 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:44:50,494 autoreload 21036 18968 C:\Users\User\Documents\Django\practika\myproject\myapp_lek5\admin.py changed, reloading.
+INFO 2024-06-17 16:44:52,027 autoreload 17988 6656 Watching for file changes with StatReloader
+INFO 2024-06-17 16:44:54,061 basehttp 17988 15140 "GET /admin/myapp_lek5/product/?o= HTTP/1.1" 200 11965
+INFO 2024-06-17 16:44:54,102 basehttp 17988 15140 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:45:25,323 basehttp 17988 17604 "GET /admin/myapp_lek5/product/?o= HTTP/1.1" 200 11965
+INFO 2024-06-17 16:45:25,354 basehttp 17988 17604 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:45:34,424 basehttp 17988 15720 "GET /admin/myapp_lek5/category/ HTTP/1.1" 200 11426
+INFO 2024-06-17 16:45:34,442 basehttp 17988 15720 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:45:36,954 basehttp 17988 15720 "GET /admin/myapp_lek5/product/ HTTP/1.1" 200 12171
+INFO 2024-06-17 16:45:36,971 basehttp 17988 15720 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:45:52,266 basehttp 17988 19304 "GET /admin/myapp_lek5/product/2/change/ HTTP/1.1" 200 14725
+INFO 2024-06-17 16:45:52,286 basehttp 17988 19304 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:45:58,103 basehttp 17988 16624 "POST /admin/myapp_lek5/product/2/change/ HTTP/1.1" 302 0
+INFO 2024-06-17 16:45:58,126 basehttp 17988 16624 "GET /admin/myapp_lek5/product/ HTTP/1.1" 200 12385
+INFO 2024-06-17 16:45:58,147 basehttp 17988 16624 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:45:59,858 basehttp 17988 16624 "GET /admin/myapp_lek5/product/1/change/ HTTP/1.1" 200 14721
+INFO 2024-06-17 16:45:59,877 basehttp 17988 16624 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:46:02,766 basehttp 17988 16624 "POST /admin/myapp_lek5/product/1/change/ HTTP/1.1" 302 0
+INFO 2024-06-17 16:46:02,790 basehttp 17988 16624 "GET /admin/myapp_lek5/product/ HTTP/1.1" 200 12384
+INFO 2024-06-17 16:46:02,809 basehttp 17988 16624 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:46:05,024 basehttp 17988 2728 "GET /admin/myapp_lek5/product/ HTTP/1.1" 200 12169
+INFO 2024-06-17 16:46:05,041 basehttp 17988 2728 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:46:05,857 basehttp 17988 2728 "GET /admin/myapp_lek5/product/ HTTP/1.1" 200 12169
+INFO 2024-06-17 16:46:05,878 basehttp 17988 2728 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:46:07,855 basehttp 17988 2728 "GET /admin/myapp_lek5/product/?o= HTTP/1.1" 200 11963
+INFO 2024-06-17 16:46:07,875 basehttp 17988 2728 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:46:09,922 basehttp 17988 2728 "GET /admin/myapp_lek5/product/ HTTP/1.1" 200 12169
+INFO 2024-06-17 16:46:09,941 basehttp 17988 2728 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:46:10,616 basehttp 17988 2728 "GET /admin/myapp_lek5/category/ HTTP/1.1" 200 11426
+INFO 2024-06-17 16:46:10,634 basehttp 17988 2728 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:46:12,054 basehttp 17988 2728 "GET /admin/myapp_lek5/product/ HTTP/1.1" 200 12169
+INFO 2024-06-17 16:46:12,075 basehttp 17988 2728 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:47:00,125 autoreload 17988 6656 C:\Users\User\Documents\Django\practika\myproject\myapp_lek5\admin.py changed, reloading.
+INFO 2024-06-17 16:47:02,003 autoreload 3196 12736 Watching for file changes with StatReloader
+INFO 2024-06-17 16:47:11,583 autoreload 3196 12736 C:\Users\User\Documents\Django\practika\myproject\myapp_lek5\admin.py changed, reloading.
+INFO 2024-06-17 16:47:13,365 autoreload 12184 13332 Watching for file changes with StatReloader
+INFO 2024-06-17 16:47:32,226 autoreload 12184 13332 C:\Users\User\Documents\Django\practika\myproject\myapp_lek5\admin.py changed, reloading.
+INFO 2024-06-17 16:47:34,271 autoreload 20460 3712 Watching for file changes with StatReloader
+INFO 2024-06-17 16:47:45,642 basehttp 20460 21068 "GET /admin/myapp_lek5/product/ HTTP/1.1" 200 13627
+INFO 2024-06-17 16:47:45,664 basehttp 20460 21068 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:47:47,972 basehttp 20460 21068 "GET /admin/myapp_lek5/product/?date_added__gte=2024-06-17+00%3A00%3A00%2B00%3A00&date_added__lt=2024-06-18+00%3A00%3A00%2B00%3A00 HTTP/1.1" 200 15269
+INFO 2024-06-17 16:47:47,995 basehttp 20460 21068 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:47:49,195 basehttp 20460 21068 "GET /admin/myapp_lek5/product/? HTTP/1.1" 200 13627
+INFO 2024-06-17 16:47:49,211 basehttp 20460 21068 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:47:50,731 basehttp 20460 21068 "GET /admin/myapp_lek5/product/?_facets=True HTTP/1.1" 200 14007
+INFO 2024-06-17 16:47:50,752 basehttp 20460 21068 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:47:50,857 basehttp 20460 21068 "GET /static/admin/img/icon-hidelink.svg HTTP/1.1" 200 784
+INFO 2024-06-17 16:47:51,654 basehttp 20460 21068 "GET /admin/myapp_lek5/product/? HTTP/1.1" 200 13627
+INFO 2024-06-17 16:47:51,675 basehttp 20460 21068 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:49:38,817 autoreload 20460 3712 C:\Users\User\Documents\Django\practika\myproject\myapp_lek5\admin.py changed, reloading.
+INFO 2024-06-17 16:49:40,110 autoreload 8676 14656 Watching for file changes with StatReloader
+INFO 2024-06-17 16:50:42,673 autoreload 8676 14656 C:\Users\User\Documents\Django\practika\myproject\myapp_lek5\admin.py changed, reloading.
+INFO 2024-06-17 16:50:44,549 autoreload 14572 3724 Watching for file changes with StatReloader
+INFO 2024-06-17 16:51:03,818 autoreload 14572 3724 C:\Users\User\Documents\Django\practika\myproject\myapp_lek5\admin.py changed, reloading.
+INFO 2024-06-17 16:51:04,956 autoreload 16960 20708 Watching for file changes with StatReloader
+INFO 2024-06-17 16:51:05,546 basehttp 16960 1672 "GET /admin/myapp_lek5/product/? HTTP/1.1" 200 14121
+INFO 2024-06-17 16:51:05,576 basehttp 16960 1672 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:55:14,647 autoreload 16960 20708 C:\Users\User\Documents\Django\practika\myproject\myapp_lek5\admin.py changed, reloading.
+INFO 2024-06-17 16:55:16,046 autoreload 10776 11052 Watching for file changes with StatReloader
+INFO 2024-06-17 16:55:43,065 basehttp 10776 14688 "GET /admin/myapp_lek5/product/? HTTP/1.1" 200 14121
+INFO 2024-06-17 16:55:43,088 basehttp 10776 14688 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:56:57,800 autoreload 10776 11052 C:\Users\User\Documents\Django\practika\myproject\myapp_lek5\admin.py changed, reloading.
+INFO 2024-06-17 16:56:59,764 autoreload 9180 5908 Watching for file changes with StatReloader
+INFO 2024-06-17 16:57:47,957 autoreload 9180 5908 C:\Users\User\Documents\Django\practika\myproject\myapp_lek5\admin.py changed, reloading.
+INFO 2024-06-17 16:57:49,133 autoreload 12536 8564 Watching for file changes with StatReloader
+INFO 2024-06-17 16:57:49,642 basehttp 12536 13668 "GET /admin/myapp_lek5/product/? HTTP/1.1" 200 14214
+INFO 2024-06-17 16:57:49,664 basehttp 12536 13668 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 16:57:55,783 basehttp 12536 2804 "POST /admin/myapp_lek5/product/? HTTP/1.1" 302 0
+INFO 2024-06-17 16:57:55,811 basehttp 12536 2804 "GET /admin/myapp_lek5/product/ HTTP/1.1" 200 14214
+INFO 2024-06-17 16:57:55,832 basehttp 12536 2804 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 17:07:07,395 basehttp 12536 14696 "GET /admin/myapp_lek5/product/1/change/ HTTP/1.1" 200 14721
+INFO 2024-06-17 17:07:07,421 basehttp 12536 14696 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 17:07:29,837 basehttp 12536 8832 "POST /admin/myapp_lek5/product/1/change/ HTTP/1.1" 302 0
+INFO 2024-06-17 17:07:29,867 basehttp 12536 8832 "GET /admin/myapp_lek5/product/add/ HTTP/1.1" 200 14761
+INFO 2024-06-17 17:07:29,885 basehttp 12536 8832 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 17:07:31,777 basehttp 12536 8832 "POST /admin/myapp_lek5/product/add/ HTTP/1.1" 200 14795
+INFO 2024-06-17 17:07:31,794 basehttp 12536 8832 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 17:07:33,666 basehttp 12536 8832 "GET /admin/myapp_lek5/product/ HTTP/1.1" 200 14273
+INFO 2024-06-17 17:07:33,685 basehttp 12536 8832 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 17:07:37,187 basehttp 12536 14648 "GET /admin/myapp_lek5/product/1/change/ HTTP/1.1" 200 14743
+INFO 2024-06-17 17:07:37,209 basehttp 12536 14648 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 17:08:01,322 autoreload 12536 8564 C:\Users\User\Documents\Django\practika\myproject\myapp_lek5\admin.py changed, reloading.
+INFO 2024-06-17 17:08:03,091 autoreload 13308 8516 Watching for file changes with StatReloader
+INFO 2024-06-17 17:08:23,688 autoreload 13308 8516 C:\Users\User\Documents\Django\practika\myproject\myapp_lek5\admin.py changed, reloading.
+INFO 2024-06-17 17:08:25,324 autoreload 20872 18208 Watching for file changes with StatReloader
+INFO 2024-06-17 17:09:24,918 basehttp 20872 14036 "GET /admin/myapp_lek5/product/1/change/ HTTP/1.1" 200 13959
+INFO 2024-06-17 17:09:24,948 basehttp 20872 14036 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 17:09:45,147 autoreload 20872 18208 C:\Users\User\Documents\Django\practika\myproject\myapp_lek5\admin.py changed, reloading.
+INFO 2024-06-17 17:09:47,003 autoreload 6604 16112 Watching for file changes with StatReloader
+INFO 2024-06-17 17:10:29,547 basehttp 6604 3724 "GET /admin/myapp_lek5/product/ HTTP/1.1" 200 14273
+INFO 2024-06-17 17:10:29,572 basehttp 6604 3724 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 17:10:30,752 basehttp 6604 3724 "GET /admin/myapp_lek5/product/2/change/ HTTP/1.1" 200 13940
+INFO 2024-06-17 17:10:30,773 basehttp 6604 3724 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 17:10:32,260 basehttp 6604 3724 "GET /admin/myapp_lek5/product/ HTTP/1.1" 200 14273
+INFO 2024-06-17 17:10:32,285 basehttp 6604 3724 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 17:10:33,256 basehttp 6604 3724 "GET /admin/myapp_lek5/product/3/change/ HTTP/1.1" 200 13952
+INFO 2024-06-17 17:10:33,275 basehttp 6604 3724 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 17:10:34,521 basehttp 6604 3724 "GET /admin/myapp_lek5/product/ HTTP/1.1" 200 14273
+INFO 2024-06-17 17:10:34,540 basehttp 6604 3724 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 17:12:50,253 autoreload 6604 16112 C:\Users\User\Documents\Django\practika\myproject\myapp_lek5\admin.py changed, reloading.
+INFO 2024-06-17 17:12:51,839 autoreload 11868 8856 Watching for file changes with StatReloader
+INFO 2024-06-17 17:13:10,814 autoreload 11868 8856 C:\Users\User\Documents\Django\practika\myproject\myapp_lek5\admin.py changed, reloading.
+INFO 2024-06-17 17:13:12,589 autoreload 7216 4968 Watching for file changes with StatReloader
+INFO 2024-06-17 17:13:23,633 autoreload 7216 4968 C:\Users\User\Documents\Django\practika\myproject\myapp_lek5\admin.py changed, reloading.
+INFO 2024-06-17 17:13:25,368 autoreload 12876 10336 Watching for file changes with StatReloader
+INFO 2024-06-17 17:13:35,692 autoreload 12876 10336 C:\Users\User\Documents\Django\practika\myproject\myapp_lek5\admin.py changed, reloading.
+INFO 2024-06-17 17:13:37,454 autoreload 5764 152 Watching for file changes with StatReloader
+INFO 2024-06-17 17:14:03,038 autoreload 5764 152 C:\Users\User\Documents\Django\practika\myproject\myapp_lek5\admin.py changed, reloading.
+INFO 2024-06-17 17:14:05,041 autoreload 10112 20200 Watching for file changes with StatReloader
+INFO 2024-06-17 17:14:29,255 basehttp 10112 19604 "GET /admin/myapp_lek5/product/2/change/ HTTP/1.1" 200 15852
+INFO 2024-06-17 17:14:29,286 basehttp 10112 15720 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-17 17:14:29,381 basehttp 10112 19604 "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
