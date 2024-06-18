@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'myapp_hw1',
     'myapp_hw2',
+    'myapp_hw3',
     'myapp_sem1',
     'myapp_sem3',
     'myapp_sem4',
