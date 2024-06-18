@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% block title %}
+    {{ super }} - {{ title }}
+{% endblock %}
+
+{% block content %}
+<h1>Список заказов</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Заказ №</th>
+                <th>Покупатель</th>
+                <th>Общая сумма</th>
+                <th>Дата заказа</th>
+                <th>Товары</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for order in orders %}
+            {% if order.products.all %}
+            <tr>
+                <td>{{ order.id }}</td>
+                <td>{{ order.customer.name }}</td>
+                <td>{{ order.total_price }}</td>
+                <td>{{ order.date_ordered }}</td>
+                <td>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Название</th>
+                                <th>Цена</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for product in order.products.all %}
+                            <tr>
+                                <td>{{ product.name }}</td>
+                                <td>{{ product.price }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

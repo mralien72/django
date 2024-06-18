@@ -1,13 +1,22 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
+from .models import Order, User
 import logging
 
 logger = logging.getLogger(__name__)
 
-def index(request):
+def all_orders(request):
     logger.info('Index page accessed')
-    return render(request, 'myapp_hw1/main.html')
+    orders = list(Order.objects.all())
+    return render(request, 'myapp_hw3/all_orders.html', {'orders': orders})
 
 
-def about(request):
-    logger.info('Index page accessed1')
-    return render(request, 'myapp_hw1/data.html')
+def orders_by_7days(request, user_id):
+    user = get_object_or_404(User, pk=user_id)
+    orders_user = Order.objects.filter(customer=user)
+
+
+    return render(request, 'myapp_hw3/orders_by_7days.html', {
+        'user': user,
+        'orders_user': orders_user,
+    })
+
