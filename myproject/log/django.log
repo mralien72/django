@@ -2396,3 +2396,15 @@ INFO 2024-06-17 17:14:05,041 autoreload 10112 20200 Watching for file changes wi
 INFO 2024-06-17 17:14:29,255 basehttp 10112 19604 "GET /admin/myapp_lek5/product/2/change/ HTTP/1.1" 200 15852
 INFO 2024-06-17 17:14:29,286 basehttp 10112 15720 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
 INFO 2024-06-17 17:14:29,381 basehttp 10112 19604 "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
+INFO 2024-06-18 09:48:47,035 autoreload 10112 20200 C:\Users\User\Documents\Django\practika\myproject\myapp_lek5\models.py changed, reloading.
+INFO 2024-06-18 09:48:48,327 autoreload 2620 4708 Watching for file changes with StatReloader
+INFO 2024-06-18 09:49:47,426 autoreload 2620 4708 C:\Users\User\Documents\Django\practika\myproject\myapp_lek5\models.py changed, reloading.
+INFO 2024-06-18 09:49:48,638 autoreload 18072 7688 Watching for file changes with StatReloader
+INFO 2024-06-18 09:48:47,035 autoreload 10112 20200 C:\Users\User\Documents\Django\practika\myproject\myapp_lek5\models.py changed, reloading.
+INFO 2024-06-18 09:48:48,327 autoreload 2620 4708 Watching for file changes with StatReloader
+INFO 2024-06-18 09:49:47,426 autoreload 2620 4708 C:\Users\User\Documents\Django\practika\myproject\myapp_lek5\models.py changed, reloading.
+INFO 2024-06-18 09:49:48,638 autoreload 18072 7688 Watching for file changes with StatReloader
+INFO 2024-06-18 09:56:19,980 autoreload 18072 7688 C:\Users\User\Documents\Django\practika\myproject\myapp_lek5\models.py changed, reloading.
+INFO 2024-06-18 09:56:21,235 autoreload 3868 10724 Watching for file changes with StatReloader
+INFO 2024-06-18 09:56:53,172 autoreload 3868 10724 C:\Users\User\Documents\Django\practika\myproject\myapp_lek5\admin.py changed, reloading.
+INFO 2024-06-18 09:56:54,407 autoreload 9332 15584 Watching for file changes with StatReloader
