@@ -11,7 +11,8 @@ def user_form(request):
         if form.is_valid():
             name = form.cleaned_data['name']
             email = form.cleaned_data['email']
-            age = form.cleaned_data['age'] # Делаем что-то с данными
+            age = form.cleaned_data['age']
+            # Делаем что-то с данными
             logger.info(f'Получили {name=}, {email=}, {age=}.')
     else:
         form = UserForm()

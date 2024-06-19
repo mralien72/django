@@ -3908,3 +3908,65 @@ INFO 2024-06-19 16:15:16,537 basehttp 19068 21204 "GET /hw3/365days/2 HTTP/1.1" 
 INFO 2024-06-19 16:15:18,616 basehttp 19068 2752 "GET /hw3/365days/4 HTTP/1.1" 200 1431
 INFO 2024-06-19 16:16:53,300 autoreload 19068 9084 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\views.py changed, reloading.
 INFO 2024-06-19 16:16:54,357 autoreload 14768 18632 Watching for file changes with StatReloader
+INFO 2024-06-19 16:35:56,831 autoreload 6608 7156 Watching for file changes with StatReloader
+INFO 2024-06-19 16:36:00,821 basehttp 6608 18084 "GET / HTTP/1.1" 200 995
+INFO 2024-06-19 16:36:01,684 basehttp 6608 18084 "GET / HTTP/1.1" 200 995
+WARNING 2024-06-19 16:36:02,225 log 6608 18084 Not Found: /favicon.ico
+WARNING 2024-06-19 16:36:02,226 basehttp 6608 18084 "GET /favicon.ico HTTP/1.1" 404 3050
+WARNING 2024-06-19 16:36:02,241 log 6608 18084 Not Found: /favicon.ico
+WARNING 2024-06-19 16:36:02,242 basehttp 6608 18084 "GET /favicon.ico HTTP/1.1" 404 3050
+WARNING 2024-06-19 16:36:13,972 log 6608 20416 Not Found: /lek4/add
+WARNING 2024-06-19 16:36:13,973 basehttp 6608 20416 "GET /lek4/add HTTP/1.1" 404 3115
+INFO 2024-06-19 16:36:25,607 basehttp 6608 16080 "GET /lek4/user/add HTTP/1.1" 301 0
+INFO 2024-06-19 16:36:25,769 basehttp 6608 20660 "GET /lek4/user/add/ HTTP/1.1" 200 1583
+INFO 2024-06-19 17:07:50,012 basehttp 6608 15532 "POST /lek4/user/add/ HTTP/1.1" 200 1632
+INFO 2024-06-19 17:07:57,152 basehttp 6608 12560 "POST /lek4/user/add/ HTTP/1.1" 200 1632
+INFO 2024-06-19 17:08:59,449 autoreload 20232 18216 Watching for file changes with StatReloader
+INFO 2024-06-19 17:09:09,250 basehttp 20232 20108 "POST /lek4/user/add/ HTTP/1.1" 200 1632
+INFO 2024-06-19 17:09:13,127 basehttp 20232 17984 "POST /lek4/user/add/ HTTP/1.1" 200 1632
+INFO 2024-06-19 17:09:16,936 basehttp 20232 17984 "POST /lek4/user/add/ HTTP/1.1" 200 1632
+INFO 2024-06-19 17:09:20,859 basehttp 20232 17984 "POST /lek4/user/add/ HTTP/1.1" 200 1631
+INFO 2024-06-19 17:10:26,299 autoreload 20232 18216 C:\Users\User\Documents\Django\practika\myproject\myapp_lek4\views.py changed, reloading.
+INFO 2024-06-19 17:10:27,328 autoreload 10416 16104 Watching for file changes with StatReloader
+ERROR 2024-06-19 17:10:27,713 log 10416 9084 Internal Server Error: /lek4/user/add/
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp_lek4.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-06-19 17:10:27,715 basehttp 10416 9084 "POST /lek4/user/add/ HTTP/1.1" 500 67196
+ERROR 2024-06-19 17:10:32,359 log 10416 6616 Internal Server Error: /lek4/user/add/
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp_lek4.views.user_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-06-19 17:10:32,361 basehttp 10416 6616 "POST /lek4/user/add/ HTTP/1.1" 500 67196
+INFO 2024-06-19 17:10:40,781 autoreload 10416 16104 C:\Users\User\Documents\Django\practika\myproject\myapp_lek4\views.py changed, reloading.
+INFO 2024-06-19 17:10:42,055 autoreload 17736 21472 Watching for file changes with StatReloader
+INFO 2024-06-19 17:10:45,653 basehttp 17736 18480 "POST /lek4/user/add/ HTTP/1.1" 200 1631
+INFO 2024-06-19 17:10:47,295 basehttp 17736 18480 "POST /lek4/user/add/ HTTP/1.1" 200 1631
+INFO 2024-06-19 17:13:04,463 autoreload 17736 21472 C:\Users\User\Documents\Django\practika\myproject\myapp_lek4\views.py changed, reloading.
+INFO 2024-06-19 17:13:05,898 autoreload 13472 16616 Watching for file changes with StatReloader
+INFO 2024-06-19 17:13:09,182 basehttp 13472 5948 "POST /lek4/user/add/ HTTP/1.1" 200 1631
+INFO 2024-06-19 17:13:10,729 basehttp 13472 5948 "POST /lek4/user/add/ HTTP/1.1" 200 1631
+INFO 2024-06-19 17:13:10,929 basehttp 13472 5948 "POST /lek4/user/add/ HTTP/1.1" 200 1631
+INFO 2024-06-19 17:13:11,075 basehttp 13472 5948 "POST /lek4/user/add/ HTTP/1.1" 200 1631
+INFO 2024-06-19 17:13:11,241 basehttp 13472 5948 "POST /lek4/user/add/ HTTP/1.1" 200 1631
+INFO 2024-06-19 17:13:11,404 basehttp 13472 5948 "POST /lek4/user/add/ HTTP/1.1" 200 1631
+INFO 2024-06-19 17:13:11,570 basehttp 13472 5948 "POST /lek4/user/add/ HTTP/1.1" 200 1631
+INFO 2024-06-19 17:13:11,743 basehttp 13472 5948 "POST /lek4/user/add/ HTTP/1.1" 200 1631
+INFO 2024-06-19 17:17:59,798 autoreload 18284 18168 Watching for file changes with StatReloader
+INFO 2024-06-19 17:18:07,933 basehttp 18284 14348 "GET /lek4/user/add/ HTTP/1.1" 200 1583
+WARNING 2024-06-19 17:18:08,054 log 18284 14348 Not Found: /favicon.ico
+WARNING 2024-06-19 17:18:08,055 basehttp 18284 14348 "GET /favicon.ico HTTP/1.1" 404 3050
+INFO 2024-06-19 17:18:24,537 basehttp 18284 20104 "POST /lek4/user/add/ HTTP/1.1" 200 1633
+INFO 2024-06-19 17:18:27,205 basehttp 18284 20104 "POST /lek4/user/add/ HTTP/1.1" 200 1633
