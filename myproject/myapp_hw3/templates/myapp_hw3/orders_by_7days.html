@@ -1,44 +1,11 @@
 {% extends 'base.html' %}
+{% block title %}
+    {{ super }} - {{ title }}
+{% endblock %}
 
 {% block content %}
-  <h1>Заказы пользователя {{ user.username }}</h1>
-  <table>
-    <thead>
-      <tr>
-        <th>ID заказа</th>
-        <th>Дата заказа</th>
-        <th>Общая сумма</th>
-        <th>Товары</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for order in orders_user %}
-      {% with order_products=order.products.all %}
-      <tr>
-        <td>{{ order.id }}</td>
-        <td>{{ order.date_ordered }}</td>
-        <td>{{ order.total_price }}</td>
-        <td>
-          <table>
-            <thead>
-              <tr>
-                <th>Название</th>
-                <th>Цена</th>
-              </tr>
-            </thead>
-            <tbody>
-              {% for product in order_products %}
-              <tr>
-                <td>{{ product.name }}</td>
-                <td>{{ product.price }}</td>
-              </tr>
-              {% endfor %}
-            </tbody>
-          </table>
-        </td>
-      </tr>
-      {% endwith %}
-      {% endfor %}
-    </tbody>
-  </table>
+    <h1>Товары пользователя {{ user.name }} из заказов за последние 7 дней </h1>
+    {% for product, date_ordered in order_products %}
+        <p>{{ product.name }} ({{ date_ordered }})</p>
+    {% endfor %}
 {% endblock %}

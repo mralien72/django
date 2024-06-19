@@ -1,10 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'base.html' %}
+{% block title %}
+    {{ super }} - {{ title }}
+{% endblock %}
 
-</body>
-</html>
+{% block content %}
+    <h1>Товары пользователя {{ user.name }} из заказов за последние 30 дней </h1>
+    {% for product, date_ordered in order_products %}
+        <p>{{ product.name }} ({{ date_ordered }})</p>
+    {% endfor %}
+{% endblock %}
