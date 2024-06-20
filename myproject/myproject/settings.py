@@ -178,9 +178,9 @@ LOGGING = {
             "level": "DEBUG",
             "propagate": True,
         },
-        "myapp_hw1": {
+        "myapp_lek4": {
             "handlers": ["console", "file2"],
-            "level": "DEBUG",
+            "level": "INFO",
             "propagate": True,
         },
     },

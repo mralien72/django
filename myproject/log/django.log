@@ -3123,3 +3123,29 @@ INFO 2024-06-20 17:17:18,180 basehttp 21032 17580 "GET /__debug__/history_sideba
 INFO 2024-06-20 17:17:22,809 basehttp 21032 5184 "GET /__debug__/history_sidebar/?store_id=a785c534c11d4be28eb8fa99048c62a6&exclude_history=True HTTP/1.1" 200 11370
 INFO 2024-06-20 17:17:26,544 basehttp 21032 5184 "GET /__debug__/history_sidebar/?store_id=875d87afa7194919bee935f8e23e97a7&exclude_history=True HTTP/1.1" 200 11334
 INFO 2024-06-20 17:17:27,634 basehttp 21032 5184 "GET /__debug__/history_sidebar/?store_id=270e44991138421f897ae6e3ce9062f8&exclude_history=True HTTP/1.1" 200 11368
+INFO 2024-06-20 20:58:48,345 autoreload 18560 9492 Watching for file changes with StatReloader
+INFO 2024-06-20 21:00:20,882 autoreload 7220 12372 Watching for file changes with StatReloader
+INFO 2024-06-20 21:00:32,793 basehttp 7220 8140 "GET / HTTP/1.1" 200 14385
+INFO 2024-06-20 21:00:32,897 basehttp 7220 8140 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 16630
+INFO 2024-06-20 21:00:32,900 basehttp 7220 21028 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2024-06-20 21:00:32,901 basehttp 7220 8468 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 14601
+INFO 2024-06-20 21:00:32,934 basehttp 7220 8468 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4742
+WARNING 2024-06-20 21:00:40,514 log 7220 8468 Not Found: /forms
+WARNING 2024-06-20 21:00:40,516 basehttp 7220 8468 "GET /forms HTTP/1.1" 404 16616
+INFO 2024-06-20 21:00:40,589 basehttp 7220 8140 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-06-20 21:00:40,589 basehttp 7220 8468 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-06-20 21:00:40,589 basehttp 7220 21028 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-06-20 21:00:40,605 basehttp 7220 8468 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-06-20 21:00:47,663 basehttp 7220 8468 "GET /lek4/forms/ HTTP/1.1" 200 15692
+INFO 2024-06-20 21:00:47,711 basehttp 7220 8468 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-06-20 21:00:47,715 basehttp 7220 21028 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-06-20 21:00:47,715 basehttp 7220 8140 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-06-20 21:00:47,731 basehttp 7220 8140 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-06-20 21:01:03,893 basehttp 7220 8140 "POST /lek4/forms/ HTTP/1.1" 200 15764
+INFO 2024-06-20 21:01:03,943 basehttp 7220 8140 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-06-20 21:01:03,945 basehttp 7220 8468 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-06-20 21:01:03,945 basehttp 7220 21028 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-06-20 21:01:03,958 basehttp 7220 21028 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-06-20 21:01:04,466 basehttp 7220 21028 "POST /lek4/forms/ HTTP/1.1" 200 15764
+INFO 2024-06-20 21:01:04,743 basehttp 7220 21028 "POST /lek4/forms/ HTTP/1.1" 200 15764
+INFO 2024-06-20 21:01:05,025 basehttp 7220 21028 "POST /lek4/forms/ HTTP/1.1" 200 15764
