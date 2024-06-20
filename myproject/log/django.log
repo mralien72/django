@@ -2633,3 +2633,136 @@ INFO 2024-06-19 21:43:32,429 autoreload 14128 10992 C:\GB\Django\practika_new2\m
 INFO 2024-06-19 21:43:33,002 autoreload 19032 20080 Watching for file changes with StatReloader
 INFO 2024-06-19 21:43:36,191 basehttp 19032 9328 "POST /lek4/forms/ HTTP/1.1" 200 2348
 INFO 2024-06-19 21:43:37,184 basehttp 19032 9328 "POST /lek4/forms/ HTTP/1.1" 200 2348
+INFO 2024-06-20 13:49:33,813 autoreload 13032 18572 Watching for file changes with StatReloader
+INFO 2024-06-20 13:49:33,813 autoreload 13032 18572 Watching for file changes with StatReloader
+INFO 2024-06-20 13:49:40,379 basehttp 13032 19096 "POST /lek4/user/add/ HTTP/1.1" 200 1633
+WARNING 2024-06-20 13:49:47,685 log 13032 5936 Not Found: /hw3/
+WARNING 2024-06-20 13:49:47,685 basehttp 13032 5936 "GET /hw3/ HTTP/1.1" 404 3710
+WARNING 2024-06-20 13:49:56,416 log 13032 2568 Not Found: /hw3/days
+WARNING 2024-06-20 13:49:56,417 basehttp 13032 2568 "GET /hw3/days HTTP/1.1" 404 3722
+ERROR 2024-06-20 13:50:01,341 log 13032 2568 Internal Server Error: /hw3/days/2
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: myapp_hw3_user
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\views.py", line 36, in orders_by_7days
+    return orders_by_days(request, user_id, 7)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\views.py", line 16, in orders_by_days
+    user = get_object_or_404(User, pk=user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\db\models\query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: myapp_hw3_user
+ERROR 2024-06-20 13:50:01,360 basehttp 13032 2568 "GET /hw3/days/2 HTTP/1.1" 500 140362
+ERROR 2024-06-20 13:50:24,836 log 13032 19388 Internal Server Error: /hw3/days/4
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: myapp_hw3_user
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\views.py", line 36, in orders_by_7days
+    return orders_by_days(request, user_id, 7)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\views.py", line 16, in orders_by_days
+    user = get_object_or_404(User, pk=user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\shortcuts.py", line 86, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\db\models\query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: myapp_hw3_user
+ERROR 2024-06-20 13:50:24,836 basehttp 13032 19388 "GET /hw3/days/4 HTTP/1.1" 500 140362
+INFO 2024-06-20 13:51:44,006 autoreload 13032 18572 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\views.py changed, reloading.
+INFO 2024-06-20 13:51:45,719 autoreload 4656 21056 Watching for file changes with StatReloader
