@@ -2990,3 +2990,136 @@ INFO 2024-06-20 14:41:03,325 autoreload 12868 14424 C:\Users\User\Documents\Djan
 INFO 2024-06-20 14:41:04,522 autoreload 15368 15904 Watching for file changes with StatReloader
 INFO 2024-06-20 14:41:04,962 basehttp 15368 18604 - Broken pipe from ('127.0.0.1', 52054)
 INFO 2024-06-20 14:41:05,123 basehttp 15368 10968 "GET /hw3/days/4/40 HTTP/1.1" 200 1319
+INFO 2024-06-20 14:47:12,406 basehttp 15368 7664 "GET /lek4/user/add/ HTTP/1.1" 200 1583
+WARNING 2024-06-20 14:47:15,132 log 15368 7664 Not Found: /lek4/user
+WARNING 2024-06-20 14:47:15,133 basehttp 15368 7664 "GET /lek4/user HTTP/1.1" 404 3301
+INFO 2024-06-20 14:47:20,494 basehttp 15368 7664 "GET /lek4/forms HTTP/1.1" 301 0
+INFO 2024-06-20 14:47:20,594 basehttp 15368 16984 "GET /lek4/forms/ HTTP/1.1" 200 2266
+INFO 2024-06-20 14:47:39,589 basehttp 15368 19628 "POST /lek4/forms/ HTTP/1.1" 200 2332
+INFO 2024-06-20 16:01:32,396 autoreload 2476 8608 Watching for file changes with StatReloader
+INFO 2024-06-20 16:03:35,626 autoreload 2476 8608 C:\Users\User\Documents\Django\practika\myproject\myproject\settings.py changed, reloading.
+INFO 2024-06-20 16:03:37,112 autoreload 15616 9796 Watching for file changes with StatReloader
+INFO 2024-06-20 16:03:57,430 basehttp 15616 13524 "GET / HTTP/1.1" 200 14386
+INFO 2024-06-20 16:03:57,468 basehttp 15616 13524 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 16630
+INFO 2024-06-20 16:03:57,470 basehttp 15616 21224 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 14601
+INFO 2024-06-20 16:03:57,479 basehttp 15616 13524 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2024-06-20 16:03:57,510 basehttp 15616 13524 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4742
+INFO 2024-06-20 16:06:56,675 basehttp 15616 4764 "GET /__debug__/render_panel/?store_id=f08f9fcbd7214dc8abf7e7571437ef45&panel_id=SQLPanel HTTP/1.1" 200 428
+INFO 2024-06-20 16:07:54,274 basehttp 15616 21140 "GET /__debug__/render_panel/?store_id=f08f9fcbd7214dc8abf7e7571437ef45&panel_id=TemplatesPanel HTTP/1.1" 200 6544
+INFO 2024-06-20 16:09:03,280 basehttp 15616 14080 "GET /__debug__/render_panel/?store_id=f08f9fcbd7214dc8abf7e7571437ef45&panel_id=SignalsPanel HTTP/1.1" 200 2231
+WARNING 2024-06-20 16:37:00,218 log 15616 3616 Not Found: /hw3/7days/4
+WARNING 2024-06-20 16:37:00,219 basehttp 15616 3616 "GET /hw3/7days/4 HTTP/1.1" 404 16842
+INFO 2024-06-20 16:37:00,234 basehttp 15616 3616 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-06-20 16:37:00,236 basehttp 15616 21332 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-06-20 16:37:00,239 basehttp 15616 21332 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-06-20 16:37:00,244 basehttp 15616 21332 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+WARNING 2024-06-20 16:37:04,820 log 15616 21332 Not Found: /hw3/days/4
+WARNING 2024-06-20 16:37:04,821 basehttp 15616 21332 "GET /hw3/days/4 HTTP/1.1" 404 16838
+INFO 2024-06-20 16:39:26,898 basehttp 15616 11572 "GET /hw3/days/4/40 HTTP/1.1" 200 14754
+INFO 2024-06-20 16:39:30,355 basehttp 15616 11572 "GET /__debug__/render_panel/?store_id=8ad87bca04194149aa5f4f146e252cf7&panel_id=SignalsPanel HTTP/1.1" 200 2276
+INFO 2024-06-20 16:39:37,057 basehttp 15616 21364 "GET /hw3/days/4/40 HTTP/1.1" 200 15180
+INFO 2024-06-20 16:39:38,835 basehttp 15616 21364 "GET /hw3/days/4/40 HTTP/1.1" 200 15180
+INFO 2024-06-20 16:39:41,334 basehttp 15616 21364 "GET /__debug__/render_panel/?store_id=6462148fd41c4c8dbf58804c2c6c60db&panel_id=ProfilingPanel HTTP/1.1" 200 50881
+INFO 2024-06-20 16:39:50,669 basehttp 15616 14480 "GET /__debug__/render_panel/?store_id=6462148fd41c4c8dbf58804c2c6c60db&panel_id=HistoryPanel HTTP/1.1" 200 10735
+INFO 2024-06-20 16:39:50,676 basehttp 15616 14480 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3515
+INFO 2024-06-20 16:39:54,706 basehttp 15616 14480 "GET /__debug__/history_refresh/?store_id=6462148fd41c4c8dbf58804c2c6c60db&exclude_history=True HTTP/1.1" 200 10088
+INFO 2024-06-20 16:39:55,808 basehttp 15616 14480 "GET /__debug__/history_refresh/?store_id=6462148fd41c4c8dbf58804c2c6c60db&exclude_history=True HTTP/1.1" 200 10088
+INFO 2024-06-20 17:08:43,605 autoreload 9112 12152 Watching for file changes with StatReloader
+INFO 2024-06-20 17:09:43,749 autoreload 9112 12152 C:\Users\User\Documents\Django\practika\myproject\myapp_lek6\views.py changed, reloading.
+INFO 2024-06-20 17:09:44,942 autoreload 10476 6208 Watching for file changes with StatReloader
+WARNING 2024-06-20 17:10:41,996 log 10476 19308 Not Found: /lek6
+WARNING 2024-06-20 17:10:41,997 basehttp 10476 19308 "GET /lek6 HTTP/1.1" 404 17056
+INFO 2024-06-20 17:10:42,087 basehttp 10476 19308 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-06-20 17:10:42,089 basehttp 10476 14204 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-06-20 17:10:42,180 basehttp 10476 14204 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-06-20 17:10:42,236 basehttp 10476 14204 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-06-20 17:10:55,239 basehttp 10476 12516 "GET /lek6/db HTTP/1.1" 200 14436
+INFO 2024-06-20 17:10:55,265 basehttp 10476 15664 "GET /static/debug_toolbar/js/redirect.js HTTP/1.1" 200 48
+ERROR 2024-06-20 17:10:58,108 log 10476 15664 Internal Server Error: /lek6/db/
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\myproject\myapp_lek6\views.py", line 12, in total_in_db
+    return render(request, 'myapp_lek6/total_count.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp_lek6/total_count.html
+ERROR 2024-06-20 17:10:58,276 basehttp 10476 15664 "GET /lek6/db/ HTTP/1.1" 500 97982
+INFO 2024-06-20 17:11:22,653 autoreload 10476 6208 C:\Users\User\Documents\Django\practika\myproject\myproject\urls.py changed, reloading.
+INFO 2024-06-20 17:11:24,065 autoreload 15460 15948 Watching for file changes with StatReloader
+WARNING 2024-06-20 17:11:26,876 log 15460 20632 Not Found: /lek6
+WARNING 2024-06-20 17:11:26,877 basehttp 15460 20632 "GET /lek6 HTTP/1.1" 404 17055
+ERROR 2024-06-20 17:11:31,496 log 15460 20632 Internal Server Error: /lek6/db/
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\myproject\myapp_lek6\views.py", line 12, in total_in_db
+    return render(request, 'myapp_lek6/total_count.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp_lek6/total_count.html
+ERROR 2024-06-20 17:11:31,577 basehttp 15460 20632 "GET /lek6/db/ HTTP/1.1" 500 97959
+INFO 2024-06-20 17:11:56,367 autoreload 21032 5468 Watching for file changes with StatReloader
+ERROR 2024-06-20 17:12:00,715 log 21032 18848 Internal Server Error: /lek6/db/
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\myproject\myapp_lek6\views.py", line 12, in total_in_db
+    return render(request, 'myapp_lek6/total_count.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp_lek6/total_count.html
+ERROR 2024-06-20 17:12:00,805 basehttp 21032 18848 "GET /lek6/db/ HTTP/1.1" 500 97959
+INFO 2024-06-20 17:12:51,250 basehttp 21032 6692 "GET /lek6/db/ HTTP/1.1" 200 14955
+INFO 2024-06-20 17:13:08,135 basehttp 21032 2196 "GET /__debug__/render_panel/?store_id=270e44991138421f897ae6e3ce9062f8&panel_id=SQLPanel HTTP/1.1" 200 5342
+INFO 2024-06-20 17:13:34,330 basehttp 21032 11260 "GET /lek6/view HTTP/1.1" 200 14442
+INFO 2024-06-20 17:13:37,197 basehttp 21032 17476 "GET /lek6/view/ HTTP/1.1" 200 14937
+INFO 2024-06-20 17:13:48,834 basehttp 21032 13720 "GET /__debug__/render_panel/?store_id=a785c534c11d4be28eb8fa99048c62a6&panel_id=SQLPanel HTTP/1.1" 200 6633
+INFO 2024-06-20 17:14:11,228 basehttp 21032 17120 "GET /__debug__/render_panel/?store_id=a785c534c11d4be28eb8fa99048c62a6&panel_id=ProfilingPanel HTTP/1.1" 200 1981
+INFO 2024-06-20 17:15:01,074 basehttp 21032 14260 "GET /lek6/template HTTP/1.1" 200 14454
+INFO 2024-06-20 17:15:09,601 basehttp 21032 5840 "GET /lek6/template/ HTTP/1.1" 200 14932
+INFO 2024-06-20 17:15:13,626 basehttp 21032 4520 "GET /__debug__/render_panel/?store_id=d3b9336c5151444288cb9e949233456a&panel_id=SQLPanel HTTP/1.1" 200 22564
+INFO 2024-06-20 17:15:16,346 basehttp 21032 4520 "GET /__debug__/render_panel/?store_id=d3b9336c5151444288cb9e949233456a&panel_id=ProfilingPanel HTTP/1.1" 200 34776
+INFO 2024-06-20 17:15:29,103 basehttp 21032 13940 "GET /lek6/view/ HTTP/1.1" 200 14936
+INFO 2024-06-20 17:15:35,222 basehttp 21032 19520 "GET /lek6/db/ HTTP/1.1" 200 14955
+INFO 2024-06-20 17:15:41,139 basehttp 21032 20520 "GET /__debug__/render_panel/?store_id=06fa24ee06914534b9eecc5e143c0d55&panel_id=SQLPanel HTTP/1.1" 200 5342
+INFO 2024-06-20 17:17:08,233 basehttp 21032 15440 "GET /__debug__/render_panel/?store_id=06fa24ee06914534b9eecc5e143c0d55&panel_id=HistoryPanel HTTP/1.1" 200 14023
+INFO 2024-06-20 17:17:08,243 basehttp 21032 15440 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 304 0
+INFO 2024-06-20 17:17:13,749 basehttp 21032 17580 "GET /__debug__/history_sidebar/?store_id=80d6893a510c416386f52ed1dd062eb2&exclude_history=True HTTP/1.1" 200 11370
+INFO 2024-06-20 17:17:18,180 basehttp 21032 17580 "GET /__debug__/history_sidebar/?store_id=d3b9336c5151444288cb9e949233456a&exclude_history=True HTTP/1.1" 200 11374
+INFO 2024-06-20 17:17:22,809 basehttp 21032 5184 "GET /__debug__/history_sidebar/?store_id=a785c534c11d4be28eb8fa99048c62a6&exclude_history=True HTTP/1.1" 200 11370
+INFO 2024-06-20 17:17:26,544 basehttp 21032 5184 "GET /__debug__/history_sidebar/?store_id=875d87afa7194919bee935f8e23e97a7&exclude_history=True HTTP/1.1" 200 11334
+INFO 2024-06-20 17:17:27,634 basehttp 21032 5184 "GET /__debug__/history_sidebar/?store_id=270e44991138421f897ae6e3ce9062f8&exclude_history=True HTTP/1.1" 200 11368
