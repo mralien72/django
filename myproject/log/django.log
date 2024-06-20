@@ -2861,3 +2861,132 @@ Traceback (most recent call last):
 django.template.exceptions.TemplateDoesNotExist: myapp_hw3/orders_by_30days.html
 ERROR 2024-06-20 14:23:58,947 basehttp 13420 980 "GET /hw3/30days/4 HTTP/1.1" 500 89779
 INFO 2024-06-20 14:24:45,319 basehttp 13420 7776 "GET /hw3/30days/4 HTTP/1.1" 200 1319
+INFO 2024-06-20 14:37:36,415 autoreload 13420 20988 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\views.py changed, reloading.
+INFO 2024-06-20 14:37:37,736 autoreload 9516 9176 Watching for file changes with StatReloader
+INFO 2024-06-20 14:37:43,394 basehttp 9516 19232 "GET /hw3/30days/4 HTTP/1.1" 200 1319
+WARNING 2024-06-20 14:37:47,112 log 9516 8136 Not Found: /hw3/7days/4
+WARNING 2024-06-20 14:37:47,113 basehttp 9516 8136 "GET /hw3/7days/4 HTTP/1.1" 404 3731
+INFO 2024-06-20 14:37:58,042 basehttp 9516 17400 "GET /hw3/days/4 HTTP/1.1" 200 1318
+WARNING 2024-06-20 14:38:03,442 log 9516 9280 Not Found: /hw3/days/4/6
+WARNING 2024-06-20 14:38:03,443 basehttp 9516 9280 "GET /hw3/days/4/6 HTTP/1.1" 404 3734
+INFO 2024-06-20 14:38:58,249 autoreload 9516 9176 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\urls.py changed, reloading.
+INFO 2024-06-20 14:39:00,144 autoreload 536 10756 Watching for file changes with StatReloader
+INFO 2024-06-20 14:39:12,402 autoreload 536 10756 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\views.py changed, reloading.
+INFO 2024-06-20 14:39:13,546 autoreload 18248 19256 Watching for file changes with StatReloader
+ERROR 2024-06-20 14:39:16,961 log 18248 9488 Internal Server Error: /hw3/days/4/6
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\views.py", line 31, in orders_by_7days
+    return render(request, f'myapp_hw3/orders_by_{days}days.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp_hw3/orders_by_6days.html
+ERROR 2024-06-20 14:39:16,964 basehttp 18248 9488 "GET /hw3/days/4/6 HTTP/1.1" 500 86733
+ERROR 2024-06-20 14:39:18,119 log 18248 9488 Internal Server Error: /hw3/days/4/6
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\views.py", line 31, in orders_by_7days
+    return render(request, f'myapp_hw3/orders_by_{days}days.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp_hw3/orders_by_6days.html
+ERROR 2024-06-20 14:39:18,122 basehttp 18248 9488 "GET /hw3/days/4/6 HTTP/1.1" 500 86732
+INFO 2024-06-20 14:39:35,527 autoreload 18248 19256 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\views.py changed, reloading.
+INFO 2024-06-20 14:39:36,798 autoreload 11384 20864 Watching for file changes with StatReloader
+ERROR 2024-06-20 14:39:37,195 log 11384 720 Internal Server Error: /hw3/days/4/6
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\views.py", line 31, in orders_by_7days
+    return render(request, f'myapp_hw3/orders_by_days.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp_hw3/orders_by_days.html
+ERROR 2024-06-20 14:39:37,200 basehttp 11384 720 "GET /hw3/days/4/6 HTTP/1.1" 500 86699
+ERROR 2024-06-20 14:39:38,118 log 11384 720 Internal Server Error: /hw3/days/4/6
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\views.py", line 31, in orders_by_7days
+    return render(request, f'myapp_hw3/orders_by_days.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp_hw3/orders_by_days.html
+ERROR 2024-06-20 14:39:38,121 basehttp 11384 720 "GET /hw3/days/4/6 HTTP/1.1" 500 86698
+ERROR 2024-06-20 14:39:38,890 log 11384 720 Internal Server Error: /hw3/days/4/6
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\views.py", line 31, in orders_by_7days
+    return render(request, f'myapp_hw3/orders_by_days.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp_hw3/orders_by_days.html
+ERROR 2024-06-20 14:39:38,892 basehttp 11384 720 "GET /hw3/days/4/6 HTTP/1.1" 500 86699
+INFO 2024-06-20 14:39:48,066 autoreload 11384 20864 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\views.py changed, reloading.
+INFO 2024-06-20 14:39:49,142 autoreload 12868 14424 Watching for file changes with StatReloader
+INFO 2024-06-20 14:39:49,614 basehttp 12868 13880 "GET /hw3/days/4/6 HTTP/1.1" 200 1318
+INFO 2024-06-20 14:39:55,561 basehttp 12868 20416 "GET /hw3/days/4/6 HTTP/1.1" 200 1318
+INFO 2024-06-20 14:39:56,074 basehttp 12868 20416 "GET /hw3/days/4/6 HTTP/1.1" 200 1318
+INFO 2024-06-20 14:40:10,592 basehttp 12868 3736 "GET /hw3/days/4/40 HTTP/1.1" 200 1319
+INFO 2024-06-20 14:41:03,325 autoreload 12868 14424 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\views.py changed, reloading.
+INFO 2024-06-20 14:41:04,522 autoreload 15368 15904 Watching for file changes with StatReloader
+INFO 2024-06-20 14:41:04,962 basehttp 15368 18604 - Broken pipe from ('127.0.0.1', 52054)
+INFO 2024-06-20 14:41:05,123 basehttp 15368 10968 "GET /hw3/days/4/40 HTTP/1.1" 200 1319

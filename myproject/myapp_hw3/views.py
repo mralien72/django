@@ -13,6 +13,7 @@ def all_orders(request):
 
 
 def orders_by_days(request, user_id, days):
+    days_html = days
     user = get_object_or_404(User, pk=user_id)
     start_date = timezone.now() - timezone.timedelta(days=days)
     orders_user = Order.objects.filter(customer=user, date_ordered__gte=start_date)
@@ -27,18 +28,8 @@ def orders_by_days(request, user_id, days):
 
     order_products = sorted(order_products.items(), key=lambda x: x[1], reverse=True)
 
-    return render(request, f'myapp_hw3/orders_by_{days}days.html', {
+    return render(request, f'myapp_hw3/orders_by_days.html', {
         'user': user,
         'order_products': order_products,
+        'days_html': days_html
         })
-
-def orders_by_7days(request, user_id):
-    return orders_by_days(request, user_id, 7)
-
-
-def orders_by_30days(request, user_id):
-    return orders_by_days(request, user_id, 30)
-
-
-def orders_by_365days(request, user_id):
-    return orders_by_days(request, user_id, 365)
