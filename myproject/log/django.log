@@ -2766,3 +2766,98 @@ django.db.utils.OperationalError: no such table: myapp_hw3_user
 ERROR 2024-06-20 13:50:24,836 basehttp 13032 19388 "GET /hw3/days/4 HTTP/1.1" 500 140362
 INFO 2024-06-20 13:51:44,006 autoreload 13032 18572 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\views.py changed, reloading.
 INFO 2024-06-20 13:51:45,719 autoreload 4656 21056 Watching for file changes with StatReloader
+INFO 2024-06-20 13:53:19,059 autoreload 4656 21056 C:\Users\User\Documents\Django\practika\myproject\myapp_lek3\models.py changed, reloading.
+INFO 2024-06-20 13:53:21,188 autoreload 14852 18444 Watching for file changes with StatReloader
+INFO 2024-06-20 13:55:53,912 autoreload 14852 18444 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\models.py changed, reloading.
+INFO 2024-06-20 13:55:54,927 autoreload 11320 18628 Watching for file changes with StatReloader
+INFO 2024-06-20 14:21:08,564 autoreload 13420 20988 Watching for file changes with StatReloader
+INFO 2024-06-20 14:21:14,724 basehttp 13420 15220 "GET /hw3/days/4 HTTP/1.1" 200 1318
+INFO 2024-06-20 14:21:21,503 basehttp 13420 6236 "GET /hw3/days/5 HTTP/1.1" 200 1263
+INFO 2024-06-20 14:21:26,059 basehttp 13420 6236 "GET /hw3/days/1 HTTP/1.1" 200 1318
+INFO 2024-06-20 14:21:29,057 basehttp 13420 15876 "GET /hw3/days/2 HTTP/1.1" 200 1318
+INFO 2024-06-20 14:21:34,635 basehttp 13420 15876 "GET /hw3/days/4 HTTP/1.1" 200 1318
+INFO 2024-06-20 14:21:38,249 basehttp 13420 1192 "GET /hw3/days/3 HTTP/1.1" 200 1318
+WARNING 2024-06-20 14:21:42,749 log 13420 1192 Not Found: /hw3/days/6
+WARNING 2024-06-20 14:21:42,750 basehttp 13420 1192 "GET /hw3/days/6 HTTP/1.1" 404 2964
+INFO 2024-06-20 14:21:45,403 basehttp 13420 1192 "GET /hw3/days/4 HTTP/1.1" 200 1318
+INFO 2024-06-20 14:21:47,991 basehttp 13420 1192 "GET /hw3/days/1 HTTP/1.1" 200 1318
+INFO 2024-06-20 14:21:50,960 basehttp 13420 11156 "GET /hw3/days/2 HTTP/1.1" 200 1318
+ERROR 2024-06-20 14:23:21,757 log 13420 20912 Internal Server Error: /hw3/30days/2
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\views.py", line 40, in orders_by_30days
+    return orders_by_days(request, user_id, 30)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\views.py", line 30, in orders_by_days
+    return render(request, f'myapp_hw3/orders_by_{days}days.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp_hw3/orders_by_30days.html
+ERROR 2024-06-20 14:23:21,761 basehttp 13420 20912 "GET /hw3/30days/2 HTTP/1.1" 500 89913
+WARNING 2024-06-20 14:23:26,186 log 13420 20912 Not Found: /hw3/days30/2
+WARNING 2024-06-20 14:23:26,187 basehttp 13420 20912 "GET /hw3/days30/2 HTTP/1.1" 404 3734
+ERROR 2024-06-20 14:23:30,861 log 13420 10448 Internal Server Error: /hw3/30days/2
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\views.py", line 40, in orders_by_30days
+    return orders_by_days(request, user_id, 30)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\views.py", line 30, in orders_by_days
+    return render(request, f'myapp_hw3/orders_by_{days}days.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp_hw3/orders_by_30days.html
+ERROR 2024-06-20 14:23:30,864 basehttp 13420 10448 "GET /hw3/30days/2 HTTP/1.1" 500 89913
+WARNING 2024-06-20 14:23:40,185 log 13420 21332 Not Found: /hw3
+WARNING 2024-06-20 14:23:40,186 basehttp 13420 21332 "GET /hw3 HTTP/1.1" 404 3026
+WARNING 2024-06-20 14:23:46,400 log 13420 21332 Not Found: /hw3/days
+WARNING 2024-06-20 14:23:46,401 basehttp 13420 21332 "GET /hw3/days HTTP/1.1" 404 3722
+ERROR 2024-06-20 14:23:58,943 log 13420 980 Internal Server Error: /hw3/30days/4
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\views.py", line 40, in orders_by_30days
+    return orders_by_days(request, user_id, 30)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\views.py", line 30, in orders_by_days
+    return render(request, f'myapp_hw3/orders_by_{days}days.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp_hw3/orders_by_30days.html
+ERROR 2024-06-20 14:23:58,947 basehttp 13420 980 "GET /hw3/30days/4 HTTP/1.1" 500 89779
+INFO 2024-06-20 14:24:45,319 basehttp 13420 7776 "GET /hw3/30days/4 HTTP/1.1" 200 1319
