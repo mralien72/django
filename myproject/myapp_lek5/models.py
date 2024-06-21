@@ -20,6 +20,12 @@ class Product(models.Model):
     def __str__(self):
         return self.name
 
+    @property
+    def total_quantity(self):
+        return sum(product.quantity for product in Product.objects.all())
+
+
+
     # class Meta:
     #     verbose_name = "Автор"
     #     verbose_name_plural = "Авторы"

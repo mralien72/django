@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block title %}
+    {{ super }} - {{ title }}
+{% endblock %}
+
+{% block content %}
+    <h1>Товары пользователя {{ user.name }} из заказов за последние {{ days_html }} дней </h1>
+    {% for product, date_ordered in order_products %}
+        <p>{{ product.name }} ({{ date_ordered }})</p>
+    {% endfor %}
+{% endblock %}

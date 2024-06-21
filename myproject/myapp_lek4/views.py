@@ -1,9 +1,10 @@
+from django.shortcuts import render
+from .forms import UserForm, ManyFieldsForm
+
 import logging
 
-from django.shortcuts import render
-from .forms import UserForm
-
 logger = logging.getLogger(__name__)
+
 
 def user_form(request):
     if request.method == 'POST':
@@ -11,9 +12,20 @@ def user_form(request):
         if form.is_valid():
             name = form.cleaned_data['name']
             email = form.cleaned_data['email']
-            age = form.cleaned_data['age'] # Делаем что-то с данными
+            age = form.cleaned_data['age']
+            # Делаем что-то с данными
             logger.info(f'Получили {name=}, {email=}, {age=}.')
     else:
         form = UserForm()
     return render(request, 'myapp_lek4/user_form.html', {'form':form})
 
+
+def many_fields_form(request):
+    if request.method == 'POST':
+        form = ManyFieldsForm(request.POST)
+        if form.is_valid():
+            # Делаем что-то с данными
+            logger.info(f'Получили {form.cleaned_data=}.')
+    else:
+        form = ManyFieldsForm()
+    return render(request, 'myapp_lek4/many_fields_form.html',{'form': form})

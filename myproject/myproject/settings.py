@@ -27,6 +27,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+INTERNAL_IPS = [
+    '127.0.0.1'
+    ]
+
 
 # Application definition
 
@@ -39,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'myapp_hw1',
     'myapp_hw2',
+    'myapp_hw3',
     'myapp_sem1',
     'myapp_sem3',
     'myapp_sem4',
@@ -47,9 +52,12 @@ INSTALLED_APPS = [
     'myapp_lek3',
     'myapp_lek4',
     'myapp_lek5',
+    'myapp_lek6',
+    'debug_toolbar',
 ]
 
 MIDDLEWARE = [
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -170,9 +178,9 @@ LOGGING = {
             "level": "DEBUG",
             "propagate": True,
         },
-        "myapp_hw1": {
+        "myapp_lek4": {
             "handlers": ["console", "file2"],
-            "level": "DEBUG",
+            "level": "INFO",
             "propagate": True,
         },
     },

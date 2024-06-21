@@ -1,0 +1,35 @@
+from django.shortcuts import render, get_object_or_404
+from .models import Order, User
+from django.utils import timezone
+import logging
+
+logger = logging.getLogger(__name__)
+
+
+def all_orders(request):
+    logger.info('Index page accessed')
+    orders = list(Order.objects.all())
+    return render(request, 'myapp_hw3/all_orders.html', {'orders': orders})
+
+
+def orders_by_days(request, user_id, days):
+    days_html = days
+    user = get_object_or_404(User, pk=user_id)
+    start_date = timezone.now() - timezone.timedelta(days=days)
+    orders_user = Order.objects.filter(customer=user, date_ordered__gte=start_date)
+
+    order_products = {}
+    for order in orders_user:
+        for product in order.products.all():
+            if product not in order_products:
+                order_products[product] = order.date_ordered
+            else:
+                order_products[product] = max(order_products[product], order.date_ordered)
+
+    order_products = sorted(order_products.items(), key=lambda x: x[1], reverse=True)
+
+    return render(request, f'myapp_hw3/orders_by_days.html', {
+        'user': user,
+        'order_products': order_products,
+        'days_html': days_html
+        })
