@@ -132,3 +132,6 @@ INFO 2024-06-14 14:40:48,741 views 16880 10264 Index page accessed
 INFO 2024-06-14 15:51:39,321 views 8644 6412 Index page accessed
 INFO 2024-06-17 14:56:09,400 views 8576 16188 Index page accessed1
 INFO 2024-06-17 14:56:10,406 views 8576 16188 Index page accessed
+INFO 2024-06-21 15:24:03,983 views 20508 12520 Получили name='Иван', email='mail@vk.team', age=20.
+INFO 2024-06-21 15:27:49,870 views 20508 13104 Получили name='Иван', email='mail@vk.team', age=20.
+INFO 2024-06-21 15:27:52,611 views 20508 13104 Получили name='Иван', email='mail@vk.team', age=20.

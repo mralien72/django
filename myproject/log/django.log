@@ -3149,3 +3149,164 @@ INFO 2024-06-20 21:01:03,958 basehttp 7220 21028 "GET /static/debug_toolbar/js/u
 INFO 2024-06-20 21:01:04,466 basehttp 7220 21028 "POST /lek4/forms/ HTTP/1.1" 200 15764
 INFO 2024-06-20 21:01:04,743 basehttp 7220 21028 "POST /lek4/forms/ HTTP/1.1" 200 15764
 INFO 2024-06-20 21:01:05,025 basehttp 7220 21028 "POST /lek4/forms/ HTTP/1.1" 200 15764
+INFO 2024-06-21 10:16:40,000 autoreload 14536 14656 Watching for file changes with StatReloader
+INFO 2024-06-21 10:27:00,408 basehttp 14536 11560 "GET / HTTP/1.1" 200 14829
+INFO 2024-06-21 10:27:00,684 basehttp 14536 11544 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-06-21 10:27:00,685 basehttp 14536 11560 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-06-21 10:27:01,091 basehttp 14536 11560 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-06-21 10:27:01,197 basehttp 14536 11560 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+WARNING 2024-06-21 10:27:01,332 log 14536 11560 Not Found: /favicon.ico
+WARNING 2024-06-21 10:27:01,333 basehttp 14536 11560 "GET /favicon.ico HTTP/1.1" 404 17083
+INFO 2024-06-21 10:27:15,835 basehttp 14536 8248 "GET /lek4/forms/ HTTP/1.1" 200 16756
+INFO 2024-06-21 10:30:23,686 autoreload 14536 14656 C:\Users\User\Documents\Django\practika\myproject\myapp_lek4\forms.py changed, reloading.
+INFO 2024-06-21 10:30:25,386 autoreload 11896 19900 Watching for file changes with StatReloader
+INFO 2024-06-21 10:30:26,289 basehttp 11896 14928 "GET /lek4/forms/ HTTP/1.1" 200 16756
+INFO 2024-06-21 10:30:27,409 basehttp 11896 14928 "GET /lek4/forms/ HTTP/1.1" 200 16755
+INFO 2024-06-21 10:31:00,589 autoreload 11896 19900 C:\Users\User\Documents\Django\practika\myproject\myapp_lek4\forms.py changed, reloading.
+INFO 2024-06-21 10:31:01,738 autoreload 2040 5204 Watching for file changes with StatReloader
+INFO 2024-06-21 10:31:02,422 basehttp 2040 15160 "GET /lek4/forms/ HTTP/1.1" 200 16756
+INFO 2024-06-21 10:31:21,295 autoreload 2040 5204 C:\Users\User\Documents\Django\practika\myproject\myapp_lek4\forms.py changed, reloading.
+INFO 2024-06-21 10:31:22,436 autoreload 14940 20380 Watching for file changes with StatReloader
+INFO 2024-06-21 10:31:22,978 basehttp 14940 7676 "GET /lek4/forms/ HTTP/1.1" 200 16756
+INFO 2024-06-21 14:20:41,753 basehttp 14940 15660 "GET /lek4/forms/ HTTP/1.1" 200 16312
+INFO 2024-06-21 14:20:41,847 basehttp 14940 13976 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2024-06-21 14:20:41,852 basehttp 14940 15660 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 16630
+INFO 2024-06-21 14:20:41,952 basehttp 14940 4504 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 14601
+INFO 2024-06-21 14:20:42,550 basehttp 14940 4504 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4742
+WARNING 2024-06-21 14:20:42,772 log 14940 18232 Not Found: /favicon.ico
+WARNING 2024-06-21 14:20:42,773 basehttp 14940 18232 "GET /favicon.ico HTTP/1.1" 404 16641
+INFO 2024-06-21 14:21:31,803 autoreload 14940 20380 C:\Users\User\Documents\Django\practika\myproject\myapp_lek4\forms.py changed, reloading.
+INFO 2024-06-21 14:21:33,726 autoreload 17264 5320 Watching for file changes with StatReloader
+INFO 2024-06-21 14:22:21,647 autoreload 17264 5320 C:\Users\User\Documents\Django\practika\myproject\myapp_lek4\forms.py changed, reloading.
+INFO 2024-06-21 14:22:22,992 autoreload 12060 17568 Watching for file changes with StatReloader
+INFO 2024-06-21 14:22:23,948 basehttp 12060 10520 "GET /lek4/forms/ HTTP/1.1" 200 16533
+INFO 2024-06-21 14:22:24,069 basehttp 12060 10520 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-06-21 14:22:24,070 basehttp 12060 16880 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-06-21 14:22:24,156 basehttp 12060 16880 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-06-21 14:22:24,201 basehttp 12060 16880 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-06-21 14:59:01,291 autoreload 12060 17568 C:\Users\User\Documents\Django\practika\myproject\myapp_lek4\forms.py changed, reloading.
+INFO 2024-06-21 14:59:03,195 autoreload 11396 5432 Watching for file changes with StatReloader
+INFO 2024-06-21 14:59:34,485 autoreload 11396 5432 C:\Users\User\Documents\Django\practika\myproject\myapp_lek4\forms.py changed, reloading.
+INFO 2024-06-21 14:59:36,015 autoreload 5256 5840 Watching for file changes with StatReloader
+INFO 2024-06-21 15:00:46,129 autoreload 5256 5840 C:\Users\User\Documents\Django\practika\myproject\myapp_lek4\forms.py changed, reloading.
+INFO 2024-06-21 15:00:48,217 autoreload 17940 15956 Watching for file changes with StatReloader
+INFO 2024-06-21 15:11:42,558 autoreload 17940 15956 C:\Users\User\Documents\Django\practika\myproject\myapp_lek4\models.py changed, reloading.
+INFO 2024-06-21 15:11:44,178 autoreload 15660 13328 Watching for file changes with StatReloader
+INFO 2024-06-21 15:23:10,788 autoreload 20508 13392 Watching for file changes with StatReloader
+INFO 2024-06-21 15:23:28,253 basehttp 20508 16888 "GET /lek4/user HTTP/1.1" 200 14443
+INFO 2024-06-21 15:23:28,352 basehttp 20508 4412 "GET /static/debug_toolbar/js/redirect.js HTTP/1.1" 304 0
+INFO 2024-06-21 15:23:32,604 basehttp 20508 14084 "GET /lek4/user/ HTTP/1.1" 200 15476
+INFO 2024-06-21 15:23:39,353 basehttp 20508 14084 "POST /lek4/user/ HTTP/1.1" 200 15641
+INFO 2024-06-21 15:24:04,270 basehttp 20508 12520 "POST /lek4/user/ HTTP/1.1" 200 15534
+INFO 2024-06-21 15:27:49,955 basehttp 20508 13104 "POST /lek4/user/ HTTP/1.1" 200 15533
+INFO 2024-06-21 15:27:52,670 basehttp 20508 13104 "POST /lek4/user/ HTTP/1.1" 200 15533
+INFO 2024-06-21 15:27:54,498 basehttp 20508 13104 "GET /lek4/user/ HTTP/1.1" 200 15476
+INFO 2024-06-21 15:28:31,961 autoreload 20508 13392 C:\Users\User\Documents\Django\practika\myproject\myapp_lek4\forms.py changed, reloading.
+INFO 2024-06-21 15:28:33,601 autoreload 15448 13788 Watching for file changes with StatReloader
+INFO 2024-06-21 15:40:10,767 autoreload 15448 13788 C:\Users\User\Documents\Django\practika\myproject\myproject\settings.py changed, reloading.
+INFO 2024-06-21 15:40:12,309 autoreload 20148 9064 Watching for file changes with StatReloader
+INFO 2024-06-21 15:41:06,151 autoreload 20148 9064 C:\Users\User\Documents\Django\practika\myproject\myapp_lek4\views.py changed, reloading.
+INFO 2024-06-21 15:41:07,864 autoreload 19908 16788 Watching for file changes with StatReloader
+INFO 2024-06-21 15:41:20,499 autoreload 19908 16788 C:\Users\User\Documents\Django\practika\myproject\myapp_lek4\views.py changed, reloading.
+INFO 2024-06-21 15:41:21,736 autoreload 7580 13700 Watching for file changes with StatReloader
+INFO 2024-06-21 15:44:39,166 autoreload 7580 13700 C:\Users\User\Documents\Django\practika\myproject\myapp_lek4\views.py changed, reloading.
+INFO 2024-06-21 15:44:40,770 autoreload 15644 19512 Watching for file changes with StatReloader
+INFO 2024-06-21 15:44:55,785 autoreload 15644 19512 C:\Users\User\Documents\Django\practika\myproject\myapp_lek4\views.py changed, reloading.
+INFO 2024-06-21 15:44:56,911 autoreload 19708 17812 Watching for file changes with StatReloader
+INFO 2024-06-21 15:48:46,442 basehttp 19708 20536 "GET /lek4/user/ HTTP/1.1" 200 15477
+ERROR 2024-06-21 15:48:52,395 log 19708 20536 Internal Server Error: /lek4/upload/
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\myproject\myapp_lek4\views.py", line 65, in upload_image
+    return render(request, 'myapp_lek4/upload_image.html', {'form': form})
+                                                                    ^^^^
+UnboundLocalError: cannot access local variable 'form' where it is not associated with a value
+ERROR 2024-06-21 15:48:52,477 basehttp 19708 20536 "GET /lek4/upload/ HTTP/1.1" 500 78752
+ERROR 2024-06-21 15:50:32,226 log 19708 13340 Internal Server Error: /lek4/upload/
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\myproject\myapp_lek4\views.py", line 65, in upload_image
+    return render(request, 'myapp_lek4/upload_image.html', {'form': form})
+                                                                    ^^^^
+UnboundLocalError: cannot access local variable 'form' where it is not associated with a value
+ERROR 2024-06-21 15:50:32,284 basehttp 19708 13340 "GET /lek4/upload/ HTTP/1.1" 500 78889
+ERROR 2024-06-21 15:50:33,138 log 19708 20544 Internal Server Error: /lek4/upload/
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\myproject\myapp_lek4\views.py", line 65, in upload_image
+    return render(request, 'myapp_lek4/upload_image.html', {'form': form})
+                                                                    ^^^^
+UnboundLocalError: cannot access local variable 'form' where it is not associated with a value
+ERROR 2024-06-21 15:50:33,189 basehttp 19708 20544 "GET /lek4/upload/ HTTP/1.1" 500 78889
+ERROR 2024-06-21 15:50:34,970 log 19708 20544 Internal Server Error: /lek4/upload/
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\myproject\myapp_lek4\views.py", line 65, in upload_image
+    return render(request, 'myapp_lek4/upload_image.html', {'form': form})
+                                                                    ^^^^
+UnboundLocalError: cannot access local variable 'form' where it is not associated with a value
+ERROR 2024-06-21 15:50:35,018 basehttp 19708 20544 "GET /lek4/upload/ HTTP/1.1" 500 78889
+INFO 2024-06-21 15:51:54,867 autoreload 15536 15500 Watching for file changes with StatReloader
+ERROR 2024-06-21 15:51:59,445 log 15536 10612 Internal Server Error: /lek4/upload/
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\myproject\myapp_lek4\views.py", line 65, in upload_image
+    return render(request, 'myapp_lek4/upload_image.html', {'form': form})
+                                                                    ^^^^
+UnboundLocalError: cannot access local variable 'form' where it is not associated with a value
+ERROR 2024-06-21 15:51:59,538 basehttp 15536 10612 "GET /lek4/upload/ HTTP/1.1" 500 78889
+ERROR 2024-06-21 15:52:01,186 log 15536 10612 Internal Server Error: /lek4/upload/
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\myproject\myapp_lek4\views.py", line 65, in upload_image
+    return render(request, 'myapp_lek4/upload_image.html', {'form': form})
+                                                                    ^^^^
+UnboundLocalError: cannot access local variable 'form' where it is not associated with a value
+ERROR 2024-06-21 15:52:01,238 basehttp 15536 10612 "GET /lek4/upload/ HTTP/1.1" 500 78889
+ERROR 2024-06-21 15:52:01,888 log 15536 10612 Internal Server Error: /lek4/upload/
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\Django\practika\myproject\myapp_lek4\views.py", line 65, in upload_image
+    return render(request, 'myapp_lek4/upload_image.html', {'form': form})
+                                                                    ^^^^
+UnboundLocalError: cannot access local variable 'form' where it is not associated with a value
+ERROR 2024-06-21 15:52:01,939 basehttp 15536 10612 "GET /lek4/upload/ HTTP/1.1" 500 78889
+INFO 2024-06-21 15:57:17,896 autoreload 15536 15500 C:\Users\User\Documents\Django\practika\myproject\myapp_lek4\views.py changed, reloading.
+INFO 2024-06-21 15:57:19,403 autoreload 14464 2428 Watching for file changes with StatReloader
+INFO 2024-06-21 15:57:19,928 basehttp 14464 12692 "GET /lek4/upload/ HTTP/1.1" 200 15278
+INFO 2024-06-21 15:57:27,805 basehttp 14464 18496 "POST /lek4/upload/ HTTP/1.1" 200 15278
