@@ -132,6 +132,17 @@ INFO 2024-06-14 14:40:48,741 views 16880 10264 Index page accessed
 INFO 2024-06-14 15:51:39,321 views 8644 6412 Index page accessed
 INFO 2024-06-17 14:56:09,400 views 8576 16188 Index page accessed1
 INFO 2024-06-17 14:56:10,406 views 8576 16188 Index page accessed
-INFO 2024-06-21 15:24:03,983 views 20508 12520 Получили name='Иван', email='mail@vk.team', age=20.
-INFO 2024-06-21 15:27:49,870 views 20508 13104 Получили name='Иван', email='mail@vk.team', age=20.
-INFO 2024-06-21 15:27:52,611 views 20508 13104 Получили name='Иван', email='mail@vk.team', age=20.
+INFO 2024-06-20 21:01:03,836 views 7220 8140 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ form.cleaned_data={'name': 'Andrey', 'email': 'mralien72@yandex.ru', 'age': 22, 'height': 2.0, 'is_active': False, 'birthdate': datetime.date(2024, 6, 20), 'gender': 'M'}.
+INFO 2024-06-20 21:01:04,409 views 7220 21028 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ form.cleaned_data={'name': 'Andrey', 'email': 'mralien72@yandex.ru', 'age': 22, 'height': 2.0, 'is_active': False, 'birthdate': datetime.date(2024, 6, 20), 'gender': 'M'}.
+INFO 2024-06-20 21:01:04,678 views 7220 21028 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ form.cleaned_data={'name': 'Andrey', 'email': 'mralien72@yandex.ru', 'age': 22, 'height': 2.0, 'is_active': False, 'birthdate': datetime.date(2024, 6, 20), 'gender': 'M'}.
+INFO 2024-06-20 21:01:04,969 views 7220 21028 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ form.cleaned_data={'name': 'Andrey', 'email': 'mralien72@yandex.ru', 'age': 22, 'height': 2.0, 'is_active': False, 'birthdate': datetime.date(2024, 6, 20), 'gender': 'M'}.
+INFO 2024-06-21 15:24:03,983 views 20508 12520 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ name='пїЅпїЅпїЅпїЅ', email='mail@vk.team', age=20.
+INFO 2024-06-21 15:27:49,870 views 20508 13104 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ name='пїЅпїЅпїЅпїЅ', email='mail@vk.team', age=20.
+INFO 2024-06-21 15:27:52,611 views 20508 13104 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ name='пїЅпїЅпїЅпїЅ', email='mail@vk.team', age=20.
+INFO 2024-06-21 21:30:20,267 views 6500 19312 Получили name='Andrey', email='123@vk.team', age=23.
+INFO 2024-06-21 21:30:22,597 views 6500 19312 Получили name='Andrey', email='123@vk.team', age=23.
+INFO 2024-06-21 21:30:25,984 views 6500 19312 Получили name='Andrey', email='123@vk.team', age=23.
+INFO 2024-06-21 21:31:40,646 views 6500 13256 Получили name='Andrey', email='123@vk.team', age=33.
+INFO 2024-06-21 21:31:42,542 views 6500 13256 Получили name='Andrey', email='123@vk.team', age=33.
+INFO 2024-06-21 21:31:43,520 views 6500 13256 Получили name='Andrey', email='123@vk.team', age=33.
+INFO 2024-06-21 21:33:30,414 views 6500 13256 Получили name='Andrey', email='123@vk.team', age=33.

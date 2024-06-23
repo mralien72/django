@@ -15,6 +15,7 @@ class Product(models.Model):
     price = models.DecimalField(max_digits=8, decimal_places=2)
     quantity_products = models.IntegerField()
     date_created = models.DateField(auto_now_add=True)
+    image = models.ImageField(upload_to='products/', default='products/default.jpg')
 
     def __str__(self):
         return f'Name_product: {self.name}, Price: {self.price}, Balance(Kol-vo):{self.quantity_products}'

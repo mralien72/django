@@ -3310,3 +3310,909 @@ INFO 2024-06-21 15:57:17,896 autoreload 15536 15500 C:\Users\User\Documents\Djan
 INFO 2024-06-21 15:57:19,403 autoreload 14464 2428 Watching for file changes with StatReloader
 INFO 2024-06-21 15:57:19,928 basehttp 14464 12692 "GET /lek4/upload/ HTTP/1.1" 200 15278
 INFO 2024-06-21 15:57:27,805 basehttp 14464 18496 "POST /lek4/upload/ HTTP/1.1" 200 15278
+INFO 2024-06-21 21:28:01,235 autoreload 6500 1892 Watching for file changes with StatReloader
+INFO 2024-06-21 21:28:03,624 basehttp 6500 3856 "GET / HTTP/1.1" 200 14385
+INFO 2024-06-21 21:28:03,723 basehttp 6500 3856 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-06-21 21:28:03,723 basehttp 6500 19312 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-06-21 21:28:03,723 basehttp 6500 13256 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-06-21 21:28:03,756 basehttp 6500 19312 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+WARNING 2024-06-21 21:28:03,851 log 6500 19312 Not Found: /favicon.ico
+WARNING 2024-06-21 21:28:03,857 basehttp 6500 19312 "GET /favicon.ico HTTP/1.1" 404 16640
+INFO 2024-06-21 21:28:16,229 basehttp 6500 19312 "GET / HTTP/1.1" 200 14385
+INFO 2024-06-21 21:29:09,749 basehttp 6500 19312 "GET /lek4/user/add/ HTTP/1.1" 200 15009
+INFO 2024-06-21 21:29:32,132 basehttp 6500 19312 "POST /lek4/user/add/ HTTP/1.1" 200 15170
+INFO 2024-06-21 21:30:20,317 basehttp 6500 19312 "POST /lek4/user/add/ HTTP/1.1" 200 15055
+INFO 2024-06-21 21:30:22,641 basehttp 6500 19312 "POST /lek4/user/add/ HTTP/1.1" 200 15055
+INFO 2024-06-21 21:30:26,024 basehttp 6500 19312 "POST /lek4/user/add/ HTTP/1.1" 200 15055
+INFO 2024-06-21 21:31:24,158 basehttp 6500 19312 "GET /lek4/user HTTP/1.1" 301 0
+INFO 2024-06-21 21:31:24,214 basehttp 6500 13256 "GET /lek4/user/ HTTP/1.1" 200 15033
+INFO 2024-06-21 21:31:34,084 basehttp 6500 13256 "POST /lek4/user/ HTTP/1.1" 200 15193
+INFO 2024-06-21 21:31:41,147 basehttp 6500 13256 "POST /lek4/user/ HTTP/1.1" 200 15088
+INFO 2024-06-21 21:31:42,610 basehttp 6500 13256 "POST /lek4/user/ HTTP/1.1" 200 15087
+INFO 2024-06-21 21:31:43,580 basehttp 6500 13256 "POST /lek4/user/ HTTP/1.1" 200 15087
+INFO 2024-06-21 21:33:30,460 basehttp 6500 13256 "POST /lek4/user/ HTTP/1.1" 200 15091
+INFO 2024-06-21 22:12:11,260 autoreload 6500 1892 C:\GB\Django\practika_new2\myproject\myapp_lek4\forms.py changed, reloading.
+INFO 2024-06-21 22:12:11,998 autoreload 4524 2408 Watching for file changes with StatReloader
+INFO 2024-06-21 22:19:43,752 autoreload 4524 2408 C:\GB\Django\practika_new2\myproject\myapp_lek4\forms.py changed, reloading.
+INFO 2024-06-21 22:19:44,365 autoreload 9144 14796 Watching for file changes with StatReloader
+INFO 2024-06-21 22:21:24,453 basehttp 9144 13104 "POST /lek4/user/ HTTP/1.1" 200 15214
+INFO 2024-06-21 22:23:55,885 autoreload 9144 14796 C:\GB\Django\practika_new2\myproject\myapp_lek4\forms.py changed, reloading.
+INFO 2024-06-21 22:23:56,455 autoreload 10956 5452 Watching for file changes with StatReloader
+INFO 2024-06-21 22:23:57,700 basehttp 10956 17136 "POST /lek4/user/ HTTP/1.1" 200 15226
+INFO 2024-06-21 22:26:04,989 basehttp 10956 17136 "GET /hw3/allorders/ HTTP/1.1" 200 49945
+INFO 2024-06-21 22:26:10,711 basehttp 10956 17136 "GET /hw1/about/ HTTP/1.1" 200 16712
+INFO 2024-06-21 22:26:11,352 basehttp 10956 17136 "GET /hw1/ HTTP/1.1" 200 16378
+INFO 2024-06-21 22:26:32,475 basehttp 10956 17136 "GET /hw3/days/4/4 HTTP/1.1" 200 14735
+INFO 2024-06-21 22:28:42,457 autoreload 10956 5452 C:\GB\Django\practika_new2\myproject\myapp_hw3\urls.py changed, reloading.
+INFO 2024-06-21 22:28:43,237 autoreload 15732 10104 Watching for file changes with StatReloader
+INFO 2024-06-21 22:41:41,004 autoreload 15732 10104 C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py changed, reloading.
+INFO 2024-06-21 22:41:41,694 autoreload 18480 15260 Watching for file changes with StatReloader
+INFO 2024-06-21 22:42:48,705 basehttp 18480 18420 "GET /hw3/product/1 HTTP/1.1" 301 0
+ERROR 2024-06-21 22:42:48,876 log 18480 7740 Internal Server Error: /hw3/product/1/
+Traceback (most recent call last):
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py", line 39, in product_cart
+    product = get_object_or_404(Product, pk=product_id)
+                                ^^^^^^^
+NameError: name 'Product' is not defined
+ERROR 2024-06-21 22:42:48,904 basehttp 18480 7740 "GET /hw3/product/1/ HTTP/1.1" 500 79339
+WARNING 2024-06-21 22:42:49,081 log 18480 7740 Not Found: /favicon.ico
+WARNING 2024-06-21 22:42:49,081 basehttp 18480 7740 "GET /favicon.ico HTTP/1.1" 404 16640
+INFO 2024-06-21 22:43:32,230 autoreload 18480 15260 C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py changed, reloading.
+INFO 2024-06-21 22:43:32,891 autoreload 11032 4896 Watching for file changes with StatReloader
+ERROR 2024-06-21 22:44:18,379 log 11032 10348 Internal Server Error: /hw3/product/1/
+Traceback (most recent call last):
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py", line 40, in product_cart
+    product_view = product.cart.all()
+                   ^^^^^^^^^^^^
+AttributeError: 'Product' object has no attribute 'cart'
+ERROR 2024-06-21 22:44:18,506 basehttp 11032 10348 "GET /hw3/product/1/ HTTP/1.1" 500 79633
+INFO 2024-06-21 22:44:35,760 autoreload 11032 4896 C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py changed, reloading.
+INFO 2024-06-21 22:44:36,338 autoreload 12940 15320 Watching for file changes with StatReloader
+ERROR 2024-06-21 22:44:40,809 log 12940 10836 Internal Server Error: /hw3/product/1/
+Traceback (most recent call last):
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py", line 40, in product_cart
+    product_view = product.objects.all()
+                   ^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\models\manager.py", line 186, in __get__
+    raise AttributeError(
+AttributeError: Manager isn't accessible via Product instances
+ERROR 2024-06-21 22:44:40,847 basehttp 12940 10836 "GET /hw3/product/1/ HTTP/1.1" 500 83645
+INFO 2024-06-21 22:47:25,136 autoreload 12940 15320 C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py changed, reloading.
+INFO 2024-06-21 22:47:25,721 autoreload 13280 7912 Watching for file changes with StatReloader
+ERROR 2024-06-21 22:47:26,638 log 13280 12020 Internal Server Error: /hw3/product/1/
+Traceback (most recent call last):
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py", line 40, in product_cart
+    product_view = list(product.objects.all())
+                        ^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\models\manager.py", line 186, in __get__
+    raise AttributeError(
+AttributeError: Manager isn't accessible via Product instances
+ERROR 2024-06-21 22:47:26,678 basehttp 13280 12020 "GET /hw3/product/1/ HTTP/1.1" 500 83667
+ERROR 2024-06-21 22:47:27,593 log 13280 12020 Internal Server Error: /hw3/product/1/
+Traceback (most recent call last):
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py", line 40, in product_cart
+    product_view = list(product.objects.all())
+                        ^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\models\manager.py", line 186, in __get__
+    raise AttributeError(
+AttributeError: Manager isn't accessible via Product instances
+ERROR 2024-06-21 22:47:27,614 basehttp 13280 12020 "GET /hw3/product/1/ HTTP/1.1" 500 83666
+ERROR 2024-06-21 22:47:28,501 log 13280 12020 Internal Server Error: /hw3/product/1/
+Traceback (most recent call last):
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py", line 40, in product_cart
+    product_view = list(product.objects.all())
+                        ^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\models\manager.py", line 186, in __get__
+    raise AttributeError(
+AttributeError: Manager isn't accessible via Product instances
+ERROR 2024-06-21 22:47:28,522 basehttp 13280 12020 "GET /hw3/product/1/ HTTP/1.1" 500 83666
+INFO 2024-06-21 22:48:17,904 autoreload 13280 7912 C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py changed, reloading.
+INFO 2024-06-21 22:48:18,584 autoreload 8256 9588 Watching for file changes with StatReloader
+INFO 2024-06-21 22:49:42,936 autoreload 8256 9588 C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py changed, reloading.
+INFO 2024-06-21 22:49:43,498 autoreload 12868 10576 Watching for file changes with StatReloader
+INFO 2024-06-21 22:49:44,106 basehttp 12868 18544 "GET /hw3/product/1/ HTTP/1.1" 200 14569
+INFO 2024-06-21 22:50:30,037 basehttp 12868 18544 "GET /hw3/product/3/ HTTP/1.1" 200 14568
+INFO 2024-06-21 22:51:14,422 basehttp 12868 18544 "GET /hw3/product/3/ HTTP/1.1" 200 14652
+INFO 2024-06-21 22:51:15,869 basehttp 12868 18544 "GET /hw3/product/3/ HTTP/1.1" 200 14651
+INFO 2024-06-21 22:51:40,484 basehttp 12868 18544 "GET /hw3/product/3/ HTTP/1.1" 200 14666
+INFO 2024-06-21 22:52:42,172 basehttp 12868 18544 "GET /hw3/product/3/ HTTP/1.1" 200 14399
+INFO 2024-06-21 22:52:53,471 basehttp 12868 18544 "GET /hw3/product/3/ HTTP/1.1" 200 14399
+INFO 2024-06-21 22:56:26,674 basehttp 12868 18544 "GET /hw3/product/3/ HTTP/1.1" 200 14551
+INFO 2024-06-21 22:56:36,897 basehttp 12868 18544 "GET /hw3/product/4/ HTTP/1.1" 200 14551
+INFO 2024-06-21 22:57:49,214 basehttp 12868 18544 "GET /hw3/product/4/ HTTP/1.1" 200 14551
+INFO 2024-06-21 23:15:57,101 basehttp 12868 1308 "GET /hw3/product/4/ HTTP/1.1" 200 14551
+INFO 2024-06-21 23:20:52,869 autoreload 12868 10576 C:\GB\Django\practika_new2\myproject\myapp_hw3\models.py changed, reloading.
+INFO 2024-06-21 23:20:53,478 autoreload 14416 5424 Watching for file changes with StatReloader
+INFO 2024-06-21 23:21:06,576 autoreload 14416 5424 C:\GB\Django\practika_new2\myproject\myapp_hw3\models.py changed, reloading.
+INFO 2024-06-21 23:21:07,112 autoreload 10724 18992 Watching for file changes with StatReloader
+INFO 2024-06-21 23:38:46,689 autoreload 17604 15772 Watching for file changes with StatReloader
+INFO 2024-06-21 23:38:50,525 basehttp 17604 5568 "GET /hw3/product/4/ HTTP/1.1" 200 14552
+WARNING 2024-06-21 23:38:50,612 log 17604 5568 Not Found: /favicon.ico
+WARNING 2024-06-21 23:38:50,613 basehttp 17604 5568 "GET /favicon.ico HTTP/1.1" 404 16640
+INFO 2024-06-21 23:38:51,867 basehttp 17604 5568 "GET /hw3/product/4/ HTTP/1.1" 200 14551
+INFO 2024-06-21 23:38:52,559 basehttp 17604 5568 "GET /hw3/product/4/ HTTP/1.1" 200 14551
+INFO 2024-06-21 23:38:54,518 basehttp 17604 5568 "GET /hw3/product/4/ HTTP/1.1" 200 14551
+INFO 2024-06-21 23:40:15,292 basehttp 17604 5568 "GET /hw3/product/4/ HTTP/1.1" 200 14593
+INFO 2024-06-21 23:41:12,747 basehttp 17604 5568 "GET /hw3/product/4/ HTTP/1.1" 200 14634
+WARNING 2024-06-21 23:41:12,808 log 17604 5568 Not Found: /hw3/product/4/products/default.jpg
+WARNING 2024-06-21 23:41:12,809 basehttp 17604 5568 "GET /hw3/product/4/products/default.jpg HTTP/1.1" 404 17226
+INFO 2024-06-21 23:49:39,755 autoreload 17604 15772 C:\GB\Django\practika_new2\myproject\myapp_hw3\urls.py changed, reloading.
+INFO 2024-06-21 23:49:40,344 autoreload 2140 11596 Watching for file changes with StatReloader
+INFO 2024-06-21 23:49:44,726 basehttp 2140 8692 "GET /hw3/product/4/ HTTP/1.1" 200 14635
+WARNING 2024-06-21 23:49:44,787 log 2140 8692 Not Found: /hw3/product/4/products/default.jpg
+WARNING 2024-06-21 23:49:44,788 basehttp 2140 8692 "GET /hw3/product/4/products/default.jpg HTTP/1.1" 404 17405
+INFO 2024-06-21 23:51:13,686 basehttp 2140 8692 "GET /hw3/upload HTTP/1.1" 301 0
+ERROR 2024-06-21 23:51:13,816 log 2140 9804 Internal Server Error: /hw3/upload/
+Traceback (most recent call last):
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py", line 55, in upload_image
+    return render(request, 'myapp_hw3/upload_image.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp_hw3/upload_image.html
+ERROR 2024-06-21 23:51:13,906 basehttp 2140 9804 "GET /hw3/upload/ HTTP/1.1" 500 96566
+INFO 2024-06-21 23:52:48,804 basehttp 2140 9804 "GET /hw3/upload/ HTTP/1.1" 200 14832
+INFO 2024-06-21 23:53:52,809 basehttp 2140 9804 "GET /hw3/upload/ HTTP/1.1" 200 14846
+INFO 2024-06-21 23:53:53,719 basehttp 2140 9804 "GET /hw3/upload/ HTTP/1.1" 200 14846
+INFO 2024-06-21 23:54:52,396 autoreload 2140 11596 C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py changed, reloading.
+INFO 2024-06-21 23:54:53,003 autoreload 4292 10828 Watching for file changes with StatReloader
+ERROR 2024-06-21 23:54:53,797 log 4292 4004 Internal Server Error: /hw3/upload/
+Traceback (most recent call last):
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: upload_image() missing 1 required positional argument: 'product_id'
+ERROR 2024-06-21 23:54:53,834 basehttp 4292 4004 "GET /hw3/upload/ HTTP/1.1" 500 76377
+INFO 2024-06-21 23:54:53,886 basehttp 4292 4004 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-06-21 23:54:53,887 basehttp 4292 15828 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-06-21 23:54:53,891 basehttp 4292 6976 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-06-21 23:54:53,921 basehttp 4292 6976 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+WARNING 2024-06-21 23:55:17,426 log 4292 6976 Not Found: /hw3/upload/3
+WARNING 2024-06-21 23:55:17,427 basehttp 4292 6976 "GET /hw3/upload/3 HTTP/1.1" 404 17317
+INFO 2024-06-21 23:55:40,406 autoreload 4292 10828 C:\GB\Django\practika_new2\myproject\myapp_hw3\urls.py changed, reloading.
+INFO 2024-06-21 23:55:41,012 autoreload 11908 3760 Watching for file changes with StatReloader
+WARNING 2024-06-21 23:55:41,400 log 11908 18816 Not Found: /hw3/upload/3
+WARNING 2024-06-21 23:55:41,401 basehttp 11908 18816 "GET /hw3/upload/3 HTTP/1.1" 404 17341
+WARNING 2024-06-21 23:55:42,781 log 11908 18816 Not Found: /hw3/upload/3
+WARNING 2024-06-21 23:55:42,782 basehttp 11908 18816 "GET /hw3/upload/3 HTTP/1.1" 404 17341
+WARNING 2024-06-21 23:55:49,956 log 11908 18816 Not Found: /hw3/upload/2
+WARNING 2024-06-21 23:55:49,957 basehttp 11908 18816 "GET /hw3/upload/2 HTTP/1.1" 404 17341
+INFO 2024-06-21 23:56:59,865 autoreload 11908 3760 C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py changed, reloading.
+INFO 2024-06-21 23:57:00,477 autoreload 9640 964 Watching for file changes with StatReloader
+WARNING 2024-06-21 23:57:00,855 log 9640 13716 Not Found: /hw3/upload/2
+WARNING 2024-06-21 23:57:00,856 basehttp 9640 13716 "GET /hw3/upload/2 HTTP/1.1" 404 17341
+WARNING 2024-06-21 23:57:01,461 log 9640 13716 Not Found: /hw3/upload/2
+WARNING 2024-06-21 23:57:01,462 basehttp 9640 13716 "GET /hw3/upload/2 HTTP/1.1" 404 17341
+WARNING 2024-06-21 23:57:01,634 log 9640 13716 Not Found: /hw3/upload/2
+WARNING 2024-06-21 23:57:01,635 basehttp 9640 13716 "GET /hw3/upload/2 HTTP/1.1" 404 17341
+WARNING 2024-06-21 23:57:01,802 log 9640 13716 Not Found: /hw3/upload/2
+WARNING 2024-06-21 23:57:01,804 basehttp 9640 13716 "GET /hw3/upload/2 HTTP/1.1" 404 17341
+INFO 2024-06-22 00:07:19,551 autoreload 9640 964 C:\GB\Django\practika_new2\myproject\myapp_hw3\forms.py changed, reloading.
+INFO 2024-06-22 00:07:20,377 autoreload 16332 8200 Watching for file changes with StatReloader
+WARNING 2024-06-22 00:07:29,226 log 16332 9176 Not Found: /hw3/upload/5
+WARNING 2024-06-22 00:07:29,227 basehttp 16332 9176 "GET /hw3/upload/5 HTTP/1.1" 404 17341
+INFO 2024-06-22 00:07:45,170 basehttp 16332 9176 "GET /hw3/product/5 HTTP/1.1" 301 0
+INFO 2024-06-22 00:07:45,658 basehttp 16332 14724 "GET /hw3/product/5/ HTTP/1.1" 200 14635
+WARNING 2024-06-22 00:07:45,775 log 16332 14724 Not Found: /hw3/product/5/products/default.jpg
+WARNING 2024-06-22 00:07:45,777 basehttp 16332 14724 "GET /hw3/product/5/products/default.jpg HTTP/1.1" 404 17429
+WARNING 2024-06-22 00:07:59,125 log 16332 14724 Not Found: /hw3/upload/5/
+WARNING 2024-06-22 00:07:59,127 basehttp 16332 14724 "GET /hw3/upload/5/ HTTP/1.1" 404 17345
+INFO 2024-06-22 00:08:58,099 autoreload 16332 8200 C:\GB\Django\practika_new2\myproject\myapp_hw3\urls.py changed, reloading.
+INFO 2024-06-22 00:08:58,724 autoreload 10760 13608 Watching for file changes with StatReloader
+INFO 2024-06-22 00:09:00,290 basehttp 10760 14940 "GET /hw3/upload/5/ HTTP/1.1" 200 14851
+INFO 2024-06-22 00:09:57,696 basehttp 10760 14940 "POST /hw3/upload/5/ HTTP/1.1" 200 14851
+WARNING 2024-06-22 00:09:57,851 log 10760 14940 Not Found: /favicon.ico
+WARNING 2024-06-22 00:09:57,852 basehttp 10760 14940 "GET /favicon.ico HTTP/1.1" 404 16640
+INFO 2024-06-22 00:13:16,350 autoreload 10760 13608 C:\GB\Django\practika_new2\myproject\myapp_hw3\forms.py changed, reloading.
+INFO 2024-06-22 00:13:16,926 autoreload 11740 11020 Watching for file changes with StatReloader
+INFO 2024-06-22 00:23:16,331 autoreload 13244 5556 Watching for file changes with StatReloader
+ERROR 2024-06-22 00:23:22,954 log 13244 7336 Internal Server Error: /hw3/upload/5/
+Traceback (most recent call last):
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py", line 48, in upload_image
+    form = ImageForm(request.POST, request.FILES, instance=product)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseForm.__init__() got an unexpected keyword argument 'instance'
+ERROR 2024-06-22 00:23:23,033 basehttp 13244 7336 "POST /hw3/upload/5/ HTTP/1.1" 500 81536
+INFO 2024-06-22 00:28:08,421 autoreload 13244 5556 C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py changed, reloading.
+INFO 2024-06-22 00:28:08,997 autoreload 16360 14828 Watching for file changes with StatReloader
+INFO 2024-06-22 00:28:31,367 autoreload 7348 5632 Watching for file changes with StatReloader
+INFO 2024-06-22 00:28:35,338 basehttp 7348 5456 "POST /hw3/upload/5/ HTTP/1.1" 200 14851
+INFO 2024-06-22 00:28:40,341 basehttp 7348 5456 "POST /hw3/upload/5/ HTTP/1.1" 200 14850
+INFO 2024-06-22 00:35:20,175 autoreload 7348 5632 C:\GB\Django\practika_new2\myproject\myapp_hw3\forms.py changed, reloading.
+INFO 2024-06-22 00:35:20,850 autoreload 13828 2184 Watching for file changes with StatReloader
+INFO 2024-06-22 00:36:57,575 autoreload 4704 14768 Watching for file changes with StatReloader
+INFO 2024-06-22 00:37:36,522 autoreload 12880 5020 Watching for file changes with StatReloader
+INFO 2024-06-22 00:39:36,239 autoreload 10336 11888 Watching for file changes with StatReloader
+INFO 2024-06-22 00:39:38,974 basehttp 10336 2644 "POST /hw3/upload/5/ HTTP/1.1" 200 14851
+INFO 2024-06-22 00:47:53,556 autoreload 10336 11888 C:\GB\Django\practika_new2\myproject\myapp_hw3\models.py changed, reloading.
+INFO 2024-06-22 00:47:54,390 autoreload 4332 2788 Watching for file changes with StatReloader
+INFO 2024-06-22 00:48:48,688 autoreload 4332 2788 C:\GB\Django\practika_new2\myproject\myapp_hw3\models.py changed, reloading.
+INFO 2024-06-22 00:48:49,556 autoreload 9436 8856 Watching for file changes with StatReloader
+INFO 2024-06-22 00:48:56,376 autoreload 9436 8856 C:\GB\Django\practika_new2\myproject\myapp_hw3\forms.py changed, reloading.
+INFO 2024-06-22 00:48:57,005 autoreload 8196 13328 Watching for file changes with StatReloader
+INFO 2024-06-22 00:49:45,660 autoreload 8196 13328 C:\GB\Django\practika_new2\myproject\myapp_hw3\forms.py changed, reloading.
+INFO 2024-06-22 00:49:46,287 autoreload 15664 15048 Watching for file changes with StatReloader
+INFO 2024-06-22 00:49:48,814 basehttp 15664 14292 "POST /hw3/upload/5/ HTTP/1.1" 200 15090
+WARNING 2024-06-22 00:49:48,933 log 15664 14292 Not Found: /favicon.ico
+WARNING 2024-06-22 00:49:48,934 basehttp 15664 14292 "GET /favicon.ico HTTP/1.1" 404 16640
+INFO 2024-06-22 00:49:49,923 basehttp 15664 14292 "POST /hw3/upload/5/ HTTP/1.1" 200 15089
+INFO 2024-06-22 00:50:04,996 autoreload 15664 15048 C:\GB\Django\practika_new2\myproject\myapp_hw3\forms.py changed, reloading.
+INFO 2024-06-22 00:50:05,610 autoreload 12204 4056 Watching for file changes with StatReloader
+ERROR 2024-06-22 00:50:06,361 log 12204 11672 Internal Server Error: /hw3/upload/5/
+Traceback (most recent call last):
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py", line 48, in upload_image
+    form = ImageForm(request.POST, request.FILES)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\forms\models.py", line 360, in __init__
+    raise ValueError("ModelForm has no model class specified.")
+ValueError: ModelForm has no model class specified.
+ERROR 2024-06-22 00:50:06,402 basehttp 12204 11672 "POST /hw3/upload/5/ HTTP/1.1" 500 87719
+ERROR 2024-06-22 00:50:07,432 log 12204 11672 Internal Server Error: /hw3/upload/5/
+Traceback (most recent call last):
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py", line 48, in upload_image
+    form = ImageForm(request.POST, request.FILES)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\forms\models.py", line 360, in __init__
+    raise ValueError("ModelForm has no model class specified.")
+ValueError: ModelForm has no model class specified.
+ERROR 2024-06-22 00:50:07,452 basehttp 12204 11672 "POST /hw3/upload/5/ HTTP/1.1" 500 87718
+INFO 2024-06-22 00:50:23,846 autoreload 12204 4056 C:\GB\Django\practika_new2\myproject\myapp_hw3\forms.py changed, reloading.
+INFO 2024-06-22 00:50:24,424 autoreload 14228 7624 Watching for file changes with StatReloader
+INFO 2024-06-22 00:50:24,869 basehttp 14228 12492 "POST /hw3/upload/5/ HTTP/1.1" 200 15090
+INFO 2024-06-22 00:50:34,322 autoreload 14228 7624 C:\GB\Django\practika_new2\myproject\myapp_hw3\forms.py changed, reloading.
+INFO 2024-06-22 00:50:34,888 autoreload 9728 9020 Watching for file changes with StatReloader
+INFO 2024-06-22 00:50:56,848 autoreload 6904 10672 Watching for file changes with StatReloader
+INFO 2024-06-22 00:51:20,289 autoreload 14308 15008 Watching for file changes with StatReloader
+INFO 2024-06-22 00:51:22,701 basehttp 14308 7812 "POST /hw3/upload/5/ HTTP/1.1" 200 15090
+INFO 2024-06-22 00:51:38,037 basehttp 14308 7812 "POST /hw3/upload/5/ HTTP/1.1" 200 15011
+INFO 2024-06-22 00:52:06,473 basehttp 14308 7812 "POST /hw3/upload/5/ HTTP/1.1" 200 15011
+INFO 2024-06-22 00:55:54,605 autoreload 14308 15008 C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py changed, reloading.
+INFO 2024-06-22 00:55:55,147 autoreload 12112 12320 Watching for file changes with StatReloader
+ERROR 2024-06-22 00:56:11,301 log 12112 16184 Internal Server Error: /hw3/upload/5/
+Traceback (most recent call last):
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: myapp_hw3_image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py", line 50, in upload_image
+    form.save()
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\forms\models.py", line 552, in save
+    self.instance.save()
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\models\base.py", line 1071, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\models\base.py", line 1112, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 235, in execute
+    return self._record(super().execute, sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 160, in _record
+    return method(sql, params)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: myapp_hw3_image
+ERROR 2024-06-22 00:56:11,479 basehttp 12112 16184 "POST /hw3/upload/5/ HTTP/1.1" 500 177390
+INFO 2024-06-22 00:58:53,577 autoreload 12112 12320 C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py changed, reloading.
+INFO 2024-06-22 00:58:54,175 autoreload 16360 5880 Watching for file changes with StatReloader
+INFO 2024-06-22 00:59:17,082 autoreload 16360 5880 C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py changed, reloading.
+INFO 2024-06-22 00:59:17,726 autoreload 14836 17532 Watching for file changes with StatReloader
+INFO 2024-06-22 00:59:19,528 basehttp 14836 8520 "POST /hw3/upload/5/ HTTP/1.1" 200 15152
+WARNING 2024-06-22 00:59:19,613 log 14836 8520 Not Found: /media/mobile_phone1.jpeg
+WARNING 2024-06-22 00:59:19,613 basehttp 14836 8520 "GET /media/mobile_phone1.jpeg HTTP/1.1" 404 16692
+INFO 2024-06-22 00:59:31,175 basehttp 14836 8520 "GET /hw3/upload/4/ HTTP/1.1" 200 15001
+INFO 2024-06-22 00:59:40,986 basehttp 14836 8520 "POST /hw3/upload/4/ HTTP/1.1" 200 15149
+WARNING 2024-06-22 00:59:41,127 log 14836 8520 Not Found: /media/mobile_phone1.jpeg
+WARNING 2024-06-22 00:59:41,129 basehttp 14836 8520 "GET /media/mobile_phone1.jpeg HTTP/1.1" 404 16692
+INFO 2024-06-22 01:01:13,183 autoreload 14836 17532 C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py changed, reloading.
+INFO 2024-06-22 01:01:13,780 autoreload 7756 18396 Watching for file changes with StatReloader
+ERROR 2024-06-22 01:01:15,387 log 7756 19156 Internal Server Error: /hw3/upload/4/
+Traceback (most recent call last):
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py", line 54, in upload_image
+    return render(request, 'myapp_hw3/upload_image.html', {'form': form, 'img_obj': img_obj})
+                                                                                    ^^^^^^^
+NameError: name 'img_obj' is not defined
+ERROR 2024-06-22 01:01:15,425 basehttp 7756 19156 "POST /hw3/upload/4/ HTTP/1.1" 500 82061
+ERROR 2024-06-22 01:01:16,391 log 7756 19156 Internal Server Error: /hw3/upload/4/
+Traceback (most recent call last):
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py", line 54, in upload_image
+    return render(request, 'myapp_hw3/upload_image.html', {'form': form, 'img_obj': img_obj})
+                                                                                    ^^^^^^^
+NameError: name 'img_obj' is not defined
+ERROR 2024-06-22 01:01:16,410 basehttp 7756 19156 "POST /hw3/upload/4/ HTTP/1.1" 500 82060
+INFO 2024-06-22 01:01:30,370 autoreload 7756 18396 C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py changed, reloading.
+INFO 2024-06-22 01:01:30,947 autoreload 17944 9712 Watching for file changes with StatReloader
+ERROR 2024-06-22 01:01:31,416 log 17944 8428 Internal Server Error: /hw3/upload/4/
+Traceback (most recent call last):
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py", line 52, in upload_image
+    fs.save(image.name, image)
+            ^^^^^
+NameError: name 'image' is not defined
+ERROR 2024-06-22 01:01:31,458 basehttp 17944 8428 "POST /hw3/upload/4/ HTTP/1.1" 500 81923
+INFO 2024-06-22 01:01:39,805 autoreload 17944 9712 C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py changed, reloading.
+INFO 2024-06-22 01:01:40,420 autoreload 9924 11432 Watching for file changes with StatReloader
+INFO 2024-06-22 01:01:41,040 basehttp 9924 8340 "POST /hw3/upload/4/ HTTP/1.1" 200 15150
+WARNING 2024-06-22 01:01:41,126 log 9924 8340 Not Found: /media/mobile_phone1.jpeg
+WARNING 2024-06-22 01:01:41,127 basehttp 9924 8340 "GET /media/mobile_phone1.jpeg HTTP/1.1" 404 16692
+INFO 2024-06-22 01:01:47,012 basehttp 9924 8340 "GET /hw3/upload/3 HTTP/1.1" 301 0
+INFO 2024-06-22 01:01:47,036 basehttp 9924 11968 "GET /hw3/upload/3/ HTTP/1.1" 200 15001
+INFO 2024-06-22 01:01:53,669 basehttp 9924 11968 "POST /hw3/upload/3/ HTTP/1.1" 200 15149
+WARNING 2024-06-22 01:01:53,797 log 9924 11968 Not Found: /media/mobile_phone1.jpeg
+WARNING 2024-06-22 01:01:53,799 basehttp 9924 11968 "GET /media/mobile_phone1.jpeg HTTP/1.1" 404 16692
+INFO 2024-06-22 01:02:22,334 basehttp 9924 11968 "GET /hw3/upload/6 HTTP/1.1" 301 0
+WARNING 2024-06-22 01:02:22,361 log 9924 4332 Not Found: /hw3/upload/6/
+WARNING 2024-06-22 01:02:22,362 basehttp 9924 4332 "GET /hw3/upload/6/ HTTP/1.1" 404 16545
+INFO 2024-06-22 01:02:25,276 basehttp 9924 4332 "GET /hw3/upload/1 HTTP/1.1" 301 0
+INFO 2024-06-22 01:02:25,340 basehttp 9924 2440 "GET /hw3/upload/1/ HTTP/1.1" 200 15001
+INFO 2024-06-22 01:02:32,680 basehttp 9924 2440 "POST /hw3/upload/1/ HTTP/1.1" 200 15149
+WARNING 2024-06-22 01:02:32,810 log 9924 2440 Not Found: /media/mobile_phone1.jpeg
+WARNING 2024-06-22 01:02:32,812 basehttp 9924 2440 "GET /media/mobile_phone1.jpeg HTTP/1.1" 404 16692
+INFO 2024-06-22 01:02:46,284 basehttp 9924 2440 "GET /hw3/upload/2 HTTP/1.1" 301 0
+INFO 2024-06-22 01:02:46,309 basehttp 9924 2288 "GET /hw3/upload/2/ HTTP/1.1" 200 15001
+INFO 2024-06-22 01:02:52,357 basehttp 9924 2288 "POST /hw3/upload/2/ HTTP/1.1" 200 15149
+WARNING 2024-06-22 01:02:52,494 log 9924 2288 Not Found: /media/mobile_phone1.jpeg
+WARNING 2024-06-22 01:02:52,497 basehttp 9924 2288 "GET /media/mobile_phone1.jpeg HTTP/1.1" 404 16692
+INFO 2024-06-22 01:03:15,838 autoreload 9924 11432 C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py changed, reloading.
+INFO 2024-06-22 01:03:16,412 autoreload 9272 5904 Watching for file changes with StatReloader
+ERROR 2024-06-22 01:03:20,264 log 9272 7768 Internal Server Error: /hw3/upload/2/
+Traceback (most recent call last):
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py", line 52, in upload_image
+    fs.save(image.name, image)
+            ^^^^^
+NameError: name 'image' is not defined
+ERROR 2024-06-22 01:03:20,301 basehttp 9272 7768 "POST /hw3/upload/2/ HTTP/1.1" 500 81923
+INFO 2024-06-22 01:03:28,527 autoreload 9272 5904 C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py changed, reloading.
+INFO 2024-06-22 01:03:29,133 autoreload 15236 8716 Watching for file changes with StatReloader
+INFO 2024-06-22 01:03:29,997 basehttp 15236 10340 "POST /hw3/upload/2/ HTTP/1.1" 200 15150
+WARNING 2024-06-22 01:03:30,086 log 15236 10340 Not Found: /media/mobile_phone1.jpeg
+WARNING 2024-06-22 01:03:30,086 basehttp 15236 10340 "GET /media/mobile_phone1.jpeg HTTP/1.1" 404 16692
+INFO 2024-06-22 01:03:31,919 basehttp 15236 10340 "POST /hw3/upload/2/ HTTP/1.1" 200 15149
+WARNING 2024-06-22 01:03:32,000 log 15236 10340 Not Found: /media/mobile_phone1.jpeg
+WARNING 2024-06-22 01:03:32,000 basehttp 15236 10340 "GET /media/mobile_phone1.jpeg HTTP/1.1" 404 16692
+INFO 2024-06-22 01:03:36,141 basehttp 15236 10340 "GET /hw3/upload/1/ HTTP/1.1" 200 15001
+INFO 2024-06-22 01:03:42,117 basehttp 15236 10340 "POST /hw3/upload/1/ HTTP/1.1" 200 15149
+WARNING 2024-06-22 01:03:42,258 log 15236 10340 Not Found: /media/mobile_phone1.jpeg
+WARNING 2024-06-22 01:03:42,259 basehttp 15236 10340 "GET /media/mobile_phone1.jpeg HTTP/1.1" 404 16692
+INFO 2024-06-22 01:04:07,640 basehttp 15236 10340 "GET /hw3/upload/5 HTTP/1.1" 301 0
+INFO 2024-06-22 01:04:07,664 basehttp 15236 436 "GET /hw3/upload/5/ HTTP/1.1" 200 15001
+INFO 2024-06-22 01:04:18,230 basehttp 15236 436 "POST /hw3/upload/5/ HTTP/1.1" 200 15149
+WARNING 2024-06-22 01:04:18,371 log 15236 436 Not Found: /media/mobile_phone1.jpeg
+WARNING 2024-06-22 01:04:18,373 basehttp 15236 436 "GET /media/mobile_phone1.jpeg HTTP/1.1" 404 16692
+INFO 2024-06-22 01:06:17,372 autoreload 15236 8716 C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py changed, reloading.
+INFO 2024-06-22 01:06:18,088 autoreload 15788 4872 Watching for file changes with StatReloader
+INFO 2024-06-22 01:06:32,185 autoreload 15788 4872 C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py changed, reloading.
+INFO 2024-06-22 01:06:32,829 autoreload 14692 12620 Watching for file changes with StatReloader
+ERROR 2024-06-22 01:06:34,321 log 14692 18072 Internal Server Error: /hw3/upload/5/
+Traceback (most recent call last):
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: myapp_hw3_image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py", line 50, in upload_image
+    form.save()
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\forms\models.py", line 552, in save
+    self.instance.save()
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\models\base.py", line 1071, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\models\base.py", line 1112, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 235, in execute
+    return self._record(super().execute, sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 160, in _record
+    return method(sql, params)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: myapp_hw3_image
+ERROR 2024-06-22 01:06:34,377 basehttp 14692 18072 "POST /hw3/upload/5/ HTTP/1.1" 500 177478
+INFO 2024-06-22 01:06:49,633 autoreload 14692 12620 C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py changed, reloading.
+INFO 2024-06-22 01:06:50,273 autoreload 1968 14376 Watching for file changes with StatReloader
+ERROR 2024-06-22 01:06:50,782 log 1968 19248 Internal Server Error: /hw3/upload/5/
+Traceback (most recent call last):
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: myapp_hw3_image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py", line 50, in upload_image
+    form.save()
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\forms\models.py", line 552, in save
+    self.instance.save()
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\models\base.py", line 1071, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\models\base.py", line 1112, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 235, in execute
+    return self._record(super().execute, sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 160, in _record
+    return method(sql, params)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: myapp_hw3_image
+ERROR 2024-06-22 01:06:50,837 basehttp 1968 19248 "POST /hw3/upload/5/ HTTP/1.1" 500 177611
+ERROR 2024-06-22 01:06:57,089 log 1968 19248 Internal Server Error: /hw3/upload/5/
+Traceback (most recent call last):
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: myapp_hw3_image
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py", line 50, in upload_image
+    form.save()
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\forms\models.py", line 552, in save
+    self.instance.save()
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\models\base.py", line 1071, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\models\base.py", line 1112, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 235, in execute
+    return self._record(super().execute, sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\debug_toolbar\panels\sql\tracking.py", line 160, in _record
+    return method(sql, params)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: myapp_hw3_image
+ERROR 2024-06-22 01:06:57,125 basehttp 1968 19248 "POST /hw3/upload/5/ HTTP/1.1" 500 177610
+INFO 2024-06-22 01:07:05,561 autoreload 1968 14376 C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py changed, reloading.
+INFO 2024-06-22 01:07:06,135 autoreload 10340 7580 Watching for file changes with StatReloader
+INFO 2024-06-22 01:07:06,582 basehttp 10340 7532 "POST /hw3/upload/5/ HTTP/1.1" 200 15150
+WARNING 2024-06-22 01:07:06,674 log 10340 7532 Not Found: /media/mobile_phone1.jpeg
+WARNING 2024-06-22 01:07:06,675 basehttp 10340 7532 "GET /media/mobile_phone1.jpeg HTTP/1.1" 404 16692
+INFO 2024-06-22 01:07:11,808 basehttp 10340 7532 "POST /hw3/upload/5/ HTTP/1.1" 200 15149
+WARNING 2024-06-22 01:07:11,890 log 10340 7532 Not Found: /media/mobile_phone1.jpeg
+WARNING 2024-06-22 01:07:11,891 basehttp 10340 7532 "GET /media/mobile_phone1.jpeg HTTP/1.1" 404 16692
+INFO 2024-06-22 01:08:24,287 autoreload 10340 7580 C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py changed, reloading.
+INFO 2024-06-22 01:08:24,925 autoreload 14384 6832 Watching for file changes with StatReloader
+INFO 2024-06-22 01:08:40,867 basehttp 14384 13284 "POST /hw3/upload/5/ HTTP/1.1" 200 15150
+WARNING 2024-06-22 01:08:40,949 log 14384 13284 Not Found: /media/mobile_phone1.jpeg
+WARNING 2024-06-22 01:08:40,950 basehttp 14384 13284 "GET /media/mobile_phone1.jpeg HTTP/1.1" 404 16692
+INFO 2024-06-22 01:08:43,787 basehttp 14384 13284 "POST /hw3/upload/5/ HTTP/1.1" 200 15149
+WARNING 2024-06-22 01:08:43,872 log 14384 13284 Not Found: /media/mobile_phone1.jpeg
+WARNING 2024-06-22 01:08:43,872 basehttp 14384 13284 "GET /media/mobile_phone1.jpeg HTTP/1.1" 404 16692
+INFO 2024-06-22 01:09:09,229 basehttp 14384 13284 "POST /hw3/upload/5/ HTTP/1.1" 200 15149
+WARNING 2024-06-22 01:09:09,310 log 14384 13284 Not Found: /media/mobile_phone1.jpeg
+WARNING 2024-06-22 01:09:09,311 basehttp 14384 13284 "GET /media/mobile_phone1.jpeg HTTP/1.1" 404 16692
+INFO 2024-06-22 01:09:49,851 autoreload 14384 6832 C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py changed, reloading.
+INFO 2024-06-22 01:10:00,901 autoreload 868 5584 Watching for file changes with StatReloader
+INFO 2024-06-22 01:10:05,992 basehttp 868 11972 "GET /hw3/upload/4 HTTP/1.1" 301 0
+INFO 2024-06-22 01:10:06,131 basehttp 868 9808 "GET /hw3/upload/4/ HTTP/1.1" 200 15002
+INFO 2024-06-22 01:10:12,839 basehttp 868 9808 "POST /hw3/upload/4/ HTTP/1.1" 200 15148
+WARNING 2024-06-22 01:10:12,974 log 868 9808 Not Found: /media/mobile_phone1.jpeg
+WARNING 2024-06-22 01:10:12,976 basehttp 868 9808 "GET /media/mobile_phone1.jpeg HTTP/1.1" 404 16692
+INFO 2024-06-22 01:12:16,175 basehttp 868 9808 "POST /hw3/upload/4/ HTTP/1.1" 200 15060
+INFO 2024-06-22 01:12:16,607 basehttp 868 9808 "POST /hw3/upload/4/ HTTP/1.1" 200 15060
+INFO 2024-06-22 01:12:19,856 basehttp 868 9808 "POST /hw3/upload/4/ HTTP/1.1" 200 15060
+INFO 2024-06-22 01:12:54,100 autoreload 868 5584 C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py changed, reloading.
+INFO 2024-06-22 01:12:54,675 autoreload 16600 8820 Watching for file changes with StatReloader
+INFO 2024-06-22 01:12:55,212 basehttp 16600 4948 "POST /hw3/upload/4/ HTTP/1.1" 200 15015
+INFO 2024-06-22 01:12:59,039 basehttp 16600 4948 "POST /hw3/upload/4/ HTTP/1.1" 200 15014
+INFO 2024-06-22 01:14:05,991 autoreload 16600 8820 C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py changed, reloading.
+INFO 2024-06-22 01:14:06,608 autoreload 7700 2328 Watching for file changes with StatReloader
+INFO 2024-06-22 01:15:44,741 autoreload 7700 2328 C:\GB\Django\practika_new2\myproject\myapp_hw3\forms.py changed, reloading.
+INFO 2024-06-22 01:15:45,317 autoreload 11496 9464 Watching for file changes with StatReloader
+INFO 2024-06-22 01:15:48,888 basehttp 11496 14400 "POST /hw3/upload/4/ HTTP/1.1" 200 15061
+INFO 2024-06-22 01:15:52,817 basehttp 11496 14400 "POST /hw3/upload/4/ HTTP/1.1" 200 15060
+INFO 2024-06-22 01:16:15,104 autoreload 592 2000 Watching for file changes with StatReloader
+INFO 2024-06-22 01:16:20,958 basehttp 592 17396 "GET /hw3/upload/5/ HTTP/1.1" 200 15002
+INFO 2024-06-22 01:16:28,219 basehttp 592 17396 "POST /hw3/upload/5/ HTTP/1.1" 200 15061
+INFO 2024-06-22 01:17:34,101 autoreload 592 2000 C:\GB\Django\practika_new2\myproject\myapp_hw3\forms.py changed, reloading.
+INFO 2024-06-22 01:17:34,802 autoreload 5676 18100 Watching for file changes with StatReloader
+INFO 2024-06-22 01:19:35,289 autoreload 5676 18100 C:\GB\Django\practika_new2\myproject\myapp_hw3\models.py changed, reloading.
+INFO 2024-06-22 01:19:36,113 autoreload 9332 148 Watching for file changes with StatReloader
+INFO 2024-06-22 01:20:06,284 autoreload 16336 5336 Watching for file changes with StatReloader
+INFO 2024-06-22 01:20:33,879 autoreload 6068 9504 Watching for file changes with StatReloader
+INFO 2024-06-22 01:20:37,971 basehttp 6068 8552 "POST /hw3/upload/5/ HTTP/1.1" 200 15082
+INFO 2024-06-22 01:20:38,798 basehttp 6068 8552 "POST /hw3/upload/5/ HTTP/1.1" 200 15081
+INFO 2024-06-22 01:20:44,699 basehttp 6068 8552 "POST /hw3/upload/5/ HTTP/1.1" 200 15043
+INFO 2024-06-22 01:21:53,856 autoreload 6068 9504 C:\GB\Django\practika_new2\myproject\myapp_hw3\forms.py changed, reloading.
+INFO 2024-06-22 01:21:54,433 autoreload 4420 1048 Watching for file changes with StatReloader
+ERROR 2024-06-22 01:21:57,432 log 4420 2344 Internal Server Error: /hw3/upload/5/
+Traceback (most recent call last):
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py", line 48, in upload_image
+    form = ImageForm(request.POST, request.FILES)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\forms\models.py", line 360, in __init__
+    raise ValueError("ModelForm has no model class specified.")
+ValueError: ModelForm has no model class specified.
+ERROR 2024-06-22 01:21:57,473 basehttp 4420 2344 "POST /hw3/upload/5/ HTTP/1.1" 500 87885
+ERROR 2024-06-22 01:21:58,510 log 4420 2344 Internal Server Error: /hw3/upload/5/
+Traceback (most recent call last):
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py", line 48, in upload_image
+    form = ImageForm(request.POST, request.FILES)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\forms\models.py", line 360, in __init__
+    raise ValueError("ModelForm has no model class specified.")
+ValueError: ModelForm has no model class specified.
+ERROR 2024-06-22 01:21:58,530 basehttp 4420 2344 "POST /hw3/upload/5/ HTTP/1.1" 500 87884
+INFO 2024-06-22 01:22:41,145 autoreload 4420 1048 C:\GB\Django\practika_new2\myproject\myapp_hw3\forms.py changed, reloading.
+INFO 2024-06-22 01:22:41,733 autoreload 6636 13712 Watching for file changes with StatReloader
+INFO 2024-06-22 01:22:44,210 basehttp 6636 19108 "POST /hw3/upload/5/ HTTP/1.1" 200 14856
+INFO 2024-06-22 01:22:47,325 basehttp 6636 19108 "POST /hw3/upload/5/ HTTP/1.1" 200 14855
+INFO 2024-06-22 01:23:50,643 basehttp 6636 19108 "POST /hw3/upload/5/ HTTP/1.1" 200 14855
+INFO 2024-06-22 01:24:21,899 basehttp 6636 19108 "POST /hw3/upload/5/ HTTP/1.1" 200 14855
+INFO 2024-06-22 01:26:49,498 autoreload 6636 13712 C:\GB\Django\practika_new2\myproject\myapp_hw3\models.py changed, reloading.
+INFO 2024-06-22 01:26:50,044 autoreload 14844 18104 Watching for file changes with StatReloader
+INFO 2024-06-22 01:29:52,352 autoreload 6420 16924 Watching for file changes with StatReloader
+INFO 2024-06-22 01:29:53,071 basehttp 6420 10236 "GET /hw3/upload/1/ HTTP/1.1" 200 14851
+INFO 2024-06-22 01:29:54,724 basehttp 6420 10236 "GET /hw3/upload/1/ HTTP/1.1" 200 14850
+INFO 2024-06-22 01:29:55,651 basehttp 6420 10236 "GET /hw3/upload/1/ HTTP/1.1" 200 14850
+INFO 2024-06-22 01:29:56,011 basehttp 6420 10236 "GET /hw3/upload/1/ HTTP/1.1" 200 14850
+INFO 2024-06-22 01:29:56,221 basehttp 6420 10236 "GET /hw3/upload/1/ HTTP/1.1" 200 14850
+WARNING 2024-06-22 01:31:04,783 log 6420 10236 Not Found: /hw3/upload/1/
+WARNING 2024-06-22 01:31:04,785 basehttp 6420 10236 "POST /hw3/upload/1/ HTTP/1.1" 404 16546
+WARNING 2024-06-22 01:32:57,143 log 6420 10236 Not Found: /hw3/upload/1/
+WARNING 2024-06-22 01:32:57,144 basehttp 6420 10236 "POST /hw3/upload/1/ HTTP/1.1" 404 16546
+WARNING 2024-06-22 01:33:01,521 log 6420 10236 Not Found: /hw3/upload/2/
+WARNING 2024-06-22 01:33:01,523 basehttp 6420 10236 "GET /hw3/upload/2/ HTTP/1.1" 404 16545
+INFO 2024-06-22 01:34:33,207 basehttp 6420 10236 "GET /hw3/upload/2/ HTTP/1.1" 200 14850
+INFO 2024-06-22 01:34:36,667 basehttp 6420 10236 "POST /hw3/upload/2/ HTTP/1.1" 200 14850
+INFO 2024-06-22 01:37:51,358 basehttp 6420 10236 "GET /hw3/upload/1/ HTTP/1.1" 200 14850
+INFO 2024-06-22 01:37:55,141 basehttp 6420 10236 "POST /hw3/upload/1/ HTTP/1.1" 200 14850
+INFO 2024-06-22 01:38:35,013 basehttp 6420 10236 "GET /hw3/product/1/ HTTP/1.1" 200 14625
+WARNING 2024-06-22 01:38:35,117 log 6420 10236 Not Found: /hw3/product/1/default.jpg
+WARNING 2024-06-22 01:38:35,119 basehttp 6420 10236 "GET /hw3/product/1/default.jpg HTTP/1.1" 404 17392
+INFO 2024-06-22 01:41:58,914 basehttp 6420 10236 "GET /hw3/product/1/ HTTP/1.1" 200 14628
+WARNING 2024-06-22 01:41:58,979 log 6420 10236 Not Found: /hw3/product/1/for1tovar.jpeg
+WARNING 2024-06-22 01:41:58,980 basehttp 6420 10236 "GET /hw3/product/1/for1tovar.jpeg HTTP/1.1" 404 17404
+INFO 2024-06-22 01:41:59,626 basehttp 6420 10236 "GET /hw3/product/1/ HTTP/1.1" 200 14628
+WARNING 2024-06-22 01:41:59,691 log 6420 10236 Not Found: /hw3/product/1/for1tovar.jpeg
+WARNING 2024-06-22 01:41:59,692 basehttp 6420 10236 "GET /hw3/product/1/for1tovar.jpeg HTTP/1.1" 404 17404
+INFO 2024-06-22 01:52:34,946 basehttp 6420 5532 "GET /hw3/product/1/ HTTP/1.1" 200 14628
+WARNING 2024-06-22 01:52:35,010 log 6420 5532 Not Found: /hw3/product/1/for1tovar.jpeg
+WARNING 2024-06-22 01:52:35,011 basehttp 6420 5532 "GET /hw3/product/1/for1tovar.jpeg HTTP/1.1" 404 17404
+INFO 2024-06-22 02:00:39,668 autoreload 9056 9464 Watching for file changes with StatReloader
+INFO 2024-06-22 02:00:42,943 basehttp 9056 4624 "GET /hw3/product/1/ HTTP/1.1" 200 14655
+WARNING 2024-06-22 02:00:43,011 log 9056 4624 Not Found: /hw3/product/1/for1tovar.jpeg
+WARNING 2024-06-22 02:00:43,012 basehttp 9056 4624 "GET /hw3/product/1/for1tovar.jpeg HTTP/1.1" 404 17404
+INFO 2024-06-22 02:00:51,253 basehttp 9056 4624 "GET /hw3/product/1/ HTTP/1.1" 200 14654
+WARNING 2024-06-22 02:00:51,362 log 9056 4624 Not Found: /hw3/product/1/for1tovar.jpeg
+WARNING 2024-06-22 02:00:51,364 basehttp 9056 4624 "GET /hw3/product/1/for1tovar.jpeg HTTP/1.1" 404 17404
+INFO 2024-06-22 21:39:16,955 autoreload 9056 9464 C:\GB\Django\practika_new2\myproject\myproject\settings.py changed, reloading.
+INFO 2024-06-22 21:43:12,170 autoreload 7772 20416 Watching for file changes with StatReloader
+INFO 2024-06-22 21:43:17,178 basehttp 7772 18572 "GET /hw3/product/1/ HTTP/1.1" 200 14655
+INFO 2024-06-22 21:43:17,231 basehttp 7772 10060 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-06-22 21:43:17,234 basehttp 7772 16632 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-06-22 21:43:17,235 basehttp 7772 14496 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-06-22 21:43:17,251 basehttp 7772 14496 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+WARNING 2024-06-22 21:43:17,317 log 7772 18572 Not Found: /hw3/product/1/for1tovar.jpeg
+WARNING 2024-06-22 21:43:17,319 basehttp 7772 18572 "GET /hw3/product/1/for1tovar.jpeg HTTP/1.1" 404 17404
+WARNING 2024-06-22 21:43:17,448 log 7772 18572 Not Found: /favicon.ico
+WARNING 2024-06-22 21:43:17,450 basehttp 7772 18572 "GET /favicon.ico HTTP/1.1" 404 16640
+INFO 2024-06-22 21:43:27,838 basehttp 7772 18572 "GET /hw3/upload/1/ HTTP/1.1" 200 14850
+INFO 2024-06-22 21:47:25,439 basehttp 7772 18572 "POST /hw3/upload/1/ HTTP/1.1" 200 14851
+INFO 2024-06-23 00:07:43,711 autoreload 7772 20416 C:\GB\Django\practika_new2\myproject\myapp_hw3\forms.py changed, reloading.
+INFO 2024-06-23 00:07:44,522 autoreload 17544 2860 Watching for file changes with StatReloader
+INFO 2024-06-23 00:08:20,792 autoreload 17544 2860 C:\GB\Django\practika_new2\myproject\myapp_hw3\forms.py changed, reloading.
+INFO 2024-06-23 00:08:21,456 autoreload 15944 8100 Watching for file changes with StatReloader
+INFO 2024-06-23 01:43:04,076 autoreload 15944 8100 C:\GB\Django\practika_new2\myproject\myproject\settings.py changed, reloading.
+INFO 2024-06-23 01:43:04,775 autoreload 13644 9760 Watching for file changes with StatReloader
+INFO 2024-06-23 02:03:21,784 autoreload 19372 864 Watching for file changes with StatReloader
+INFO 2024-06-23 02:05:07,806 autoreload 19372 864 C:\GB\Django\practika_new2\myproject\myapp_hw3\models.py changed, reloading.
+INFO 2024-06-23 02:05:08,327 autoreload 15176 17648 Watching for file changes with StatReloader
+INFO 2024-06-23 02:06:41,362 autoreload 15176 17648 C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py changed, reloading.
+INFO 2024-06-23 02:06:41,911 autoreload 17472 15972 Watching for file changes with StatReloader
+INFO 2024-06-23 02:08:41,911 basehttp 17472 7544 "GET /hw3/product_create HTTP/1.1" 301 0
+INFO 2024-06-23 02:08:41,944 basehttp 17472 4812 "GET /hw3/product_create/ HTTP/1.1" 200 15316
+ERROR 2024-06-23 02:09:30,394 log 17472 4812 Internal Server Error: /hw3/product_create/
+Traceback (most recent call last):
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py", line 64, in product_create
+    description=form_data['description'],
+                ~~~~~~~~~^^^^^^^^^^^^^^^
+KeyError: 'description'
+ERROR 2024-06-23 02:09:30,424 basehttp 17472 4812 "POST /hw3/product_create/ HTTP/1.1" 500 82265
+INFO 2024-06-23 02:10:11,797 basehttp 17472 4812 "GET /hw3/product_create/ HTTP/1.1" 200 15291
+INFO 2024-06-23 02:12:27,739 autoreload 17472 15972 C:\GB\Django\practika_new2\myproject\myapp_hw3\forms.py changed, reloading.
+INFO 2024-06-23 02:12:28,322 autoreload 1608 16572 Watching for file changes with StatReloader
+INFO 2024-06-23 02:12:32,400 basehttp 1608 13564 "GET /hw3/product_create/ HTTP/1.1" 200 15459
+ERROR 2024-06-23 02:13:05,883 log 1608 13564 Internal Server Error: /hw3/product_create/
+Traceback (most recent call last):
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\GB\Django\practika_new2\myproject\myapp_hw3\views.py", line 67, in product_create
+    date_created=form_data['date_created'],
+                 ~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'date_created'
+ERROR 2024-06-23 02:13:05,982 basehttp 1608 13564 "POST /hw3/product_create/ HTTP/1.1" 500 82552
+INFO 2024-06-23 02:14:24,113 autoreload 1608 16572 C:\GB\Django\practika_new2\myproject\myapp_hw3\forms.py changed, reloading.
+INFO 2024-06-23 02:14:24,708 autoreload 9640 7608 Watching for file changes with StatReloader
+INFO 2024-06-23 02:14:31,870 basehttp 9640 14212 "GET /hw3/product_create/ HTTP/1.1" 200 15648
+INFO 2024-06-23 02:15:15,834 basehttp 9640 14212 "POST /hw3/product_create/ HTTP/1.1" 200 15699
+INFO 2024-06-23 02:17:42,346 autoreload 15336 19932 Watching for file changes with StatReloader
+INFO 2024-06-23 02:17:46,832 basehttp 15336 7496 "POST /hw3/product_create/ HTTP/1.1" 200 15678

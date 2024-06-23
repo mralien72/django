@@ -1,5 +1,7 @@
 from django.shortcuts import render, get_object_or_404
-from .models import Order, User
+from .models import Order, User, Product
+from .forms import ProductForm
+from django.core.files.storage import FileSystemStorage
 from django.utils import timezone
 import logging
 
@@ -33,3 +35,52 @@ def orders_by_days(request, user_id, days):
         'order_products': order_products,
         'days_html': days_html
         })
+
+
+def product_cart(request, product_id):
+    product = get_object_or_404(Product, pk=product_id)
+    return render(request, 'myapp_hw3/product_cart.html', {'product': product})
+
+
+def upload_image(request, product_id):
+    product = get_object_or_404(Product, pk=product_id)
+    if request.method == 'POST':
+        form = ImageForm(request.POST, request.FILES)
+        if form.is_valid():
+            image = form.cleaned_data['image']
+            fs = FileSystemStorage()
+            fs.save(image.name, image)
+    else:
+        form = ImageForm()
+    return render(request, 'myapp_hw3/upload_image.html', {'form': form, 'product': product})
+
+def product_create(request,):
+    if request.method == 'POST':
+        form = ProductForm(request.POST, request.FILES)
+        if form.is_valid():
+            form_data = form.cleaned_data
+            product = Product.objects.create(name=form_data['name'],
+                                             price=form_data['price'],
+                                             description=form_data['description'],
+                                             image=form_data['image'],
+                                             quantity_products=form_data['quantity_products'],
+                                             date_created=form_data['date_created'],
+                                            )
+    else:
+        form = ProductForm()
+    products = Product.objects.all()
+    context = {'form': form, 'products': products}
+    return render(request, 'myapp_hw3/product_create.html', context)
+
+
+
+
+
+
+
+
+
+
+
+
+
