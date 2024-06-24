@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block title %}
+    {{ super }} - {{ title }}
+{% endblock %}
+
+{% block content %}
+    <h2>Товар: {{ product.name }} </h2>
+    <p>Описание: {{ product.description }}</p>
+    <p>Количество в наличии: {{ product.quantity_products }}</p>
+    <p>Дата поставки: {{ product.date_created }}</p>
+    <p>Цена: {{ product.price }}</p>
+    <p>{{ product.image }}</p>
+    <img src="{{ product.image }}" alt="Изображение продукта">
+{% endblock %}
