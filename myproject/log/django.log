@@ -3310,3 +3310,12 @@ INFO 2024-06-21 15:57:17,896 autoreload 15536 15500 C:\Users\User\Documents\Djan
 INFO 2024-06-21 15:57:19,403 autoreload 14464 2428 Watching for file changes with StatReloader
 INFO 2024-06-21 15:57:19,928 basehttp 14464 12692 "GET /lek4/upload/ HTTP/1.1" 200 15278
 INFO 2024-06-21 15:57:27,805 basehttp 14464 18496 "POST /lek4/upload/ HTTP/1.1" 200 15278
+INFO 2024-06-21 16:00:00,326 basehttp 14464 8436 "GET /lek4/forms/ HTTP/1.1" 200 16089
+INFO 2024-06-21 16:00:00,385 basehttp 14464 5056 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 14601
+INFO 2024-06-21 16:00:00,386 basehttp 14464 8436 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 16630
+INFO 2024-06-21 16:00:00,408 basehttp 14464 5056 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2024-06-21 16:00:00,993 basehttp 14464 5056 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4742
+INFO 2024-06-24 16:10:03,438 autoreload 14464 2428 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\models.py changed, reloading.
+INFO 2024-06-24 16:10:05,832 autoreload 1844 9844 Watching for file changes with StatReloader
+INFO 2024-06-24 16:12:07,152 autoreload 1844 9844 C:\Users\User\Documents\Django\practika\myproject\myapp_lek4\forms.py changed, reloading.
+INFO 2024-06-24 16:12:08,381 autoreload 20232 5724 Watching for file changes with StatReloader
