@@ -4216,3 +4216,98 @@ INFO 2024-06-23 02:14:31,870 basehttp 9640 14212 "GET /hw3/product_create/ HTTP/
 INFO 2024-06-23 02:15:15,834 basehttp 9640 14212 "POST /hw3/product_create/ HTTP/1.1" 200 15699
 INFO 2024-06-23 02:17:42,346 autoreload 15336 19932 Watching for file changes with StatReloader
 INFO 2024-06-23 02:17:46,832 basehttp 15336 7496 "POST /hw3/product_create/ HTTP/1.1" 200 15678
+INFO 2024-06-24 16:19:40,753 autoreload 12136 13140 Watching for file changes with StatReloader
+INFO 2024-06-24 16:19:50,568 basehttp 12136 5768 "POST /lek4/upload/ HTTP/1.1" 200 15278
+INFO 2024-06-24 16:19:50,604 basehttp 12136 5768 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-06-24 16:19:50,605 basehttp 12136 12244 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-06-24 16:19:50,619 basehttp 12136 12244 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-06-24 16:19:50,653 basehttp 12136 12244 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2024-06-24 16:20:39,971 basehttp 12136 8920 "GET /hw3/product_create HTTP/1.1" 200 14470
+INFO 2024-06-24 16:20:39,995 basehttp 12136 19240 "GET /static/debug_toolbar/js/redirect.js HTTP/1.1" 304 0
+INFO 2024-06-24 16:20:42,955 basehttp 12136 19240 "GET /hw3/product_create/ HTTP/1.1" 200 16071
+INFO 2024-06-24 16:21:50,081 basehttp 12136 6172 "POST /hw3/product_create/ HTTP/1.1" 200 16120
+INFO 2024-06-24 16:40:33,510 basehttp 12136 12524 "GET /hw3/product/3 HTTP/1.1" 200 14454
+INFO 2024-06-24 16:40:34,891 basehttp 12136 4256 "GET /hw3/product/3/ HTTP/1.1" 200 15091
+WARNING 2024-06-24 16:40:34,981 log 12136 4256 Not Found: /hw3/product/3/default.jpg
+WARNING 2024-06-24 16:40:34,982 basehttp 12136 4256 "GET /hw3/product/3/default.jpg HTTP/1.1" 404 18024
+INFO 2024-06-24 16:43:37,821 autoreload 12136 13140 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\views.py changed, reloading.
+INFO 2024-06-24 16:43:43,296 autoreload 15300 19620 Watching for file changes with StatReloader
+INFO 2024-06-24 16:44:09,377 autoreload 15300 19620 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\urls.py changed, reloading.
+INFO 2024-06-24 16:44:10,566 autoreload 16144 17860 Watching for file changes with StatReloader
+INFO 2024-06-24 16:44:16,039 basehttp 16144 19320 "GET /hw3/product/3/ HTTP/1.1" 200 15092
+WARNING 2024-06-24 16:44:16,117 log 16144 19320 Not Found: /hw3/product/3/default.jpg
+WARNING 2024-06-24 16:44:16,119 basehttp 16144 19320 "GET /hw3/product/3/default.jpg HTTP/1.1" 404 17822
+INFO 2024-06-24 16:44:22,506 basehttp 16144 19752 "POST /hw3/product_create/ HTTP/1.1" 200 16120
+INFO 2024-06-24 16:44:45,067 basehttp 16144 17068 "POST /hw3/product_create/ HTTP/1.1" 200 16119
+INFO 2024-06-24 16:46:28,051 autoreload 16144 17860 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\views.py changed, reloading.
+INFO 2024-06-24 16:46:29,473 autoreload 11136 13752 Watching for file changes with StatReloader
+INFO 2024-06-24 16:46:45,978 autoreload 11136 13752 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\views.py changed, reloading.
+INFO 2024-06-24 16:46:47,088 autoreload 3140 20636 Watching for file changes with StatReloader
+INFO 2024-06-24 16:47:06,785 basehttp 3140 10516 "POST /hw3/product_create/ HTTP/1.1" 200 16120
+INFO 2024-06-24 16:48:17,297 basehttp 3140 3740 "GET /hw3/product/3 HTTP/1.1" 200 14454
+INFO 2024-06-24 16:48:18,946 basehttp 3140 6960 "GET /hw3/product/3/ HTTP/1.1" 200 15091
+WARNING 2024-06-24 16:48:19,022 log 3140 6960 Not Found: /hw3/product/3/default.jpg
+WARNING 2024-06-24 16:48:19,023 basehttp 3140 6960 "GET /hw3/product/3/default.jpg HTTP/1.1" 404 17822
+INFO 2024-06-24 16:51:39,032 autoreload 3140 20636 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\views.py changed, reloading.
+INFO 2024-06-24 16:51:40,446 autoreload 17860 13868 Watching for file changes with StatReloader
+INFO 2024-06-24 16:58:05,592 autoreload 17860 13868 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\views.py changed, reloading.
+INFO 2024-06-24 16:58:07,078 autoreload 16028 5484 Watching for file changes with StatReloader
+INFO 2024-06-24 16:59:08,710 basehttp 16028 21040 "GET /hw3/product/7/ HTTP/1.1" 200 15136
+WARNING 2024-06-24 16:59:08,858 log 16028 21040 Not Found: /hw3/product/7/products/for1tovar_0YjPsAe.jpg
+WARNING 2024-06-24 16:59:08,861 basehttp 16028 21040 "GET /hw3/product/7/products/for1tovar_0YjPsAe.jpg HTTP/1.1" 404 17899
+INFO 2024-06-24 16:59:13,087 basehttp 16028 21040 "GET /hw3/product/6/ HTTP/1.1" 200 15119
+WARNING 2024-06-24 16:59:13,242 log 16028 21040 Not Found: /hw3/product/6/products/for1tovar.jpg
+WARNING 2024-06-24 16:59:13,243 basehttp 16028 21040 "GET /hw3/product/6/products/for1tovar.jpg HTTP/1.1" 404 17867
+INFO 2024-06-24 16:59:17,227 basehttp 16028 18488 "GET /hw3/product/7/ HTTP/1.1" 200 15135
+WARNING 2024-06-24 16:59:17,356 log 16028 18488 Not Found: /hw3/product/7/products/for1tovar_0YjPsAe.jpg
+WARNING 2024-06-24 16:59:17,359 basehttp 16028 18488 "GET /hw3/product/7/products/for1tovar_0YjPsAe.jpg HTTP/1.1" 404 17898
+INFO 2024-06-24 17:02:21,720 autoreload 16028 5484 C:\Users\User\Documents\Django\practika\myproject\myproject\urls.py changed, reloading.
+INFO 2024-06-24 17:02:22,955 autoreload 16780 14392 Watching for file changes with StatReloader
+INFO 2024-06-24 17:03:20,282 autoreload 16780 14392 C:\Users\User\Documents\Django\practika\myproject\myproject\urls.py changed, reloading.
+INFO 2024-06-24 17:03:21,579 autoreload 14280 16120 Watching for file changes with StatReloader
+INFO 2024-06-24 17:05:04,038 autoreload 14280 16120 C:\Users\User\Documents\Django\practika\myproject\myproject\urls.py changed, reloading.
+INFO 2024-06-24 17:05:05,409 autoreload 4624 12244 Watching for file changes with StatReloader
+INFO 2024-06-24 17:05:17,783 autoreload 4624 12244 C:\Users\User\Documents\Django\practika\myproject\myproject\urls.py changed, reloading.
+INFO 2024-06-24 17:05:19,068 autoreload 19368 21292 Watching for file changes with StatReloader
+INFO 2024-06-24 17:05:32,035 basehttp 19368 12072 "GET /hw3/product/7/ HTTP/1.1" 200 15138
+WARNING 2024-06-24 17:05:32,126 log 19368 12072 Not Found: /hw3/product/7/products/for1tovar_0YjPsAe.jpg
+WARNING 2024-06-24 17:05:32,128 basehttp 19368 12072 "GET /hw3/product/7/products/for1tovar_0YjPsAe.jpg HTTP/1.1" 404 18024
+INFO 2024-06-24 17:05:40,312 basehttp 19368 2524 "GET /hw3/product/7/ HTTP/1.1" 200 15137
+WARNING 2024-06-24 17:05:40,397 log 19368 2524 Not Found: /hw3/product/7/products/for1tovar_0YjPsAe.jpg
+WARNING 2024-06-24 17:05:40,397 basehttp 19368 2524 "GET /hw3/product/7/products/for1tovar_0YjPsAe.jpg HTTP/1.1" 404 18024
+INFO 2024-06-24 17:06:26,594 basehttp 19368 8316 "GET /hw3/product/7/ HTTP/1.1" 200 15141
+WARNING 2024-06-24 17:06:26,689 log 19368 8316 Not Found: /hw3/product/7/media/products/for1tovar_0YjPsAe.jpg
+WARNING 2024-06-24 17:06:26,691 basehttp 19368 8316 "GET /hw3/product/7/media/products/for1tovar_0YjPsAe.jpg HTTP/1.1" 404 18048
+INFO 2024-06-24 17:06:27,452 basehttp 19368 8316 "GET /hw3/product/7/ HTTP/1.1" 200 15141
+WARNING 2024-06-24 17:06:27,552 log 19368 8316 Not Found: /hw3/product/7/media/products/for1tovar_0YjPsAe.jpg
+WARNING 2024-06-24 17:06:27,554 basehttp 19368 8316 "GET /hw3/product/7/media/products/for1tovar_0YjPsAe.jpg HTTP/1.1" 404 18048
+INFO 2024-06-24 17:07:27,559 basehttp 19368 10748 "GET /hw3/product/7/ HTTP/1.1" 200 15148
+WARNING 2024-06-24 17:07:27,660 log 19368 10748 Not Found: /hw3/product/7/media//media/products/for1tovar_0YjPsAe.jpg
+WARNING 2024-06-24 17:07:27,661 basehttp 19368 10748 "GET /hw3/product/7/media//media/products/for1tovar_0YjPsAe.jpg HTTP/1.1" 404 18076
+INFO 2024-06-24 17:07:28,376 basehttp 19368 10748 "GET /hw3/product/7/ HTTP/1.1" 200 15148
+WARNING 2024-06-24 17:07:28,531 log 19368 10748 Not Found: /hw3/product/7/media//media/products/for1tovar_0YjPsAe.jpg
+WARNING 2024-06-24 17:07:28,533 basehttp 19368 10748 "GET /hw3/product/7/media//media/products/for1tovar_0YjPsAe.jpg HTTP/1.1" 404 18077
+INFO 2024-06-24 17:07:41,626 basehttp 19368 2716 "GET /hw3/product/7/ HTTP/1.1" 200 15142
+WARNING 2024-06-24 17:07:41,726 log 19368 2716 Not Found: /media/products/for1tovar_0YjPsAe.jpg
+WARNING 2024-06-24 17:07:41,727 basehttp 19368 2716 "GET /media/products/for1tovar_0YjPsAe.jpg HTTP/1.1" 404 17542
+INFO 2024-06-24 17:08:51,103 basehttp 19368 5768 "GET /hw3/product/7/ HTTP/1.1" 200 15156
+WARNING 2024-06-24 17:08:51,199 log 19368 5768 Not Found: /media/products/for1tovar_0YjPsAe.jpg
+WARNING 2024-06-24 17:08:51,200 basehttp 19368 5768 "GET /media/products/for1tovar_0YjPsAe.jpg HTTP/1.1" 404 17542
+INFO 2024-06-24 17:08:51,944 basehttp 19368 5768 "GET /hw3/product/7/ HTTP/1.1" 200 15156
+WARNING 2024-06-24 17:08:52,044 log 19368 5768 Not Found: /media/products/for1tovar_0YjPsAe.jpg
+WARNING 2024-06-24 17:08:52,045 basehttp 19368 5768 "GET /media/products/for1tovar_0YjPsAe.jpg HTTP/1.1" 404 17542
+INFO 2024-06-24 17:08:55,033 basehttp 19368 5768 "GET /hw3/product/7/ HTTP/1.1" 200 15156
+WARNING 2024-06-24 17:08:55,119 log 19368 5768 Not Found: /media/products/for1tovar_0YjPsAe.jpg
+WARNING 2024-06-24 17:08:55,123 basehttp 19368 5768 "GET /media/products/for1tovar_0YjPsAe.jpg HTTP/1.1" 404 17542
+INFO 2024-06-24 17:09:16,200 basehttp 19368 16096 "GET /hw3/product/7/ HTTP/1.1" 200 15142
+WARNING 2024-06-24 17:09:16,286 log 19368 16096 Not Found: /media/products/for1tovar_0YjPsAe.jpg
+WARNING 2024-06-24 17:09:16,287 basehttp 19368 16096 "GET /media/products/for1tovar_0YjPsAe.jpg HTTP/1.1" 404 17542
+INFO 2024-06-24 17:09:19,293 basehttp 19368 16096 "GET /hw3/product/6/ HTTP/1.1" 200 15126
+INFO 2024-06-24 17:09:19,376 basehttp 19368 16096 "GET /media/products/for1tovar.jpg HTTP/1.1" 200 5773
+INFO 2024-06-24 17:09:42,253 basehttp 19368 11104 "GET /hw3/product/7/ HTTP/1.1" 200 15142
+WARNING 2024-06-24 17:09:42,377 log 19368 11104 Not Found: /media/products/for1tovar_0YjPsAe.jpg
+WARNING 2024-06-24 17:09:42,379 basehttp 19368 11104 "GET /media/products/for1tovar_0YjPsAe.jpg HTTP/1.1" 404 17542
+INFO 2024-06-24 17:10:19,125 basehttp 19368 9604 "GET /hw3/product/8/ HTTP/1.1" 200 15120
+INFO 2024-06-24 17:10:19,211 basehttp 19368 9604 "GET /media/products/oblako.jpg HTTP/1.1" 200 4897
+INFO 2024-06-24 17:10:23,264 basehttp 19368 148 "GET /hw3/product/9/ HTTP/1.1" 200 15136
+INFO 2024-06-24 17:10:23,349 basehttp 19368 148 "GET /media/products/oblako_JCsEn67.jpg HTTP/1.1" 200 4897

@@ -9,6 +9,5 @@
     <p>Количество в наличии: {{ product.quantity_products }}</p>
     <p>Дата поставки: {{ product.date_created }}</p>
     <p>Цена: {{ product.price }}</p>
-    <p>{{ product.image }}</p>
-    <img src="{{ product.image }}" alt="Изображение продукта">
+    <img src="{{ product.image.url }}" alt="Изображение продукта">
 {% endblock %}

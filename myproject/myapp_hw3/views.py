@@ -42,17 +42,18 @@ def product_cart(request, product_id):
     return render(request, 'myapp_hw3/product_cart.html', {'product': product})
 
 
-def upload_image(request, product_id):
-    product = get_object_or_404(Product, pk=product_id)
-    if request.method == 'POST':
-        form = ImageForm(request.POST, request.FILES)
-        if form.is_valid():
-            image = form.cleaned_data['image']
-            fs = FileSystemStorage()
-            fs.save(image.name, image)
-    else:
-        form = ImageForm()
-    return render(request, 'myapp_hw3/upload_image.html', {'form': form, 'product': product})
+# def upload_image(request, product_id):
+#     product = get_object_or_404(Product, pk=product_id)
+#     if request.method == 'POST':
+#         form = ImageForm(request.POST, request.FILES)
+#         if form.is_valid():
+#             image = form.cleaned_data['image']
+#             fs = FileSystemStorage()
+#             fs.save(image.name, image)
+#     else:
+#         form = ImageForm()
+#     return render(request, 'myapp_hw3/upload_image.html', {'form': form, 'product': product})
+
 
 def product_create(request,):
     if request.method == 'POST':
@@ -68,17 +69,7 @@ def product_create(request,):
                                             )
     else:
         form = ProductForm()
-    products = Product.objects.all()
-    context = {'form': form, 'products': products}
-    return render(request, 'myapp_hw3/product_create.html', context)
-
-
-
-
-
-
-
-
+    return render(request, 'myapp_hw3/product_create.html', {'form': form})
 
 
 
