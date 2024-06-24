@@ -1,4 +1,5 @@
 from django import forms
+from .models import User
 import datetime
 
 
@@ -7,6 +8,15 @@ class UserForm(forms.Form):
     email = forms.EmailField()
     age = forms.IntegerField(min_value=0, max_value=120)
 
+    class Meta:
+        model = User
+        fields = ['name', 'email', 'age']
+
+    def clean_name(self):
+        name = self.cleaned_data['name']
+        if User.objects.filter(name=name).exists():
+            raise forms.ValidationError("Пользователь с таким логином уже зарегистрирован")
+        return name
 
     def clean_email(self):
         email: str = self.cleaned_data['email']
