@@ -1,7 +1,6 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404, redirect
 from .models import Order, User, Product
 from .forms import ProductForm
-from django.core.files.storage import FileSystemStorage
 from django.utils import timezone
 import logging
 
@@ -55,7 +54,7 @@ def product_cart(request, product_id):
 #     return render(request, 'myapp_hw3/upload_image.html', {'form': form, 'product': product})
 
 
-def product_create(request,):
+def product_create(request):
     if request.method == 'POST':
         form = ProductForm(request.POST, request.FILES)
         if form.is_valid():
@@ -67,11 +66,15 @@ def product_create(request,):
                                              quantity_products=form_data['quantity_products'],
                                              date_created=form_data['date_created'],
                                             )
+            return redirect('product_detail', pk=product.pk)
     else:
         form = ProductForm()
     return render(request, 'myapp_hw3/product_create.html', {'form': form})
 
 
+def product_detail(request, pk):
+    product = Product.objects.get(pk=pk)
+    return render(request, 'myapp_hw3/product_cart.html', {'product': product})
 
 
 
