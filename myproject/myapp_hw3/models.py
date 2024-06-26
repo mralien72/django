@@ -1,4 +1,6 @@
 from django.db import models
+from django.core.validators import MinValueValidator
+
 
 
 class User(models.Model):
@@ -12,7 +14,7 @@ class User(models.Model):
 class Product(models.Model):
     name = models.CharField(max_length=100)
     description = models.TextField()
-    price = models.DecimalField(max_digits=8, decimal_places=2)
+    price = models.DecimalField(max_digits=8, decimal_places=2, validators=[MinValueValidator(0)])
     quantity_products = models.IntegerField()
     date_created = models.DateField(auto_now_add=True)
     image = models.ImageField(upload_to='products/', default='products/default.jpg')

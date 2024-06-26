@@ -3,6 +3,7 @@ from .models import Order, User, Product
 from .forms import ProductForm
 from django.utils import timezone
 import logging
+from django.core.files.storage import FileSystemStorage
 
 logger = logging.getLogger(__name__)
 
@@ -58,15 +59,17 @@ def product_create(request):
     if request.method == 'POST':
         form = ProductForm(request.POST, request.FILES)
         if form.is_valid():
-            form_data = form.cleaned_data
-            product = Product.objects.create(name=form_data['name'],
-                                             price=form_data['price'],
-                                             description=form_data['description'],
-                                             image=form_data['image'],
-                                             quantity_products=form_data['quantity_products'],
-                                             date_created=form_data['date_created'],
-                                            )
-            return redirect('product_detail', pk=product.pk)
+            product = Product(name=form.cleaned_data['name'],
+                             price=form.cleaned_data['price'],
+                             description=form.cleaned_data['description'],
+                             image=form.cleaned_data['image'],
+                             quantity_products=form.cleaned_data['quantity_products'],
+                             date_created=form.cleaned_data['date_created'],
+                            )
+            fs = FileSystemStorage()
+            fs.save(product.image.name, product.image)
+            product.save()
+            return render(request, 'myapp_hw3/product_cart.html', {'product': product})
     else:
         form = ProductForm()
     return render(request, 'myapp_hw3/product_create.html', {'form': form})

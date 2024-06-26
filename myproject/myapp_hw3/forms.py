@@ -5,7 +5,7 @@ import datetime
 class ProductForm(forms.Form):
     name = forms.CharField(max_length=100)
     description = forms.CharField(widget=forms.Textarea)
-    price = forms.DecimalField(max_digits=8, decimal_places=2)
+    price = forms.DecimalField(max_digits=8, decimal_places=2, min_value=0)
     quantity_products = forms.IntegerField()
     date_created = forms.DateField(initial=datetime.date.today)
     image = forms.ImageField()
