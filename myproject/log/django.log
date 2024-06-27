@@ -7659,3 +7659,4 @@ INFO 2024-06-27 16:07:13,011 basehttp 13320 6072 "GET /admin/jsi18n/ HTTP/1.1" 2
 INFO 2024-06-27 16:07:14,853 basehttp 13320 6072 "GET /admin/myapp_hw3/order/30/change/ HTTP/1.1" 200 34325
 INFO 2024-06-27 16:07:14,924 basehttp 13320 6072 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
 INFO 2024-06-27 16:07:29,815 basehttp 13320 6072 "GET /admin/myapp_hw3/ HTTP/1.1" 200 20185
+INFO 2024-06-27 17:16:16,264 autoreload 2872 524 Watching for file changes with StatReloader

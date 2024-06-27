@@ -4,16 +4,15 @@ from django.core.validators import MinValueValidator
 
 
 class User(models.Model):
-
-    class Meta:
-        verbose_name = "Клиент"
-        verbose_name_plural = "Клиенты"
-
     name = models.CharField(max_length=100)
     email = models.EmailField()
     phone = models.CharField(max_length=12)
     address = models.CharField(max_length=150)
     date_registered = models.DateField(auto_now_add=True)
+
+    class Meta:
+        verbose_name = "Клиент"
+        verbose_name_plural = "Клиенты"
 
 
 class Product(models.Model):
