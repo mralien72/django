@@ -7660,3 +7660,289 @@ INFO 2024-06-27 16:07:14,853 basehttp 13320 6072 "GET /admin/myapp_hw3/order/30/
 INFO 2024-06-27 16:07:14,924 basehttp 13320 6072 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
 INFO 2024-06-27 16:07:29,815 basehttp 13320 6072 "GET /admin/myapp_hw3/ HTTP/1.1" 200 20185
 INFO 2024-06-27 17:16:16,264 autoreload 2872 524 Watching for file changes with StatReloader
+INFO 2024-06-27 17:51:44,988 basehttp 2872 16604 "GET /admin/myapp_hw3/ HTTP/1.1" 302 0
+INFO 2024-06-27 17:51:45,157 basehttp 2872 16604 "GET /admin/login/?next=/admin/myapp_hw3/ HTTP/1.1" 200 18227
+INFO 2024-06-28 10:16:33,375 autoreload 6148 5420 Watching for file changes with StatReloader
+INFO 2024-06-28 10:16:38,440 basehttp 6148 6920 "GET /admin/login/?next=/admin/myapp_hw3/ HTTP/1.1" 200 18228
+INFO 2024-06-28 10:16:38,483 basehttp 6148 5416 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-06-28 10:16:38,492 basehttp 6148 6920 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-06-28 10:16:38,500 basehttp 6148 12788 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-06-28 10:16:38,504 basehttp 6148 5416 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-06-28 10:16:38,509 basehttp 6148 8480 "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2024-06-28 10:16:38,515 basehttp 6148 8648 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2024-06-28 10:16:38,519 basehttp 6148 12764 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2024-06-28 10:16:38,537 basehttp 6148 12764 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-06-28 10:16:38,540 basehttp 6148 8648 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-06-28 10:16:38,599 basehttp 6148 8648 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2024-06-28 10:16:38,667 basehttp 6148 8648 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+WARNING 2024-06-28 10:16:39,009 log 6148 8648 Not Found: /favicon.ico
+WARNING 2024-06-28 10:16:39,011 basehttp 6148 8648 "GET /favicon.ico HTTP/1.1" 404 17194
+INFO 2024-06-28 10:16:50,456 basehttp 6148 13004 "POST /admin/login/?next=/admin/myapp_hw3/ HTTP/1.1" 302 0
+INFO 2024-06-28 10:16:50,654 basehttp 6148 13004 "GET /admin/myapp_hw3/ HTTP/1.1" 200 20186
+INFO 2024-06-28 10:16:50,672 basehttp 6148 13004 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2024-06-28 10:16:50,693 basehttp 6148 13004 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2024-06-28 10:16:50,702 basehttp 6148 13700 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2024-06-28 10:16:55,694 basehttp 6148 3008 "GET /admin/ HTTP/1.1" 200 27403
+INFO 2024-06-28 10:25:27,505 basehttp 6148 4904 "GET /admin/myapp_hw3/order/ HTTP/1.1" 200 35920
+INFO 2024-06-28 10:25:27,716 basehttp 6148 4904 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 10:25:29,709 basehttp 6148 9400 "GET /admin/myapp_hw3/product/ HTTP/1.1" 200 51904
+INFO 2024-06-28 10:25:29,838 basehttp 6148 9400 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 10:25:31,264 basehttp 6148 9400 "GET /admin/myapp_hw3/product/add/ HTTP/1.1" 200 27656
+INFO 2024-06-28 10:25:31,425 basehttp 6148 9400 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 10:26:03,087 basehttp 6148 1728 "POST /admin/myapp_hw3/product/add/ HTTP/1.1" 302 0
+INFO 2024-06-28 10:26:03,291 basehttp 6148 1728 "GET /admin/myapp_hw3/product/add/ HTTP/1.1" 200 27993
+INFO 2024-06-28 10:26:03,479 basehttp 6148 1728 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 10:26:03,527 basehttp 6148 1728 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2024-06-28 10:37:27,800 autoreload 6148 5420 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\admin.py changed, reloading.
+INFO 2024-06-28 10:37:31,501 autoreload 3324 6076 Watching for file changes with StatReloader
+INFO 2024-06-28 10:37:39,246 autoreload 3324 6076 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\admin.py changed, reloading.
+INFO 2024-06-28 10:37:41,627 autoreload 236 11800 Watching for file changes with StatReloader
+INFO 2024-06-28 10:37:49,302 autoreload 236 11800 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\admin.py changed, reloading.
+INFO 2024-06-28 10:37:51,371 autoreload 1920 2884 Watching for file changes with StatReloader
+INFO 2024-06-28 10:38:58,934 autoreload 1920 2884 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\admin.py changed, reloading.
+INFO 2024-06-28 10:39:01,458 autoreload 8460 5292 Watching for file changes with StatReloader
+INFO 2024-06-28 10:39:08,251 basehttp 8460 14216 "GET /admin/myapp_hw3/product/ HTTP/1.1" 200 52334
+INFO 2024-06-28 10:39:08,372 basehttp 8460 14216 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 10:39:31,086 autoreload 8460 5292 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\admin.py changed, reloading.
+INFO 2024-06-28 10:39:33,511 autoreload 11832 11616 Watching for file changes with StatReloader
+INFO 2024-06-28 10:39:35,302 basehttp 11832 4560 "GET /admin/myapp_hw3/product/ HTTP/1.1" 200 61324
+INFO 2024-06-28 10:39:35,420 basehttp 11832 4560 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 10:40:01,405 autoreload 11832 11616 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\admin.py changed, reloading.
+INFO 2024-06-28 10:40:03,943 autoreload 4088 8600 Watching for file changes with StatReloader
+INFO 2024-06-28 10:40:08,304 basehttp 4088 6988 "GET /admin/myapp_hw3/product/ HTTP/1.1" 200 67904
+INFO 2024-06-28 10:40:08,569 basehttp 4088 6988 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 10:42:27,703 autoreload 4088 8600 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\admin.py changed, reloading.
+INFO 2024-06-28 10:42:30,297 autoreload 8344 12208 Watching for file changes with StatReloader
+INFO 2024-06-28 10:45:59,850 autoreload 8344 12208 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\admin.py changed, reloading.
+INFO 2024-06-28 10:46:03,093 autoreload 12016 7396 Watching for file changes with StatReloader
+INFO 2024-06-28 10:46:09,028 basehttp 12016 10812 "GET /admin/myapp_hw3/product/ HTTP/1.1" 200 67904
+INFO 2024-06-28 10:46:09,196 basehttp 12016 10812 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 10:46:12,306 basehttp 12016 10812 "GET /admin/myapp_hw3/user/ HTTP/1.1" 200 31210
+INFO 2024-06-28 10:46:12,434 basehttp 12016 10812 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 10:46:16,247 basehttp 12016 10812 "GET /admin/myapp_hw3/order/ HTTP/1.1" 200 46327
+INFO 2024-06-28 10:46:16,474 basehttp 12016 10812 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 10:46:41,512 autoreload 12016 7396 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\admin.py changed, reloading.
+INFO 2024-06-28 10:46:44,417 autoreload 13324 12940 Watching for file changes with StatReloader
+INFO 2024-06-28 10:46:48,323 basehttp 13324 11820 "GET /admin/myapp_hw3/order/ HTTP/1.1" 200 39647
+INFO 2024-06-28 10:46:48,456 basehttp 13324 11820 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 10:47:01,582 basehttp 13324 9492 "GET /admin/myapp_hw3/order/30/change/ HTTP/1.1" 200 34413
+INFO 2024-06-28 10:47:01,710 basehttp 13324 9492 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 10:47:03,296 basehttp 13324 9492 "GET /admin/myapp_hw3/order/ HTTP/1.1" 200 39646
+INFO 2024-06-28 10:51:08,418 autoreload 13324 12940 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\models.py changed, reloading.
+INFO 2024-06-28 10:51:11,188 autoreload 6444 6024 Watching for file changes with StatReloader
+INFO 2024-06-28 10:51:49,302 autoreload 2696 12240 Watching for file changes with StatReloader
+INFO 2024-06-28 10:51:55,084 basehttp 2696 720 "GET /admin/myapp_hw3/user/ HTTP/1.1" 200 31261
+INFO 2024-06-28 10:51:55,205 basehttp 2696 720 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 10:52:01,265 basehttp 2696 2320 "GET /admin/myapp_hw3/user/?o=1 HTTP/1.1" 200 31858
+INFO 2024-06-28 10:52:01,392 basehttp 2696 2320 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 10:52:01,444 basehttp 2696 2320 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2024-06-28 10:53:54,039 autoreload 2696 12240 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\models.py changed, reloading.
+INFO 2024-06-28 11:00:52,398 autoreload 6072 9588 Watching for file changes with StatReloader
+INFO 2024-06-28 11:00:54,594 basehttp 6072 2000 "GET /admin/myapp_hw3/user/?o=1 HTTP/1.1" 200 31859
+INFO 2024-06-28 11:00:54,979 basehttp 6072 2000 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:00:56,366 basehttp 6072 2000 "GET /admin/myapp_hw3/user/?o=1 HTTP/1.1" 200 31858
+INFO 2024-06-28 11:00:56,478 basehttp 6072 2000 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:01:00,236 basehttp 6072 3008 "GET /admin/myapp_hw3/order/ HTTP/1.1" 200 39686
+INFO 2024-06-28 11:01:00,360 basehttp 6072 3008 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:01:07,077 basehttp 6072 3008 "GET /admin/myapp_hw3/product/ HTTP/1.1" 200 67960
+INFO 2024-06-28 11:01:07,194 basehttp 6072 3008 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:01:10,986 basehttp 6072 11800 "GET /admin/myapp_hw3/user/ HTTP/1.1" 200 31260
+INFO 2024-06-28 11:01:11,098 basehttp 6072 11800 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:01:13,475 basehttp 6072 11800 "GET /admin/myapp_hw3/order/ HTTP/1.1" 200 39686
+INFO 2024-06-28 11:01:13,597 basehttp 6072 11800 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:01:15,125 basehttp 6072 11800 "GET /admin/myapp_hw3/order/30/change/ HTTP/1.1" 200 34439
+INFO 2024-06-28 11:01:15,257 basehttp 6072 11800 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:08:01,780 basehttp 6072 3960 "GET /admin/myapp_hw3/order/ HTTP/1.1" 200 39686
+INFO 2024-06-28 11:08:02,002 basehttp 6072 3960 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:08:11,917 basehttp 6072 3988 "GET /admin/myapp_hw3/order/29/change/ HTTP/1.1" 200 34448
+INFO 2024-06-28 11:08:12,058 basehttp 6072 3988 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:08:15,892 basehttp 6072 9560 "GET /admin/myapp_hw3/order/ HTTP/1.1" 200 39686
+INFO 2024-06-28 11:08:16,018 basehttp 6072 9560 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:08:18,632 basehttp 6072 9560 "GET /admin/myapp_hw3/order/8/change/ HTTP/1.1" 200 34461
+INFO 2024-06-28 11:08:18,754 basehttp 6072 9560 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:08:21,530 basehttp 6072 9560 "GET /admin/myapp_hw3/order/ HTTP/1.1" 200 39686
+INFO 2024-06-28 11:08:21,653 basehttp 6072 9560 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:08:24,009 basehttp 6072 9560 "GET /admin/myapp_hw3/order/27/change/ HTTP/1.1" 200 34457
+INFO 2024-06-28 11:08:24,126 basehttp 6072 9560 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:08:27,890 basehttp 6072 9560 "GET /admin/myapp_hw3/order/ HTTP/1.1" 200 39686
+INFO 2024-06-28 11:08:28,000 basehttp 6072 9560 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:08:32,028 basehttp 6072 9560 "GET /admin/myapp_hw3/order/1/change/ HTTP/1.1" 200 34461
+INFO 2024-06-28 11:08:32,143 basehttp 6072 9560 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:08:35,552 basehttp 6072 8964 "GET /admin/myapp_hw3/order/ HTTP/1.1" 200 39686
+INFO 2024-06-28 11:08:35,671 basehttp 6072 8964 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:09:01,070 basehttp 6072 14160 "GET /admin/myapp_hw3/order/29/change/ HTTP/1.1" 200 34448
+INFO 2024-06-28 11:09:01,192 basehttp 6072 14160 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:09:12,371 basehttp 6072 9684 "GET /admin/myapp_hw3/order/ HTTP/1.1" 200 39686
+INFO 2024-06-28 11:09:12,495 basehttp 6072 9684 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:09:14,344 basehttp 6072 12256 "GET /admin/myapp_hw3/order/30/change/ HTTP/1.1" 200 34439
+INFO 2024-06-28 11:09:14,465 basehttp 6072 12256 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:09:17,944 basehttp 6072 12256 "GET /admin/myapp_hw3/order/ HTTP/1.1" 200 39686
+INFO 2024-06-28 11:09:18,073 basehttp 6072 12256 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:09:19,660 basehttp 6072 12256 "GET /admin/myapp_hw3/order/25/change/ HTTP/1.1" 200 34448
+INFO 2024-06-28 11:09:19,777 basehttp 6072 12256 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:09:27,996 basehttp 6072 12944 "GET /admin/myapp_hw3/order/ HTTP/1.1" 200 39686
+INFO 2024-06-28 11:09:28,147 basehttp 6072 12944 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:09:58,862 basehttp 6072 13372 "GET /admin/myapp_hw3/product/ HTTP/1.1" 200 67960
+INFO 2024-06-28 11:09:59,005 basehttp 6072 13372 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:10:49,057 autoreload 6072 9588 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\admin.py changed, reloading.
+INFO 2024-06-28 11:10:51,779 autoreload 7396 10020 Watching for file changes with StatReloader
+INFO 2024-06-28 11:10:53,563 basehttp 7396 9608 "GET /admin/myapp_hw3/product/ HTTP/1.1" 200 68759
+INFO 2024-06-28 11:10:53,674 basehttp 7396 9608 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:14:56,493 basehttp 7396 460 "GET /admin/myapp_hw3/user/ HTTP/1.1" 200 31260
+INFO 2024-06-28 11:14:56,613 basehttp 7396 460 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:15:28,569 autoreload 7396 10020 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\admin.py changed, reloading.
+INFO 2024-06-28 11:15:31,113 autoreload 13640 5504 Watching for file changes with StatReloader
+INFO 2024-06-28 11:15:32,738 basehttp 13640 9212 "GET /admin/myapp_hw3/order/ HTTP/1.1" 200 39687
+INFO 2024-06-28 11:15:32,857 basehttp 13640 9212 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:15:33,963 basehttp 13640 9212 "GET /admin/myapp_hw3/user/ HTTP/1.1" 200 31568
+INFO 2024-06-28 11:15:34,070 basehttp 13640 9212 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:17:02,741 autoreload 13640 5504 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\admin.py changed, reloading.
+INFO 2024-06-28 11:17:04,608 autoreload 11012 11500 Watching for file changes with StatReloader
+INFO 2024-06-28 11:17:06,145 basehttp 11012 7208 "GET /admin/myapp_hw3/order/ HTTP/1.1" 200 39687
+INFO 2024-06-28 11:17:06,265 basehttp 11012 7208 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:17:10,586 basehttp 11012 7208 "GET /admin/myapp_hw3/product/ HTTP/1.1" 200 72222
+INFO 2024-06-28 11:17:10,695 basehttp 11012 7208 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:17:15,946 basehttp 11012 7236 "GET /admin/myapp_hw3/user/ HTTP/1.1" 200 34660
+INFO 2024-06-28 11:17:16,104 basehttp 11012 7236 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:17:44,672 autoreload 11012 11500 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\admin.py changed, reloading.
+INFO 2024-06-28 11:17:46,266 autoreload 7604 460 Watching for file changes with StatReloader
+INFO 2024-06-28 11:18:55,110 basehttp 7604 1392 "GET /admin/myapp_hw3/product/ HTTP/1.1" 200 72223
+INFO 2024-06-28 11:18:55,282 basehttp 7604 1392 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:19:58,685 autoreload 7604 460 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\admin.py changed, reloading.
+INFO 2024-06-28 11:20:01,265 autoreload 808 1544 Watching for file changes with StatReloader
+INFO 2024-06-28 11:20:19,193 autoreload 12080 3988 Watching for file changes with StatReloader
+INFO 2024-06-28 11:21:26,438 autoreload 12080 3988 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\admin.py changed, reloading.
+INFO 2024-06-28 11:21:28,902 autoreload 2944 5792 Watching for file changes with StatReloader
+INFO 2024-06-28 11:21:33,252 basehttp 2944 7452 "GET /admin/myapp_hw3/product/ HTTP/1.1" 200 72717
+INFO 2024-06-28 11:21:33,299 basehttp 2944 11056 "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2024-06-28 11:21:33,396 basehttp 2944 7452 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:21:59,933 autoreload 2944 5792 C:\Users\User\Documents\Django\practika\myproject\myapp_lek5\admin.py changed, reloading.
+INFO 2024-06-28 11:22:02,252 autoreload 13056 12780 Watching for file changes with StatReloader
+INFO 2024-06-28 11:22:04,330 basehttp 13056 4772 "GET /admin/myapp_hw3/product/ HTTP/1.1" 200 72717
+INFO 2024-06-28 11:22:04,454 basehttp 13056 4772 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:22:13,962 basehttp 13056 10576 "GET /admin/myapp_hw3/user/ HTTP/1.1" 200 33588
+INFO 2024-06-28 11:22:14,080 basehttp 13056 10576 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:22:15,478 basehttp 13056 5160 "GET /admin/myapp_hw3/product/ HTTP/1.1" 200 72716
+INFO 2024-06-28 11:22:15,692 basehttp 13056 5160 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:22:27,702 autoreload 2384 3960 Watching for file changes with StatReloader
+INFO 2024-06-28 11:22:33,317 basehttp 2384 13944 "GET /admin/myapp_hw3/product/ HTTP/1.1" 200 72717
+INFO 2024-06-28 11:22:33,443 basehttp 2384 13944 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:22:37,025 basehttp 2384 8556 "GET /admin/myapp_hw3/product/ HTTP/1.1" 200 72716
+INFO 2024-06-28 11:22:37,144 basehttp 2384 8556 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:22:55,200 autoreload 2384 3960 C:\Users\User\Documents\Django\practika\myproject\myapp_lek5\admin.py changed, reloading.
+INFO 2024-06-28 11:22:57,805 autoreload 3460 10108 Watching for file changes with StatReloader
+INFO 2024-06-28 11:23:15,033 autoreload 3460 10108 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\admin.py changed, reloading.
+INFO 2024-06-28 11:23:17,422 autoreload 12004 11408 Watching for file changes with StatReloader
+INFO 2024-06-28 11:23:21,093 basehttp 12004 3016 "GET /admin/myapp_hw3/product/ HTTP/1.1" 200 72712
+INFO 2024-06-28 11:23:21,217 basehttp 12004 3016 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:23:30,444 basehttp 12004 12604 "GET /admin/myapp_hw3/product/ HTTP/1.1" 200 72711
+INFO 2024-06-28 11:23:30,579 basehttp 12004 12604 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:24:53,933 autoreload 12004 11408 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\admin.py changed, reloading.
+INFO 2024-06-28 11:24:56,570 autoreload 9184 7304 Watching for file changes with StatReloader
+INFO 2024-06-28 11:24:58,329 basehttp 9184 13228 "GET /admin/myapp_hw3/product/ HTTP/1.1" 200 72757
+INFO 2024-06-28 11:24:58,457 basehttp 9184 13228 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:25:09,054 basehttp 9184 11948 "GET /admin/myapp_hw3/product/?q=tova HTTP/1.1" 200 71863
+INFO 2024-06-28 11:25:09,403 basehttp 9184 11948 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:25:15,268 basehttp 9184 11948 "GET /admin/myapp_hw3/product/?q=df HTTP/1.1" 200 29402
+INFO 2024-06-28 11:25:15,473 basehttp 9184 11948 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:25:18,720 basehttp 9184 11948 "GET /admin/myapp_hw3/product/?q= HTTP/1.1" 200 74735
+INFO 2024-06-28 11:25:18,822 basehttp 9184 11948 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:25:23,397 basehttp 9184 11948 "GET /admin/myapp_hw3/product/?q=ds HTTP/1.1" 200 33017
+INFO 2024-06-28 11:25:23,517 basehttp 9184 11948 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:25:26,437 basehttp 9184 13652 "GET /admin/myapp_hw3/product/?q= HTTP/1.1" 200 74735
+INFO 2024-06-28 11:25:26,551 basehttp 9184 13652 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:25:31,119 basehttp 9184 13652 "GET /admin/myapp_hw3/product/?q=ewr HTTP/1.1" 200 33769
+INFO 2024-06-28 11:25:31,249 basehttp 9184 13652 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:25:35,760 basehttp 9184 8664 "GET /admin/myapp_hw3/product/?q= HTTP/1.1" 200 74735
+INFO 2024-06-28 11:25:36,009 basehttp 9184 8664 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:26:26,696 autoreload 9184 7304 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\admin.py changed, reloading.
+INFO 2024-06-28 11:26:29,476 autoreload 7892 13576 Watching for file changes with StatReloader
+INFO 2024-06-28 11:30:22,886 autoreload 7892 13576 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\admin.py changed, reloading.
+INFO 2024-06-28 11:30:25,272 autoreload 9296 11460 Watching for file changes with StatReloader
+INFO 2024-06-28 11:30:29,754 basehttp 9296 784 "GET /admin/myapp_hw3/product/?q= HTTP/1.1" 200 74831
+INFO 2024-06-28 11:30:29,886 basehttp 9296 784 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:30:40,401 autoreload 9296 11460 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\admin.py changed, reloading.
+INFO 2024-06-28 11:30:42,704 autoreload 7900 7060 Watching for file changes with StatReloader
+INFO 2024-06-28 11:30:49,034 basehttp 7900 10876 "GET /admin/myapp_hw3/product/?q= HTTP/1.1" 200 74736
+INFO 2024-06-28 11:30:49,166 basehttp 7900 10876 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:37:29,319 autoreload 7900 7060 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\admin.py changed, reloading.
+INFO 2024-06-28 11:37:31,866 autoreload 11764 2800 Watching for file changes with StatReloader
+INFO 2024-06-28 11:42:01,341 autoreload 11764 2800 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\admin.py changed, reloading.
+INFO 2024-06-28 11:42:03,361 autoreload 12764 10528 Watching for file changes with StatReloader
+INFO 2024-06-28 11:42:38,204 autoreload 12764 10528 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\admin.py changed, reloading.
+INFO 2024-06-28 11:42:40,296 autoreload 12252 5040 Watching for file changes with StatReloader
+INFO 2024-06-28 11:43:05,116 autoreload 12252 5040 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\admin.py changed, reloading.
+INFO 2024-06-28 11:43:07,309 autoreload 12816 3032 Watching for file changes with StatReloader
+INFO 2024-06-28 11:43:29,893 autoreload 12816 3032 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\admin.py changed, reloading.
+INFO 2024-06-28 11:43:32,214 autoreload 11196 2828 Watching for file changes with StatReloader
+INFO 2024-06-28 11:44:10,891 autoreload 11196 2828 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\admin.py changed, reloading.
+INFO 2024-06-28 11:44:13,163 autoreload 8892 1900 Watching for file changes with StatReloader
+INFO 2024-06-28 11:45:11,569 autoreload 8892 1900 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\admin.py changed, reloading.
+INFO 2024-06-28 11:45:13,696 autoreload 9392 9748 Watching for file changes with StatReloader
+INFO 2024-06-28 11:46:35,232 autoreload 9392 9748 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\admin.py changed, reloading.
+INFO 2024-06-28 11:46:37,192 autoreload 11936 13020 Watching for file changes with StatReloader
+INFO 2024-06-28 11:47:10,276 autoreload 11936 13020 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\admin.py changed, reloading.
+INFO 2024-06-28 11:47:12,193 autoreload 7388 5516 Watching for file changes with StatReloader
+INFO 2024-06-28 11:48:15,333 autoreload 7388 5516 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\admin.py changed, reloading.
+INFO 2024-06-28 11:48:17,107 autoreload 6672 6100 Watching for file changes with StatReloader
+INFO 2024-06-28 11:50:09,805 autoreload 6672 6100 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\admin.py changed, reloading.
+INFO 2024-06-28 11:50:12,088 autoreload 9724 13120 Watching for file changes with StatReloader
+INFO 2024-06-28 11:50:17,827 basehttp 9724 7192 "GET /admin/myapp_hw3/product/?q= HTTP/1.1" 200 74736
+INFO 2024-06-28 11:50:17,987 basehttp 9724 7192 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:50:19,198 basehttp 9724 7192 "GET /admin/myapp_hw3/product/ HTTP/1.1" 200 72756
+INFO 2024-06-28 11:50:19,309 basehttp 9724 7192 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 11:50:20,499 basehttp 9724 7192 "GET /admin/myapp_hw3/product/61/change/ HTTP/1.1" 200 26371
+INFO 2024-06-28 11:50:20,543 basehttp 9724 3044 "GET /static/admin/js/collapse.js HTTP/1.1" 304 0
+INFO 2024-06-28 11:50:20,630 basehttp 9724 7192 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 15:05:34,844 autoreload 9768 3392 Watching for file changes with StatReloader
+INFO 2024-06-28 15:05:40,168 basehttp 9768 2804 "GET /admin/myapp_hw3/product/61/change/ HTTP/1.1" 200 27056
+INFO 2024-06-28 15:05:40,304 basehttp 9768 2804 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 15:07:13,671 autoreload 9184 12884 Watching for file changes with StatReloader
+INFO 2024-06-28 15:07:17,273 basehttp 9184 2960 "GET /admin/myapp_hw3/product/61/change/ HTTP/1.1" 200 27238
+INFO 2024-06-28 15:07:17,343 basehttp 9184 2960 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 15:08:01,552 autoreload 9184 12884 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\admin.py changed, reloading.
+INFO 2024-06-28 15:08:02,943 autoreload 6044 13060 Watching for file changes with StatReloader
+INFO 2024-06-28 15:08:03,898 basehttp 6044 8792 "GET /admin/myapp_hw3/product/61/change/ HTTP/1.1" 200 28541
+INFO 2024-06-28 15:08:03,971 basehttp 6044 8792 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 15:09:11,298 autoreload 6044 13060 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\admin.py changed, reloading.
+INFO 2024-06-28 15:09:12,454 autoreload 7444 11684 Watching for file changes with StatReloader
+INFO 2024-06-28 15:09:13,501 basehttp 7444 5084 "GET /admin/myapp_hw3/product/61/change/ HTTP/1.1" 200 29117
+INFO 2024-06-28 15:09:13,576 basehttp 7444 5084 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 15:09:35,694 autoreload 7444 11684 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\admin.py changed, reloading.
+INFO 2024-06-28 15:09:36,912 autoreload 13024 11952 Watching for file changes with StatReloader
+INFO 2024-06-28 15:09:37,945 basehttp 13024 11412 "GET /admin/myapp_hw3/product/61/change/ HTTP/1.1" 200 29117
+INFO 2024-06-28 15:09:38,012 basehttp 13024 11412 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 15:09:45,659 basehttp 13024 11404 "GET /admin/myapp_hw3/product/ HTTP/1.1" 200 72756
+INFO 2024-06-28 15:09:45,734 basehttp 13024 11404 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 15:09:47,738 basehttp 13024 11404 "GET /admin/myapp_hw3/product/60/change/ HTTP/1.1" 200 29128
+INFO 2024-06-28 15:09:47,845 basehttp 13024 11404 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 15:21:10,432 autoreload 13024 11952 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\admin.py changed, reloading.
+INFO 2024-06-28 15:21:11,589 autoreload 7960 11352 Watching for file changes with StatReloader
+INFO 2024-06-28 15:21:30,516 autoreload 7960 11352 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\admin.py changed, reloading.
+INFO 2024-06-28 15:21:31,719 autoreload 2972 9264 Watching for file changes with StatReloader
+INFO 2024-06-28 15:21:32,646 basehttp 2972 5796 "GET /admin/myapp_hw3/product/60/change/ HTTP/1.1" 200 29129
+INFO 2024-06-28 15:21:32,713 basehttp 2972 5796 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 15:21:34,980 basehttp 2972 5796 "GET /admin/myapp_hw3/product/ HTTP/1.1" 200 56331
+INFO 2024-06-28 15:21:35,052 basehttp 2972 5796 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 15:21:41,038 autoreload 2972 9264 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\admin.py changed, reloading.
+INFO 2024-06-28 15:21:42,324 autoreload 7380 2768 Watching for file changes with StatReloader
+INFO 2024-06-28 15:21:43,468 basehttp 7380 712 "GET /admin/myapp_hw3/product/ HTTP/1.1" 200 72756
+INFO 2024-06-28 15:21:43,550 basehttp 7380 712 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 15:21:48,644 basehttp 7380 3056 "GET /admin/myapp_hw3/product/60/change/ HTTP/1.1" 200 29129
+INFO 2024-06-28 15:21:48,715 basehttp 7380 3056 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 15:21:58,508 basehttp 7380 13644 "GET /admin/myapp_hw3/product/60/history/ HTTP/1.1" 200 23355
+INFO 2024-06-28 15:22:02,974 basehttp 7380 13644 "GET /admin/myapp_hw3/product/60/change/ HTTP/1.1" 200 29129
+INFO 2024-06-28 15:22:47,236 autoreload 7380 2768 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\models.py changed, reloading.
+INFO 2024-06-28 15:22:48,892 autoreload 12952 8528 Watching for file changes with StatReloader
+INFO 2024-06-28 15:22:51,210 basehttp 12952 4704 "GET /admin/myapp_hw3/product/60/change/ HTTP/1.1" 200 29021
+INFO 2024-06-28 15:22:51,287 basehttp 12952 4704 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 15:23:27,299 autoreload 12952 8528 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\models.py changed, reloading.
+INFO 2024-06-28 15:23:28,330 autoreload 3700 11440 Watching for file changes with StatReloader
+INFO 2024-06-28 15:23:42,914 autoreload 3700 11440 C:\Users\User\Documents\Django\practika\myproject\myapp_hw3\models.py changed, reloading.
+INFO 2024-06-28 15:23:44,082 autoreload 5508 13500 Watching for file changes with StatReloader
+INFO 2024-06-28 15:23:45,120 basehttp 5508 4960 "GET /admin/myapp_hw3/user/ HTTP/1.1" 200 33588
+INFO 2024-06-28 15:23:45,197 basehttp 5508 4960 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 15:23:47,332 basehttp 5508 10068 "GET /admin/myapp_hw3/order/ HTTP/1.1" 200 39686
+INFO 2024-06-28 15:23:47,400 basehttp 5508 10068 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-06-28 15:23:48,619 basehttp 5508 10068 "GET /admin/myapp_hw3/product/ HTTP/1.1" 200 70533
+INFO 2024-06-28 15:23:48,850 basehttp 5508 10068 "GET /admin/jsi18n/ HTTP/1.1" 200 17546
