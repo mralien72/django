@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block title %}
+    {{ super }} - {{ title }}
+{% endblock %}
+
+{% block content %}
+    <h2>Главная страница</h2>
+    <h3>Ссылки для быстрого доступа:</h3>
+    <ul>
+        <li><a href="{% url 'myapp_hw3:all_product' %}">Показать список всех товаров</a></li>
+        <li><a href="{% url 'myapp_hw3:all_orders' %}">Показать список заказов</a></li>
+        <li><a href="{% url 'myapp_hw3:product_create' %}">Создать товар</a></li>
+        <li>
+            <form action="{% url 'myapp_hw3:product_cart' %}" method="get">
+                <label for="product_id">Номер товара</label>
+                <input type="number" id="product_id" name="product_id" required>
+                <button type="submit">Перейти</button>
+            </form>
+        </li>
+    </ul>
+{% endblock %}

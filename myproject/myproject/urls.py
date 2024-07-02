@@ -17,7 +17,7 @@ Including another URLconf
 from django.contrib import admin
 from django.conf import settings
 from django.urls import path, include
-from myapp_lek3.views import index
+from myapp_hw3.views import index
 from django.conf.urls.static import static
 
 urlpatterns = [
