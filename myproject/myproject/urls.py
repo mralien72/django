@@ -32,7 +32,7 @@ urlpatterns = [
     path('lek3/', include('myapp_lek3.urls')),
     path('lek4/', include('myapp_lek4.urls')),
     path('lek6/', include('myapp_lek6.urls')),
-    path('__debug__/', include('debug_toolbar.urls')),
+    # path('__debug__/', include('debug_toolbar.urls')),
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
